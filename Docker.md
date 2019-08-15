@@ -36,10 +36,14 @@ Se guardan todos dentro del filesystem, y pueden ser usados por multiples conten
 -**docker pull ubuntu:18.04**: Trae una versión específica de una imagen.
 
 ### Crear imagen propia
-Se necesita crear 
+Se necesita crear un archivo Dockerfile
+
+Estructura del archivo:
+¨¨
+¨¨
 
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjYxMzc0OTEsLTgxMTcwNDAwMF19
+eyJoaXN0b3J5IjpbNjM4MjMyNDU5LC04MTE3MDQwMDBdfQ==
 -->
