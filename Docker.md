@@ -34,6 +34,7 @@ Se guardan todos dentro del filesystem, y pueden ser usados por multiples conten
 -**docker pull {nombreImg}**: Trae una imagen. 
 -**docker image ls**: Ver todas las imagenes
 -**docker pull ubuntu:18.04**: Trae una versión específica de una imagen.
+-**docker history {ubuntu:gonzo}**: muestra todas las capas de la imagen, y el tamaño de cada capa.
 
 ### Crear imagen propia
 Se necesita crear un archivo Dockerfile
@@ -64,8 +65,9 @@ Docker usa el TAG para ello, podemos agregarle un Tag a la imagen así:
 Ahora podemos pushearlo a nuestro repo
 **docker push gmunoz:gonzo**
 
+
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzkzNTIzOCwxNTUxNDEyNTE4LC04MT
-E3MDQwMDBdfQ==
+eyJoaXN0b3J5IjpbNDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MT
+QxMjUxOCwtODExNzA0MDAwXX0=
 -->
