@@ -39,11 +39,17 @@ Se guardan todos dentro del filesystem, y pueden ser usados por multiples conten
 Se necesita crear un archivo Dockerfile
 
 Estructura del archivo:
-¨¨
-¨¨
+
+~~~docker
+FROM ubuntu
+
+RUN touch /usr/src/hola-gonzo
+~~~
+
+- FROM: inicio del archivo, indica de qué imagen se usará como base
 
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MjMyNDU5LC04MTE3MDQwMDBdfQ==
+eyJoaXN0b3J5IjpbMTQzOTE1MTQsLTgxMTcwNDAwMF19
 -->
