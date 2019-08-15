@@ -20,7 +20,7 @@ Y carpetas con información un poco más completa
 - **Python**
 
 
-> Written with [StackEdit](https://stackedit.io/).
+> Written by [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTEyNzE3OSw4MjU4OTQ4NzJdfQ==
+eyJoaXN0b3J5IjpbODg2NzQ4NjIyLDgyNTg5NDg3Ml19
 -->
