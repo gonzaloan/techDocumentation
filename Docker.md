@@ -33,10 +33,11 @@ Se guardan todos dentro del filesystem, y pueden ser usados por multiples conten
 
 -**docker pull {nombreImg}**: Trae una imagen. 
 -**docker image ls**: Ver todas las imagenes
--**docker pull 
+-**docker pull ubuntu:18.04**: Trae una versión específica de una imagen.
+
 
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzY3MTQyNiwtODExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbLTExMDU0NTA4NTAsLTgxMTcwNDAwMF19
 -->
