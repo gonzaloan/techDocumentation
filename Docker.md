@@ -59,13 +59,13 @@ En este caso, si creamos un container con nuestra imagen, lo que se hizo fue lev
 Ahora podríamos publicar esta imagen. Para ello debo tener un repositorio.
 Docker usa el TAG para ello, podemos agregarle un Tag a la imagen así:
 
-**docker ubuntu:gonzo gmunoz/gonzo**: Crea un tag gmunoz/gonzo. Es como en github, github/repositorio.
+**docker tag ubuntu:gonzo gmunoz/gonzo**: Crea un tag gmunoz/gonzo. Es como en github, github/repositorio.
 
 Ahora podemos pushearlo a nuestro repo
-**docker push ubuntu:gonzo**
+**docker push gmunoz:gonzo**
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2NDI2NDcsMTU1MTQxMjUxOCwtODExNz
-A0MDAwXX0=
+eyJoaXN0b3J5IjpbLTE0MzkzNTIzOCwxNTUxNDEyNTE4LC04MT
+E3MDQwMDBdfQ==
 -->
