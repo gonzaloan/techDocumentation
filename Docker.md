@@ -56,11 +56,16 @@ Con esto listo, una vez se haga **docker image ls** aparecerá nuestra imagen.
 En este caso, si creamos un container con nuestra imagen, lo que se hizo fue levantar una máquina ubuntu y crear un archivo llamado hola-gonzo en la carpeta /usr/src/
 
 #### Publicar la imagen
-Ahora podríamos publicar esta imagen. 
+Ahora podríamos publicar esta imagen. Para ello debo tener un repositorio.
+Docker usa el TAG para ello, podemos agregarle un Tag a la imagen así:
+
+**docker ubuntu:gonzo gmunoz/gonzo**: Crea un tag gmunoz/gonzo. Es como en github, github/repositorio.
+
+Ahora podemos pushearlo a nuestro repo
 **docker push ubuntu:gonzo**
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzIwNDM5OCwxNTUxNDEyNTE4LC04MT
-E3MDQwMDBdfQ==
+eyJoaXN0b3J5IjpbMzA2NDI2NDcsMTU1MTQxMjUxOCwtODExNz
+A0MDAwXX0=
 -->
