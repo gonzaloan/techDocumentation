@@ -53,9 +53,14 @@ Luego, para construir la imagen:
 - **docker build -t ubuntu:gonzo .** .: Crea imagen, ubuntu:gonzo es el nombre- . El punto final es en dónde se trabajará con el componente. Le da un espacio. para que trabaje ahí y no salga de allí.
 
 Con esto listo, una vez se haga **docker image ls** aparecerá nuestra imagen.
+En este caso, si creamos un container con nuestra imagen, lo que se hizo fue levantar una máquina ubuntu y crear un archivo llamado hola-gonzo en la carpeta /usr/src/
 
+#### Publicar la imagen
+Ahora podríamos publicar esta imagen. 
+**docker push ubuntu:gonzo**
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTQxMjUxOCwtODExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbLTM3NzIwNDM5OCwxNTUxNDEyNTE4LC04MT
+E3MDQwMDBdfQ==
 -->
