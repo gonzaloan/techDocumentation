@@ -9,8 +9,18 @@ Hay archivos sueltos con comandos o documentos de tecnología cortos, como :
 - **CheatSheet IntelliJ**
 - **Spring Rest Docs**
 - **TDD**
-- **Dok
+- **Docker**
+
+Y carpetas con información un poco más completa
+
+- **Data Science**
+- **Angular**
+- **AWS**
+- **Spring**
+- **Python**
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Njk0Mzc3Myw4MjU4OTQ4NzJdfQ==
+eyJoaXN0b3J5IjpbMjExOTEyNzE3OSw4MjU4OTQ4NzJdfQ==
 -->
