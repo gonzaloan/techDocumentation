@@ -50,9 +50,9 @@ RUN touch /usr/src/hola-gonzo
 - RUN: Es lo que se ejecutará.	
 
 Luego, para construir la imagen:
-- **docker build -t ubuntu:gonzo**:
+- **docker build -t ubuntu:gonzo**: Crea imagen, ubuntu:gonzo es el nombre
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDA4ODA4OSwtODExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbMTczMjI0NzgwNSwtODExNzA0MDAwXX0=
 -->
