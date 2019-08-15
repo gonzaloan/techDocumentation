@@ -31,8 +31,9 @@ Se guardan todos dentro del filesystem, y pueden ser usados por multiples conten
 
 ## Imágenes
 
-**docker pull {nombreImg}**: Trae una imagen. 
+-**docker pull {nombreImg}**: Trae una imagen. 
+-**docker image ls**: Ver todas las imagenes
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTg5NjQzMSwtODExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbMTc1NDg0Njk2OCwtODExNzA0MDAwXX0=
 -->
