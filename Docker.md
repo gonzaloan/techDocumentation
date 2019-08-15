@@ -47,9 +47,12 @@ RUN touch /usr/src/hola-gonzo
 ~~~
 
 - FROM: inicio del archivo, indica de qué imagen se usará como base
+- RUN: Es lo que se ejecutará.	
 
+Luego, para construir la imagen:
+- **docker build -t ubuntu:gonzo**:
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTE1MTQsLTgxMTcwNDAwMF19
+eyJoaXN0b3J5IjpbLTQ4MDA4ODA4OSwtODExNzA0MDAwXX0=
 -->
