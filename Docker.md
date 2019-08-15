@@ -29,7 +29,8 @@ Se guardan todos dentro del filesystem, y pueden ser usados por multiples conten
 - **docker run -d --name db --mount src=nombreVolumen, dst=/data/db mongo**: Crea un contenedor llamado db, y a su vez monta el *volume* que creamos anteriormente. El destino es donde se hará el mount, en este caso es una base de mongo.
 
 
+## Imagenes 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTcwNDAwMF19
+eyJoaXN0b3J5IjpbMTI5MDcxMDIyMywtODExNzA0MDAwXX0=
 -->
