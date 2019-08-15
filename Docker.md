@@ -35,9 +35,11 @@ Se guardan todos dentro del filesystem, y pueden ser usados por multiples conten
 -**docker image ls**: Ver todas las imagenes
 -**docker pull ubuntu:18.04**: Trae una versión específica de una imagen.
 
+### Crear imagen propia
+Se necesita crear 
 
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDU0NTA4NTAsLTgxMTcwNDAwMF19
+eyJoaXN0b3J5IjpbLTE4NjYxMzc0OTEsLTgxMTcwNDAwMF19
 -->
