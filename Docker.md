@@ -174,13 +174,13 @@ Cambiamos la imagen por un build en el contexto, Esto es, que levante la aplicac
 - Una vez modificado esto: **docker-compose build**: con esto va a construir el servicio, y al final del log, indica el nombre: **docker_app_1**. 
 - Ahora podemos levantar los servicios, con esta imagen que creamos: **docker-compose up -d**. 
 
-Con toda estas modificaciones, se modifica el c
+Con toda estas modificaciones, se modifica el código en local y se actualizará solo. 
 
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY4ODIzMTEsLTE1NzQ3ODk0NzAsNz
-k3MzgxNTA2LDM4MDE0MDg2MSw0OTI4NjgwODMsLTE4OTQwOTky
-MTYsLTE5OTk2NzM5NjAsNDM0MTc5NTY0LC0xNDM5MzUyMzgsMT
-U1MTQxMjUxOCwtODExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbLTYxMDE1NDU2MiwtMTU3NDc4OTQ3MCw3OT
+czODE1MDYsMzgwMTQwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIx
+NiwtMTk5OTY3Mzk2MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNT
+UxNDEyNTE4LC04MTE3MDQwMDBdfQ==
 -->
