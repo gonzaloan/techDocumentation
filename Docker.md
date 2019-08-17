@@ -91,10 +91,10 @@ CMD ["node", "index.js"]
 -- Expose: Contenedor expone el puerto 3000
 -- CMD: Cuál es el comando por defecto que correrá el contenedor al ejecutar la imagen.
 
-- Contruimos la imagen con **docker build -t gonzoapp .** (El punto es el contexto).
+- Contruimos la imagen con **docker build -t gonzoapp .** (El punto es el contexto): En este punto instalará la imagen de node, y el repositorio, a su vez, correrá la aplicación con npm install y todo lo que especificamos en el Dockerfile
 - 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxOTk5NTg1LDQzNDE3OTU2NCwtMTQzOT
-M1MjM4LDE1NTE0MTI1MTgsLTgxMTcwNDAwMF19
+eyJoaXN0b3J5IjpbLTE5OTk2NzM5NjAsNDM0MTc5NTY0LC0xND
+M5MzUyMzgsMTU1MTQxMjUxOCwtODExNzA0MDAwXX0=
 -->
