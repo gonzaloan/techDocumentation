@@ -165,11 +165,14 @@ services:
 	 db:
 	   image: mongo
 ~~~
+Cambiamos la imagen por un build en el contexto, Esto es, que levante la aplicación en el contexto en el que está, en el cual encontrará el Dockerfile. 
+
+- Una vez modificado esto: **docker-compose build**. 
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTczMzM4Miw3OTczODE1MDYsMzgwMT
-QwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIxNiwtMTk5OTY3Mzk2
-MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNTUxNDEyNTE4LC04MT
-E3MDQwMDBdfQ==
+eyJoaXN0b3J5IjpbNjA4MTc0NTkxLDc5NzM4MTUwNiwzODAxND
+A4NjEsNDkyODY4MDgzLC0xODk0MDk5MjE2LC0xOTk5NjczOTYw
+LDQzNDE3OTU2NCwtMTQzOTM1MjM4LDE1NTE0MTI1MTgsLTgxMT
+cwNDAwMF19
 -->
