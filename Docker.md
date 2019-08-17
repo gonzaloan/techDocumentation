@@ -92,12 +92,15 @@ CMD ["node", "index.js"]
 -- CMD: Cuál es el comando por defecto que correrá el contenedor al ejecutar la imagen.
 
 - Contruimos la imagen con **docker build -t gonzoapp .** (El punto es el contexto): En este punto instalará la imagen de node, y el repositorio, a su vez, correrá la aplicación con npm install y todo lo que especificamos en el Dockerfile
-- Corremos la imagen: **docker run --rm -p 3000:3000 platziapp**: Esto ejecuta la imagen, desde el puerto 3000 de mi localhost hasta el 3000 del contenedor. A su vez, rm indica que una vez termina de ejercutarse el contenedor lo borre.
+- Corremos la imagen: **docker run --rm -p 3000:3000 gonzoapp**: Esto ejecuta la imagen, desde el puerto 3000 de mi localhost hasta el 3000 del contenedor. A su vez, rm indica que una vez termina de ejercutarse el contenedor lo borre.
 
+### Podemos dejar el servidor escuchando cambios así:
+
+- **docker run --rm -p 3000:3000 -v /Users/gmunoz/Downloads/Project/:/usr/src gonzoapp**: Esto quedará escuchando los cambios de los archivos dentro de la carpeta Project. 
 - 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQwOTkyMTYsLTE5OTk2NzM5NjAsND
-M0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtODExNzA0
-MDAwXX0=
+eyJoaXN0b3J5IjpbLTkzNTI4MDcyMiwtMTg5NDA5OTIxNiwtMT
+k5OTY3Mzk2MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNTUxNDEy
+NTE4LC04MTE3MDQwMDBdfQ==
 -->
