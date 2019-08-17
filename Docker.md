@@ -131,10 +131,13 @@ services:
 ~~~
 - Services es como describimos la aplicación. Es un componente que sirve a la finalidad de la aplicación: Un servicio puede tener más de un contenedor.
 - Cada uno de los servicios, tiene dentro un app, y un db. Cada uno un componente de la aplicación.
-- Dentro de cada servicio, hay un **image**, esta es la imagen que se requiere para lea
+- Dentro de cada servicio, hay un **image**, esta es la imagen que se requiere para levantar el mismo. 
+- **environment**: Indica las variables de entorno que tendrá la aplicación igual que el --env.
+- **depends_on**: Indica de qué depende el servicio, se sugiere que inicialice este servicio antes que otro. 
+- 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTEyNTQ5OCw3OTczODE1MDYsMzgwMT
+eyJoaXN0b3J5IjpbLTMwOTgwOTA3Nyw3OTczODE1MDYsMzgwMT
 QwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIxNiwtMTk5OTY3Mzk2
 MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNTUxNDEyNTE4LC04MT
 E3MDQwMDBdfQ==
