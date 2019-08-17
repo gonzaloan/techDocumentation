@@ -105,11 +105,12 @@ Para conectar un contenedor con otro, podemos usar **docker network**:
 - **docker network ls**: Muestra todas las redes disponibles
 -- Bridge: No se usa
 -- Host: Forma de representar a la red de mi máquina. Es decirle al contenedor que use la misma red del equipo host. Es peligroso. 
--- 
+-- none: SI a un contenedor lo corremos con esta red, ese contenedor está aislado, no puede conectarse ni recibir información con nadie.
+--**docker network create --attachable gonzonet**: --attachable 
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ3OTIwNDMsNDkyODY4MDgzLC0xOD
+eyJoaXN0b3J5IjpbLTEyNTc3NjczMDcsNDkyODY4MDgzLC0xOD
 k0MDk5MjE2LC0xOTk5NjczOTYwLDQzNDE3OTU2NCwtMTQzOTM1
 MjM4LDE1NTE0MTI1MTgsLTgxMTcwNDAwMF19
 -->
