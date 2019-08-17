@@ -139,10 +139,12 @@ services:
 Para usar este archivo, es necesario usar el comando **docker compose up**
 
 
-- **docker-compose up -d **: Detach.
+- **docker-compose up -d **: Detach, levanta la aplicación, pero deja la linea de comandos limpiapara seguir usándola.
+- **docker-compose ps**: Muestra todos los contenedores.
+- 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg0MzU2NDAsNzk3MzgxNTA2LDM4MD
+eyJoaXN0b3J5IjpbLTExMDM1MjA1MzEsNzk3MzgxNTA2LDM4MD
 E0MDg2MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5
 NjAsNDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtOD
 ExNzA0MDAwXX0=
