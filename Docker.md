@@ -162,18 +162,22 @@ services:
 	      - db
 	   ports:
 	      - "3000:3000"
+	      - .:/usr/src
+	      - /usr/src/node_modules
 	 db:
 	   image: mongo
 ~~~
 Cambiamos la imagen por un build en el contexto, Esto es, que levante la aplicación en el contexto en el que está, en el cual encontrará el Dockerfile. 
+- Además, en ports, agregamos un bind de la carpeta usr/src/, esto hará que cada vez que modifiquemos a nivel local un archivo, estará bindeado con el cont
 
 - Una vez modificado esto: **docker-compose build**: con esto va a construir el servicio, y al final del log, indica el nombre: **docker_app_1**. 
 - Ahora podemos levantar los servicios, con esta imagen que creamos: **docker-compose up -d**. 
 
+
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ3ODk0NzAsNzk3MzgxNTA2LDM4MD
-E0MDg2MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5
-NjAsNDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtOD
-ExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbMjEwODMzNzQzLC0xNTc0Nzg5NDcwLDc5Nz
+M4MTUwNiwzODAxNDA4NjEsNDkyODY4MDgzLC0xODk0MDk5MjE2
+LC0xOTk5NjczOTYwLDQzNDE3OTU2NCwtMTQzOTM1MjM4LDE1NT
+E0MTI1MTgsLTgxMTcwNDAwMF19
 -->
