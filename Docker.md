@@ -99,9 +99,14 @@ CMD ["node", "index.js"]
 - **docker run --rm -p 3000:3000 -v /Users/gmunoz/Downloads/Project/:/usr/src gonzoapp**: Esto quedará escuchando los cambios de los archivos dentro de la carpeta Project. Algo se cambia en el disco, y al detectar cambios, se van para usr/src
 
 
+## Conectar Contenedores entre ellos
+
+Para conectar un contenedor con otro, podemos usar **docker network**:
+- **docker network ls**: Muestra todas las redes disponibles
+
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyODY4MDgzLC0xODk0MDk5MjE2LC0xOT
-k5NjczOTYwLDQzNDE3OTU2NCwtMTQzOTM1MjM4LDE1NTE0MTI1
-MTgsLTgxMTcwNDAwMF19
+eyJoaXN0b3J5IjpbLTM3MDc0OTM0Niw0OTI4NjgwODMsLTE4OT
+QwOTkyMTYsLTE5OTk2NzM5NjAsNDM0MTc5NTY0LC0xNDM5MzUy
+MzgsMTU1MTQxMjUxOCwtODExNzA0MDAwXX0=
 -->
