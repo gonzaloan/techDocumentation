@@ -123,15 +123,17 @@ services:
 	   environment:
 	      MONGO_URL: "mongodb://db:27017/test"
 	   depends_on:
-	   - db
-		ports:
-			- "3000:3000"
-		db:
-			image: mongo
+	      - db
+	   ports:
+	      - "3000:3000"
+	   db:
+	      image: mongo
 ~~~
+- Services es como describimos la aplicación. Es un componente que sirve a la finalidad de la aplicación: Un servicio puede tener más de un contenedor.
+- 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODcwNTcyODQsNzk3MzgxNTA2LDM4MD
+eyJoaXN0b3J5IjpbLTEzMDA5MzIyODYsNzk3MzgxNTA2LDM4MD
 E0MDg2MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5
 NjAsNDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtOD
 ExNzA0MDAwXX0=
