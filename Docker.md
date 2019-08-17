@@ -73,10 +73,25 @@ Ahora podemos pushearlo a nuestro repo
 
 ~~~
 FROM node:8
+
+COPY [".", "/usr/src/"]
+
+WORKDIR /usr/src
+
+RUN npm install
+
+EXPOSE 3000
+
+CMD ["node", "index.js"]
 ~~~
+-- La imagen base es Node
+-- Copy: Partiendo del contexto de build '.' va a copiar todo lo que está en el contexto a usr/src/
+-- Workdir: es como un cd, se irá a esa ruta (usr/src)
+-- Correr npm install
+-- Expose: 
 - asd
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwODMwOTE3LDQzNDE3OTU2NCwtMTQzOT
-M1MjM4LDE1NTE0MTI1MTgsLTgxMTcwNDAwMF19
+eyJoaXN0b3J5IjpbODA0MDQ0NzEsNDM0MTc5NTY0LC0xNDM5Mz
+UyMzgsMTU1MTQxMjUxOCwtODExNzA0MDAwXX0=
 -->
