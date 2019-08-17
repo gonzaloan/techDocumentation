@@ -137,10 +137,13 @@ services:
 - **ports**: finalmente, los puertos.
 
 Para usar este archivo, es necesario usar el comando **docker compose up**
+
+
+- **docker-compose up -d **: Detach.
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMTkzNTQzLDc5NzM4MTUwNiwzODAxND
-A4NjEsNDkyODY4MDgzLC0xODk0MDk5MjE2LC0xOTk5NjczOTYw
-LDQzNDE3OTU2NCwtMTQzOTM1MjM4LDE1NTE0MTI1MTgsLTgxMT
-cwNDAwMF19
+eyJoaXN0b3J5IjpbLTIwMjg0MzU2NDAsNzk3MzgxNTA2LDM4MD
+E0MDg2MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5
+NjAsNDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtOD
+ExNzA0MDAwXX0=
 -->
