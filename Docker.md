@@ -177,10 +177,12 @@ Cambiamos la imagen por un build en el contexto, Esto es, que levante la aplicac
 Con toda estas modificaciones, se modifica el código en local y se actualizará solo. 
 
 
+
+
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDE1NDU2MiwtMTU3NDc4OTQ3MCw3OT
-czODE1MDYsMzgwMTQwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIx
-NiwtMTk5OTY3Mzk2MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNT
-UxNDEyNTE4LC04MTE3MDQwMDBdfQ==
+eyJoaXN0b3J5IjpbMTM3MDQ1NDQyNiwtNjEwMTU0NTYyLC0xNT
+c0Nzg5NDcwLDc5NzM4MTUwNiwzODAxNDA4NjEsNDkyODY4MDgz
+LC0xODk0MDk5MjE2LC0xOTk5NjczOTYwLDQzNDE3OTU2NCwtMT
+QzOTM1MjM4LDE1NTE0MTI1MTgsLTgxMTcwNDAwMF19
 -->
