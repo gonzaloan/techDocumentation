@@ -126,15 +126,16 @@ services:
 	      - db
 	   ports:
 	      - "3000:3000"
-	   db:
-	      image: mongo
+	 db:
+	   image: mongo
 ~~~
 - Services es como describimos la aplicación. Es un componente que sirve a la finalidad de la aplicación: Un servicio puede tener más de un contenedor.
-- 
+- Cada uno de los servicios, tiene dentro un app, y un db. Cada uno un componente de la aplicación.
+- Dentro de cada servicio, hay un **image**, esta es la imagen que se requiere para lea
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA5MzIyODYsNzk3MzgxNTA2LDM4MD
-E0MDg2MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5
-NjAsNDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtOD
-ExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbLTIzMTEyNTQ5OCw3OTczODE1MDYsMzgwMT
+QwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIxNiwtMTk5OTY3Mzk2
+MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNTUxNDEyNTE4LC04MT
+E3MDQwMDBdfQ==
 -->
