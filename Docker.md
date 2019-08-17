@@ -88,10 +88,12 @@ CMD ["node", "index.js"]
 -- Copy: Partiendo del contexto de build '.' va a copiar todo lo que está en el contexto a usr/src/
 -- Workdir: es como un cd, se irá a esa ruta (usr/src)
 -- Correr npm install
--- Expose: 
-- asd
+-- Expose: Contenedor expone el puerto 3000
+-- CMD: Cuál es el comando por defecto que correrá el contenedor al ejecutar la imagen.
+
+- Contruimos la imagen con **docker build -t platziapp**
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0MDQ0NzEsNDM0MTc5NTY0LC0xNDM5Mz
-UyMzgsMTU1MTQxMjUxOCwtODExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbLTE1MzMyMjU2NTYsNDM0MTc5NTY0LC0xND
+M5MzUyMzgsMTU1MTQxMjUxOCwtODExNzA0MDAwXX0=
 -->
