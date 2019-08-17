@@ -151,7 +151,7 @@ Para usar este archivo, es necesario usar el comando **docker compose up**
 Se puede trabajar en desarrollo, con las ventajas de usar Docker.
 Para ello, hay que cambiar el Docker-compose yml
 
-~~~yaml
+~~~docker
 version: "3"
 services:
 	app:
@@ -177,8 +177,8 @@ Cambiamos la imagen por un build en el contexto, Esto es, que levante la aplicac
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTU2OTEyNSwtMTU3NDc4OTQ3MCw3OT
-czODE1MDYsMzgwMTQwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIx
-NiwtMTk5OTY3Mzk2MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNT
-UxNDEyNTE4LC04MTE3MDQwMDBdfQ==
+eyJoaXN0b3J5IjpbODg0NzQzNTU0LC0xNTc0Nzg5NDcwLDc5Nz
+M4MTUwNiwzODAxNDA4NjEsNDkyODY4MDgzLC0xODk0MDk5MjE2
+LC0xOTk5NjczOTYwLDQzNDE3OTU2NCwtMTQzOTM1MjM4LDE1NT
+E0MTI1MTgsLTgxMTcwNDAwMF19
 -->
