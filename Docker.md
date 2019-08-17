@@ -143,10 +143,12 @@ Para usar este archivo, es necesario usar el comando **docker compose up**
 - **docker-compose ps**: Muestra todos los contenedores.
 - **docker-compose logs {nombreServicio}**: Muestra logs de servicio.
 - **docker-compose exec app bash**: Entramos en el contenedor, app es el nombre del servicio. 
+- **docker-compose down**: Borra todos los services, y network. Deja todo limpio.
+- 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjM4OTU0Nyw3OTczODE1MDYsMzgwMT
-QwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIxNiwtMTk5OTY3Mzk2
-MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNTUxNDEyNTE4LC04MT
-E3MDQwMDBdfQ==
+eyJoaXN0b3J5IjpbLTE1Nzg2MTUyODgsNzk3MzgxNTA2LDM4MD
+E0MDg2MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5
+NjAsNDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtOD
+ExNzA0MDAwXX0=
 -->
