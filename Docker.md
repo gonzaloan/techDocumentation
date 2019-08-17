@@ -108,12 +108,12 @@ Para conectar un contenedor con otro, podemos usar **docker network**:
 -- none: SI a un contenedor lo corremos con esta red, ese contenedor está aislado, no puede conectarse ni recibir información con nadie.
 --**docker network create --attachable gonzonet**: --attachable permite que otros contenedores se puedan conectar a esta red. 
 -Creamos ahora un contenedor de mongo: **docker run -d --name db mongo**
--Para conectarlo a una red que creamos **docker network connect db**
--Finalmente podemos crear nuestro contenedor gonzoapp, en el puerto 3000, y le pasamos una variable de entorno con **--env**, en este caso MONGO_URL con la URL del otro contenedor, cabe destacar que para que un contenedor se vea con otro, se usa como url el nombre del conte**docker run -d --name app -p 3000:3000 --env MONGO_URL=mongodb://db:27017/test platziapp**
-
+-Para conectarlo a una red que creamos **docker network connect gonzonet db**
+-Finalmente podemos crear nuestro contenedor gonzoapp, en el puerto 3000, y le pasamos una variable de entorno con **--env**, en este caso MONGO_URL con la URL del otro contenedor, cabe destacar que para que un contenedor se vea con otro, se usa como url el nombre del contenedor, en este caso //db: **docker run -d --name app -p 3000:3000 --env MONGO_URL=mongodb://db:27017/test platziapp**
+- Finalmente se agrega app a la network: **docker connect app**
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzUzNTYyMSwzODAxNDA4NjEsNDkyOD
-Y4MDgzLC0xODk0MDk5MjE2LC0xOTk5NjczOTYwLDQzNDE3OTU2
-NCwtMTQzOTM1MjM4LDE1NTE0MTI1MTgsLTgxMTcwNDAwMF19
+eyJoaXN0b3J5IjpbNzk3MzgxNTA2LDM4MDE0MDg2MSw0OTI4Nj
+gwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5NjAsNDM0MTc5NTY0
+LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtODExNzA0MDAwXX0=
 -->
