@@ -168,11 +168,12 @@ services:
 Cambiamos la imagen por un build en el contexto, Esto es, que levante la aplicación en el contexto en el que está, en el cual encontrará el Dockerfile. 
 
 - Una vez modificado esto: **docker-compose build**: con esto va a construir el servicio, y al final del log, indica el nombre: **docker_app_1**. 
+- Ahora podemos levantar los servicios, con esta imagen que creamos: **docker-compose up -d**. 
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODIzNjc1NSw3OTczODE1MDYsMzgwMT
-QwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIxNiwtMTk5OTY3Mzk2
-MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNTUxNDEyNTE4LC04MT
-E3MDQwMDBdfQ==
+eyJoaXN0b3J5IjpbLTE1NzQ3ODk0NzAsNzk3MzgxNTA2LDM4MD
+E0MDg2MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5
+NjAsNDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtOD
+ExNzA0MDAwXX0=
 -->
