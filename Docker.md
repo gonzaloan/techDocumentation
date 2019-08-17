@@ -115,7 +115,7 @@ Para conectar un contenedor con otro, podemos usar **docker network**:
 ## Docker Compose
 
 Es una herramienta integrada con Docker, permite describir de forma declarativa la arquitectura de nuestra aplicación. 
-~~~
+~~~yaml
 version: "3"
 services:
 	app:
@@ -146,10 +146,29 @@ Para usar este archivo, es necesario usar el comando **docker compose up**
 - **docker-compose down**: Borra todos los services, y network. Deja todo limpio.
 
 
-## Docker Compose como her
+## Docker Compose como herramienta de desarrollo.
+
+Se puede trabajar en desarrollo, con las ventajas de usar Docker.
+Para ello, hay que cambiar el Docker-compose yml
+
+~~~yaml
+version: "3"
+services:
+	app:
+	   build: .
+	   environment:
+	      MONGO_URL: "mongodb://db:27017/test"
+	   depends_on:
+	      - db
+	   ports:
+	      - "3000:3000"
+	 db:
+	   image: mongo
+~~~
+
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjQ2MTczNCw3OTczODE1MDYsMzgwMT
+eyJoaXN0b3J5IjpbLTk3MTczMzM4Miw3OTczODE1MDYsMzgwMT
 QwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIxNiwtMTk5OTY3Mzk2
 MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNTUxNDEyNTE4LC04MT
 E3MDQwMDBdfQ==
