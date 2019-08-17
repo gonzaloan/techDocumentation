@@ -68,9 +68,15 @@ Ahora podemos pushearlo a nuestro repo
 
 ## Docker en Aplicaciones
 
+- Usamos un repositorio tipo Github y Gitlab.
+- Dentro del proyecto creamos un Dockerfile
 
+~~~
+FROM node:8
+~~~
+- asd
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzA3MjY4NzgsNDM0MTc5NTY0LC0xND
-M5MzUyMzgsMTU1MTQxMjUxOCwtODExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbMjYwODMwOTE3LDQzNDE3OTU2NCwtMTQzOT
+M1MjM4LDE1NTE0MTI1MTgsLTgxMTcwNDAwMF19
 -->
