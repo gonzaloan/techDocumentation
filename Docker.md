@@ -134,11 +134,13 @@ services:
 - Dentro de cada servicio, hay un **image**, esta es la imagen que se requiere para levantar el mismo. 
 - **environment**: Indica las variables de entorno que tendrá la aplicación igual que el --env.
 - **depends_on**: Indica de qué depende el servicio, se sugiere que inicialice este servicio antes que otro. 
-- 
+- **ports**: finalmente, los puertos.
+
+Para usar este archivo, es necesario usar el comando **docker compose up**
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTgwOTA3Nyw3OTczODE1MDYsMzgwMT
-QwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIxNiwtMTk5OTY3Mzk2
-MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNTUxNDEyNTE4LC04MT
-E3MDQwMDBdfQ==
+eyJoaXN0b3J5IjpbMTAwMTkzNTQzLDc5NzM4MTUwNiwzODAxND
+A4NjEsNDkyODY4MDgzLC0xODk0MDk5MjE2LC0xOTk5NjczOTYw
+LDQzNDE3OTU2NCwtMTQzOTM1MjM4LDE1NTE0MTI1MTgsLTgxMT
+cwNDAwMF19
 -->
