@@ -96,11 +96,12 @@ CMD ["node", "index.js"]
 
 ### Podemos dejar el servidor escuchando cambios así:
 
-- **docker run --rm -p 3000:3000 -v /Users/gmunoz/Downloads/Project/:/usr/src gonzoapp**: Esto quedará escuchando los cambios de los archivos dentro de la carpeta Project. 
-- 
+- **docker run --rm -p 3000:3000 -v /Users/gmunoz/Downloads/Project/:/usr/src gonzoapp**: Esto quedará escuchando los cambios de los archivos dentro de la carpeta Project. Algo se cambia en el disco, y al detectar cambios, se van para usr/src
+
+
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTI4MDcyMiwtMTg5NDA5OTIxNiwtMT
-k5OTY3Mzk2MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNTUxNDEy
-NTE4LC04MTE3MDQwMDBdfQ==
+eyJoaXN0b3J5IjpbNDkyODY4MDgzLC0xODk0MDk5MjE2LC0xOT
+k5NjczOTYwLDQzNDE3OTU2NCwtMTQzOTM1MjM4LDE1NTE0MTI1
+MTgsLTgxMTcwNDAwMF19
 -->
