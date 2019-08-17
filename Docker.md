@@ -115,11 +115,39 @@ Para conectar un contenedor con otro, podemos usar **docker network**:
 ## Docker Compose
 
 Es una herramienta integrada con Docker, permite describir de forma declarativa la arquitectura de nuestra aplicación. 
+~~~
+version: "3"
 
+  
+
+services:
+
+app:
+
+image: platziapp
+
+environment:
+
+MONGO_URL: "mongodb://db:27017/test"
+
+depends_on:
+
+- db
+
+ports:
+
+- "3000:3000"
+
+  
+
+db:
+
+image: mongo
+~~~
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUwNjkyODUsNzk3MzgxNTA2LDM4MD
-E0MDg2MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5
-NjAsNDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtOD
-ExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbMTI3OTg3ODY4NCw3OTczODE1MDYsMzgwMT
+QwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIxNiwtMTk5OTY3Mzk2
+MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNTUxNDEyNTE4LC04MT
+E3MDQwMDBdfQ==
 -->
