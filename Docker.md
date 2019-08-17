@@ -141,11 +141,12 @@ Para usar este archivo, es necesario usar el comando **docker compose up**
 
 - **docker-compose up -d **: Detach, levanta la aplicación, pero deja la linea de comandos limpiapara seguir usándola.
 - **docker-compose ps**: Muestra todos los contenedores.
-- **docker-compose logs {nombreServicio]
+- **docker-compose logs {nombreServicio}**: Muestra logs de servicio.
+- **docker-compose exec app bash**: Entramos en el contenedor, app es el nombre del servicio. 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA4NjU1MTYsNzk3MzgxNTA2LDM4MD
-E0MDg2MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5
-NjAsNDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtOD
-ExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbMTgwNjM4OTU0Nyw3OTczODE1MDYsMzgwMT
+QwODYxLDQ5Mjg2ODA4MywtMTg5NDA5OTIxNiwtMTk5OTY3Mzk2
+MCw0MzQxNzk1NjQsLTE0MzkzNTIzOCwxNTUxNDEyNTE4LC04MT
+E3MDQwMDBdfQ==
 -->
