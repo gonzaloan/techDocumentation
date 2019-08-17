@@ -103,10 +103,13 @@ CMD ["node", "index.js"]
 
 Para conectar un contenedor con otro, podemos usar **docker network**:
 - **docker network ls**: Muestra todas las redes disponibles
+-- Bridge: No se usa
+-- Host: Forma de representar a la red de mi máquina. Es decirle al contenedor que use la misma red del equipo host. Es peligroso. 
+-- 
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDc0OTM0Niw0OTI4NjgwODMsLTE4OT
-QwOTkyMTYsLTE5OTk2NzM5NjAsNDM0MTc5NTY0LC0xNDM5MzUy
-MzgsMTU1MTQxMjUxOCwtODExNzA0MDAwXX0=
+eyJoaXN0b3J5IjpbLTE1MjQ3OTIwNDMsNDkyODY4MDgzLC0xOD
+k0MDk5MjE2LC0xOTk5NjczOTYwLDQzNDE3OTU2NCwtMTQzOTM1
+MjM4LDE1NTE0MTI1MTgsLTgxMTcwNDAwMF19
 -->
