@@ -114,11 +114,12 @@ Para conectar un contenedor con otro, podemos usar **docker network**:
 
 ## Docker Compose
 
+Es una herramienta integrada con Docker, permite describir de forma declarativa la arquitectura de nuestra aplicación. 
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDIwNDgsNzk3MzgxNTA2LDM4MDE0MD
-g2MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5NjAs
-NDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtODExNz
-A0MDAwXX0=
+eyJoaXN0b3J5IjpbLTE5OTUwNjkyODUsNzk3MzgxNTA2LDM4MD
+E0MDg2MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5
+NjAsNDM0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtOD
+ExNzA0MDAwXX0=
 -->
