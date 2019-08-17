@@ -182,14 +182,16 @@ Es útil tener un contenedor para manejar mis otros contenedores docker. Para es
 
 Para correr esta imagen :
 
-**docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock**
+**docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock docker**: Lo que hace este comando es conectar el socker de docker con nuestro docker. De esta forma entraremos de forma interactiva a nuestro nuevo contenedor y podremos ejecutar docker desde dentro, viendo mis contenedores y demás.
+
+
 
 
 > Written with [Gonzalo Muñoz](https://github.com/gonzaloan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjYxOTIyMiwxMzcwNDU0NDI2LC02MT
-AxNTQ1NjIsLTE1NzQ3ODk0NzAsNzk3MzgxNTA2LDM4MDE0MDg2
-MSw0OTI4NjgwODMsLTE4OTQwOTkyMTYsLTE5OTk2NzM5NjAsND
-M0MTc5NTY0LC0xNDM5MzUyMzgsMTU1MTQxMjUxOCwtODExNzA0
-MDAwXX0=
+eyJoaXN0b3J5IjpbLTE3NDM4ODc1NTUsMTM3MDQ1NDQyNiwtNj
+EwMTU0NTYyLC0xNTc0Nzg5NDcwLDc5NzM4MTUwNiwzODAxNDA4
+NjEsNDkyODY4MDgzLC0xODk0MDk5MjE2LC0xOTk5NjczOTYwLD
+QzNDE3OTU2NCwtMTQzOTM1MjM4LDE1NTE0MTI1MTgsLTgxMTcw
+NDAwMF19
 -->
