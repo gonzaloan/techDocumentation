@@ -36,10 +36,11 @@ iris.columns # Ver los nombres de las columnas
 iris['target'] #target es el nombre de la columna, muestra todos los elementos de dicha columna
 iris[['sepal_length', 'target']] # ver columnas sepal_length y target
 
+#
 
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTExMjY1NSwzMTkzMzUzMjcsLTE2MT
-M2ODYzNV19
+eyJoaXN0b3J5IjpbNjM5ODEzMzMyLC02MjkxMTI2NTUsMzE5Mz
+M1MzI3LC0xNjEzNjg2MzVdfQ==
 -->
