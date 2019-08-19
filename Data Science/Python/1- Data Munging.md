@@ -8,9 +8,11 @@ Una vez se tiene definido el dataset, se abre una nueva fase, se debe observar l
 El proceso de Data Science puede darse con el siguiente acrónimo
 **OSEMN(Observe, Scrub, Explore, Model, iNterpret)**. El munging corresponde a segunda etapa, de Scrub. 
 
-##
+### Lectura de CSV
+
+Para lectura de CSV, podemos usar PANDAS. Esto leerá información y la almacenará en un formato especial de pandas, indexará cada fila, inferirá cada tipo de dato, convertirá data (Si es necesario), parseará datos, 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDAzNDg1MywtMTYxMzY4NjM1XX0=
+eyJoaXN0b3J5IjpbNDgzOTQwODc5LC0xNjEzNjg2MzVdfQ==
 -->
