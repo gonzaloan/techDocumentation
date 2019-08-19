@@ -10,9 +10,13 @@ El proceso de Data Science puede darse con el siguiente acrónimo
 
 ### Lectura de CSV
 
-Para lectura de CSV, podemos usar PANDAS. Esto leerá información y la almacenará en un formato especial de pandas, indexará cada fila, inferirá cada tipo de dato, convertirá data (Si es necesario), parseará datos, 
+Para lectura de CSV, podemos usar PANDAS. Esto leerá información y la almacenará en un formato especial de pandas, indexará cada fila, inferirá cada tipo de dato, convertirá data (Si es necesario), parseará datos, los campos vacíos y erróneos.
+
+Para leer un dataset, por ejemplo IRIS:
+
+Para leer un archivo, se debe especificar el caracter separador **sep=**, si hay una cabecera en el dataset **(header)**, y los nombres de las variables, usando **names
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzOTQwODc5LC0xNjEzNjg2MzVdfQ==
+eyJoaXN0b3J5IjpbLTE2MTc4MzUyODYsLTE2MTM2ODYzNV19
 -->
