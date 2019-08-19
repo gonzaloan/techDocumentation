@@ -14,9 +14,23 @@ Para lectura de CSV, podemos usar PANDAS. Esto leerá información y la almacena
 
 Para leer un dataset, por ejemplo IRIS:
 
+```python
+import pandas as pd
+import urllib
+
+url = "http://aima.cs.berkeley.edu/data/iris.csv"
+set1 = urllib.request.Request(url)
+iris_p = urllib.request.urlopen(set1)
+iris = pd.read_csv(iris_p, sep=',', decimal='.', header= None,
+              names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'target'])
+```
 Para leer un archivo, se debe especificar el caracter separador **sep=**, si hay una cabecera en el dataset **(header)**, y los nombres de las variables, usando **names** y una **list**.  El campo **decimal** tienen valores por defecto, y puede ser obviado. 
+
+El resultado de iris, es nuestro dataframe. 
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5MzM1MzI3LC0xNjEzNjg2MzVdfQ==
+eyJoaXN0b3J5IjpbMzMwMjIyNDcxLDMxOTMzNTMyNywtMTYxMz
+Y4NjM1XX0=
 -->
