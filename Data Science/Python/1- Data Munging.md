@@ -28,9 +28,13 @@ Para leer un archivo, se debe especificar el caracter separador **sep=**, si hay
 
 El resultado de iris, es nuestro dataframe. 
 
+```python
+iris.head() # ver los primeros 5 elementos
+iris.tail() #Ultimos 5 elementos	
 
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMjIyNDcxLDMxOTMzNTMyNywtMTYxMz
-Y4NjM1XX0=
+eyJoaXN0b3J5IjpbLTg4ODI1OTQ4MCwzMTkzMzUzMjcsLTE2MT
+M2ODYzNV19
 -->
