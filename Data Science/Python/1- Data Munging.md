@@ -8,9 +8,9 @@ Una vez se tiene definido el dataset, se abre una nueva fase, se debe observar l
 El proceso de Data Science puede darse con el siguiente acrónimo
 **OSEMN(Observe, Scrub, Explore, Model, iNterpret)**. El munging corresponde a segunda etapa, de Scrub. 
 
-
+##
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTM2ODYzNV19
+eyJoaXN0b3J5IjpbMjAwNDAzNDg1MywtMTYxMzY4NjM1XX0=
 -->
