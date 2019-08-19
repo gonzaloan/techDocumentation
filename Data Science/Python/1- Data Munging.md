@@ -14,9 +14,9 @@ Para lectura de CSV, podemos usar PANDAS. Esto leerá información y la almacena
 
 Para leer un dataset, por ejemplo IRIS:
 
-Para leer un archivo, se debe especificar el caracter separador **sep=**, si hay una cabecera en el dataset **(header)**, y los nombres de las variables, usando **names
+Para leer un archivo, se debe especificar el caracter separador **sep=**, si hay una cabecera en el dataset **(header)**, y los nombres de las variables, usando **names** y una **list**.  El campo **decimal** tienen valores por defecto, y puede ser obviado. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTc4MzUyODYsLTE2MTM2ODYzNV19
+eyJoaXN0b3J5IjpbMzE5MzM1MzI3LC0xNjEzNjg2MzVdfQ==
 -->
