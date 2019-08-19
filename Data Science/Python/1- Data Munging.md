@@ -34,11 +34,12 @@ iris.tail() #Ultimos 5 elementos
 iris.head(x) #X es el numero elementos que queremos mostrar. iris.head(2) muestra los primeros 2
 iris.columns # Ver los nombres de las columnas
 iris['target'] #target es el nombre de la columna, muestra todos los elementos de dicha columna
-iris[['sepal_length', 'target']]
+iris[['sepal_length', 'target']] # ver columnas sepal_length y target
+
 
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTUwNTkwNywzMTkzMzUzMjcsLTE2MT
+eyJoaXN0b3J5IjpbLTYyOTExMjY1NSwzMTkzMzUzMjcsLTE2MT
 M2ODYzNV19
 -->
