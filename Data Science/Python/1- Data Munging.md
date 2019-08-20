@@ -139,9 +139,27 @@ Esto retorna un data set con nuestra información.
 
 ### Trabajando con HDF5
 
-Es un formato de archivo que permite arreglar 	el almacenamiento de datos de manera jerárquica, que permite guardar arreglos multidimensionales de tipo homogéneo 
+Es un formato de archivo que permite arreglar 	el almacenamiento de datos de manera jerárquica, que permite guardar arreglos multidimensionales de tipo o grupo homogéneo que contienen arrays y otros grupos.
+
+```python
+storage = pd.HDFStore('example.h5')
+storage['iris'] = iris
+storage.close()
+```
+Cuando se quiere sacar datos de un h5, puedes ver todos los keys de un storage así:
+```python
+storage = pd.HDFStore('example.h5')
+storage.keys()
+```
+Luego de esto, se selecciona el que se quiere obtener 
+
+``
+#Extraer info
+fast_iris_upload = storage['iris']
+**
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM0Mjg0MzEsNzY2MjI2MzE3XX0=
+eyJoaXN0b3J5IjpbNTc0NDYxMzM3LDc2NjIyNjMxN119
 -->
