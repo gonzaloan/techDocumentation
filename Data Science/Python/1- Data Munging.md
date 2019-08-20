@@ -71,10 +71,12 @@ Ojo que esto sólo muestra los datos parseados, para guardarlos en el dataset, s
 #### Un approach común es reemplazar los NaN por la mediana o la media:
 
 ```python
-dataset.fillna(dataset.
+dataset.fillna(dataset.mean(axis=0))
 ```
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkwMzkzNTg0LC0xMzIxMTg0Njc0LC02Mj
-kxMTI2NTUsMzE5MzM1MzI3LC0xNjEzNjg2MzVdfQ==
+eyJoaXN0b3J5IjpbLTIwMzcwMzU3MjUsLTEzMjExODQ2NzQsLT
+YyOTExMjY1NSwzMTkzMzUzMjcsLTE2MTM2ODYzNV19
 -->
