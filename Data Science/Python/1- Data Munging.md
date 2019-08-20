@@ -100,12 +100,14 @@ iris_iterator.get_chunk(2) #imprime data set de dos valores
 
 En el primer get_chunk, traemos un trozo del dataset de 10 líneas, luego de 20 líneas y finalmente, traemos un trozo de dos líneas.
 
-
+### Trabaj
+```python
+```
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODU5NTU0MywtMjkwOTQ0NTQzLC0yMD
-AyMTg0NjQ2LC0xNzg0ODY3MzU2LC0yMDM3MDM1NzI1LC0xMzIx
-MTg0Njc0LC02MjkxMTI2NTUsMzE5MzM1MzI3LC0xNjEzNjg2Mz
-VdfQ==
+eyJoaXN0b3J5IjpbNDA0NzQ3NzYyLC03OTg1OTU1NDMsLTI5MD
+k0NDU0MywtMjAwMjE4NDY0NiwtMTc4NDg2NzM1NiwtMjAzNzAz
+NTcyNSwtMTMyMTE4NDY3NCwtNjI5MTEyNjU1LDMxOTMzNTMyNy
+wtMTYxMzY4NjM1XX0=
 -->
