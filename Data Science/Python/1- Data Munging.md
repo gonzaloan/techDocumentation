@@ -77,10 +77,14 @@ dataset.fillna(dataset.mean(axis=0))
 
 ### Trabajando con DataSets gigantes
 
-SI el dataset a cargar es muy grande para caber en memoria, se puede usar un algoritmo de machine learning 
+SI el dataset a cargar es muy grande para caber en memoria, se puede usar un algoritmo de machine learning de batch, que trabaja sólo con parte del dataset a la vez. Además, es buena idea si sólo necesitamos una parte de él. En Python, se puede cargar la data en chunks:
+
+```python
+
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTE3NzEyNywtMjAzNzAzNTcyNSwtMT
-MyMTE4NDY3NCwtNjI5MTEyNjU1LDMxOTMzNTMyNywtMTYxMzY4
-NjM1XX0=
+eyJoaXN0b3J5IjpbLTE3ODQ4NjczNTYsLTIwMzcwMzU3MjUsLT
+EzMjExODQ2NzQsLTYyOTExMjY1NSwzMTkzMzUzMjcsLTE2MTM2
+ODYzNV19
 -->
