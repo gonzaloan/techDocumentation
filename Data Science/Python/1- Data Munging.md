@@ -153,13 +153,14 @@ storage.keys()
 ```
 Luego de esto, se selecciona el que se quiere obtener 
 
-``
+```python
 #Extraer info
 fast_iris_upload = storage['iris']
-**
+```
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0NDYxMzM3LDc2NjIyNjMxN119
+eyJoaXN0b3J5IjpbMTIzNTk0MzMwMSw3NjYyMjYzMTddfQ==
 -->
