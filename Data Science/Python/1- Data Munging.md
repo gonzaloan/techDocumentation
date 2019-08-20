@@ -179,6 +179,10 @@ col5 = pd.Series([4,3,2,1,0])
 col6 = pd.Series([0,0,1,1,1])
 a_new_dataset = pd.concat([col5, col6], axis= 1, ignore_index=True, keys=['Col5','Col6'])
 a_new_dataset
+
+#UNimos los dos últimos
+my_new_dataset = pd.concat([my_own_dataset, a_new_dataset], axis=1)
+my_new_dataset
 ```
 
 
@@ -186,6 +190,6 @@ a_new_dataset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwOTY0Mjc1LC0xODM3NDE4NjI3LDc2Nj
-IyNjMxN119
+eyJoaXN0b3J5IjpbLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3Nj
+YyMjYzMTddfQ==
 -->
