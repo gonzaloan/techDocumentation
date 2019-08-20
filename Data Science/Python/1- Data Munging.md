@@ -89,13 +89,13 @@ for chunk in iris_chunks:
 
 Y también al leer el csv, se puede especificar un iterador, y luego solicitar el chunk requerido:
 
-```
+```Python
 
 ```
 Esto imprimirá 15 chunks de 10, 5 cada uno. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzY1NTkyNTksLTIwMDIxODQ2NDYsLT
-E3ODQ4NjczNTYsLTIwMzcwMzU3MjUsLTEzMjExODQ2NzQsLTYy
-OTExMjY1NSwzMTkzMzUzMjcsLTE2MTM2ODYzNV19
+eyJoaXN0b3J5IjpbLTI5MDk0NDU0MywtMjAwMjE4NDY0NiwtMT
+c4NDg2NzM1NiwtMjAzNzAzNTcyNSwtMTMyMTE4NDY3NCwtNjI5
+MTEyNjU1LDMxOTMzNTMyNywtMTYxMzY4NjM1XX0=
 -->
