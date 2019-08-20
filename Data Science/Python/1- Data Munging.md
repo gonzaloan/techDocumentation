@@ -55,8 +55,14 @@ Date,Temperature_city_1,Temperature_city_2,Temperature_city_3,Which_destination
 ```
 
 Al leerlo mediante pandas, podemos ver que la estructura resultante rellenó los datos faltantes con NaN, 
+
+Para parsear los datos, podemos leer el csv con una nueva sintaxis:
+
+```python
+fak
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjExODQ2NzQsLTYyOTExMjY1NSwzMT
-kzMzUzMjcsLTE2MTM2ODYzNV19
+eyJoaXN0b3J5IjpbMTA5NDY0ODAyMywtMTMyMTE4NDY3NCwtNj
+I5MTEyNjU1LDMxOTMzNTMyNywtMTYxMzY4NjM1XX0=
 -->
