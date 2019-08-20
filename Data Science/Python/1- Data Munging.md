@@ -59,10 +59,10 @@ Al leerlo mediante pandas, podemos ver que la estructura resultante rellenó los
 Para parsear los datos, podemos leer el csv con una nueva sintaxis:
 
 ```python
-fak
+fake_dataset_2 = pd.read_csv('filename.csv', parse_dates=[0])
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDY0ODAyMywtMTMyMTE4NDY3NCwtNj
+eyJoaXN0b3J5IjpbLTg4ODIzMzA2OCwtMTMyMTE4NDY3NCwtNj
 I5MTEyNjU1LDMxOTMzNTMyNywtMTYxMzY4NjM1XX0=
 -->
