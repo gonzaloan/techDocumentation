@@ -197,12 +197,15 @@ ignore_index = True,
                                 keys=['Col5', 'Col7'])
     reference_table
 ```
+El merge se opera seteando el operador **how** a **left**, generando un SQL left inner join. También puede ser **right**, **outer** e **inner**. 
 
+```python
 
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTE2ODMsLTc3MDk1NjIwNywtMTgzNz
-QxODYyNyw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbLTIwNjgwODA0NjcsLTc3MDk1NjIwNywtMT
+gzNzQxODYyNyw3NjYyMjYzMTddfQ==
 -->
