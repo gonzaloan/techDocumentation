@@ -126,10 +126,22 @@ connection.executemany(insert_query, data)
 connection.commit()
 ```
 Llenamos con algunos datos.
+
+##### Podemos leer estos datos en un dataset muy fácil:
+
+```python
+#Leemos datos
+
+selection_query = "SELECT date, city, temperature, destination FROM temp_data WHERE Date =20140910"
+retrieved = pd.read_sql_query(selection_query, connection)
+```
+Esto retorna un data set con nuestra información.
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDY5NDc4OSwtNzk4NTk1NTQzLC0yOT
-A5NDQ1NDMsLTIwMDIxODQ2NDYsLTE3ODQ4NjczNTYsLTIwMzcw
-MzU3MjUsLTEzMjExODQ2NzQsLTYyOTExMjY1NSwzMTkzMzUzMj
-csLTE2MTM2ODYzNV19
+eyJoaXN0b3J5IjpbNzY2MjI2MzE3LC03OTg1OTU1NDMsLTI5MD
+k0NDU0MywtMjAwMjE4NDY0NiwtMTc4NDg2NzM1NiwtMjAzNzAz
+NTcyNSwtMTMyMTE4NDY3NCwtNjI5MTEyNjU1LDMxOTMzNTMyNy
+wtMTYxMzY4NjM1XX0=
 -->
