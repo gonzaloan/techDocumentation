@@ -68,9 +68,13 @@ dataset.fillna(50) #reemplazo todos los NaN por 50
 ```
 Ojo que esto sólo muestra los datos parseados, para guardarlos en el dataset, se debe enviar el parámetro **inplace=True**.
 
-#### Un approach común es reemplazar los NaN por la mediana
+#### Un approach común es reemplazar los NaN por la mediana o la media:
+
+```python
+dataset.fillna(dataset.
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTc4OTg1MCwtMTMyMTE4NDY3NCwtNj
-I5MTEyNjU1LDMxOTMzNTMyNywtMTYxMzY4NjM1XX0=
+eyJoaXN0b3J5IjpbODkwMzkzNTg0LC0xMzIxMTg0Njc0LC02Mj
+kxMTI2NTUsMzE5MzM1MzI3LC0xNjEzNjg2MzVdfQ==
 -->
