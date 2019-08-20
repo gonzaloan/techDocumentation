@@ -93,13 +93,18 @@ Y también al leer el csv, se puede especificar un iterador, y luego solicitar e
 ```Python
 iris_iterator = pd.read_csv(iris, header=None, names = ['C1','C2','C3','C4','C5'], iterator = True)
 iris_iterator.get_chunk(10).shape #(10,5)
-iris_iterator.get_chunk(20).shape #(20,
+iris_iterator.get_chunk(20).shape #(20,5)
+
+iris_iterator.get_chunk(2) #imprime data set de dos valores
 ```
+
+En el primer get_chunk, traemos un trozo del dataset de 10 líneas, luego de 20 líneas y finalmente, traemos un trozo de dos líneas.
+
 
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDAyNTQ3NSwtMjkwOTQ0NTQzLC0yMD
+eyJoaXN0b3J5IjpbLTc5ODU5NTU0MywtMjkwOTQ0NTQzLC0yMD
 AyMTg0NjQ2LC0xNzg0ODY3MzU2LC0yMDM3MDM1NzI1LC0xMzIx
 MTg0Njc0LC02MjkxMTI2NTUsMzE5MzM1MzI3LC0xNjEzNjg2Mz
 VdfQ==
