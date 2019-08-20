@@ -82,11 +82,12 @@ SI el dataset a cargar es muy grande para caber en memoria, se puede usar un alg
 ```python
 iris_chunks = pd.read_csv(filename, header=None, names= ['C1','C2', 'C3', 'C4', 'C5'], chunksize = 10)
 #Con esto de debe iterar los chunks ahora:
-
+for chunk in iris_chunks:
+	print('Shape: ', chunk.shape
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDIxODQ2NDYsLTE3ODQ4NjczNTYsLT
-IwMzcwMzU3MjUsLTEzMjExODQ2NzQsLTYyOTExMjY1NSwzMTkz
-MzUzMjcsLTE2MTM2ODYzNV19
+eyJoaXN0b3J5IjpbNDc3MDAwMjQ5LC0yMDAyMTg0NjQ2LC0xNz
+g0ODY3MzU2LC0yMDM3MDM1NzI1LC0xMzIxMTg0Njc0LC02Mjkx
+MTI2NTUsMzE5MzM1MzI3LC0xNjEzNjg2MzVdfQ==
 -->
