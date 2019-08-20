@@ -173,10 +173,19 @@ my_own_dataset
 ```
 
 Para unir un dataset ya existente, se debe usar **concat**, útil para Series y DataFrame. El axis igual a 0 es para apilar como fila, y el 1 para columnas
-,
+
+```python
+col5 = pd.Series([4,3,2,1,0])
+col6 = pd.Series([0,0,1,1,1])
+a_new_dataset = pd.concat([col5, col6], axis= 1, ignore_index=True, keys=['Col5','Col6'])
+a_new_dataset
+```
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc0MTg2MjcsNzY2MjI2MzE3XX0=
+eyJoaXN0b3J5IjpbNTQwOTY0Mjc1LC0xODM3NDE4NjI3LDc2Nj
+IyNjMxN119
 -->
