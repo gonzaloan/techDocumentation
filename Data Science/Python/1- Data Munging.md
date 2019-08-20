@@ -73,10 +73,10 @@ Ojo que esto sólo muestra los datos parseados, para guardarlos en el dataset, s
 ```python
 dataset.fillna(dataset.mean(axis=0))
 ```
-
-
+*axis=0 indica que el calculo de la media se extenderá a las filas, 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzcwMzU3MjUsLTEzMjExODQ2NzQsLT
-YyOTExMjY1NSwzMTkzMzUzMjcsLTE2MTM2ODYzNV19
+eyJoaXN0b3J5IjpbMTkwNTkzNzUwNiwtMjAzNzAzNTcyNSwtMT
+MyMTE4NDY3NCwtNjI5MTEyNjU1LDMxOTMzNTMyNywtMTYxMzY4
+NjM1XX0=
 -->
