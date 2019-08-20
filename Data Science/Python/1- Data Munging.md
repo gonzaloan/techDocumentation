@@ -62,10 +62,14 @@ Para parsear los datos, podemos leer el csv con una nueva sintaxis:
 fake_dataset_2 = pd.read_csv('filename.csv', parse_dates=[0])
 ```
 
-#### Ahora, podemos reemplazar los Nan por un valor más legible, en este caso que sean 50 ° F el defalt:
+#### Ahora, podemos reemplazar los Nan por un valor más legible, en este caso que sean 50 ° F el default:
+```python
+dataset.fillna(50) #reemplazo todos los NaN por 50
+```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE3Nzc5NjksLTEzMjExODQ2NzQsLT
-YyOTExMjY1NSwzMTkzMzUzMjcsLTE2MTM2ODYzNV19
+eyJoaXN0b3J5IjpbLTMxNzY0OTU4OCwtMTMyMTE4NDY3NCwtNj
+I5MTEyNjU1LDMxOTMzNTMyNywtMTYxMzY4NjM1XX0=
 -->
