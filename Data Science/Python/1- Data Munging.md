@@ -137,8 +137,11 @@ retrieved = pd.read_sql_query(selection_query, connection)
 ```
 Esto retorna un data set con nuestra información.
 
-### Trabajando con HDSF5
+### Trabajando con HDF5
+
+Es un formato de archivo que permite arreglar 	el almacenamiento de datos de manera jerárquica, que permite guardar arreglos multidimensionales de tipo homogéneo 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzU0NjkzNiw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbLTE4MjM0Mjg0MzEsNzY2MjI2MzE3XX0=
 -->
