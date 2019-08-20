@@ -100,14 +100,36 @@ iris_iterator.get_chunk(2) #imprime data set de dos valores
 
 En el primer get_chunk, traemos un trozo del dataset de 10 líneas, luego de 20 líneas y finalmente, traemos un trozo de dos líneas.
 
-### Trabaj
+### Trabajando con bases de datos
+
+En este caso usamos SQLITE, creamos una nueva tabla y base de datos:
 ```python
+import sqlite3
+
+drop_query = "DROP TABLE IF EXISTS temp_data;"
+create_query = "CREATE TABLE temp_data (date INTEGER, city VARCHAR(80),  temperature REAL, destination INTEGER);"
+connection = sqlite3.connect('example.db')
+connection.execute(drop_query)
+connection.execute(create_query)
+connection.commit()
 ```
+ En este punto, creamos la base de datos con la tabla temp_data
  
+```python
+# Llenamos con algunos datos
+data = [(20140910, "Rome",   80.0, 0),
+            (20140910, "Berlin", 50.0, 0),
+            (20140910, "Wien",   32.0, 1),
+            (20140911, "Paris",  65.0, 0)]
+insert_query = "INSERT INTO temp_data VALUES(?, ?, ?, ?)"
+connection.executemany(insert_query, data)
+connection.commit()
+```
+Llenamos con algunos datos.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0NzQ3NzYyLC03OTg1OTU1NDMsLTI5MD
-k0NDU0MywtMjAwMjE4NDY0NiwtMTc4NDg2NzM1NiwtMjAzNzAz
-NTcyNSwtMTMyMTE4NDY3NCwtNjI5MTEyNjU1LDMxOTMzNTMyNy
-wtMTYxMzY4NjM1XX0=
+eyJoaXN0b3J5IjpbMjAyMDY5NDc4OSwtNzk4NTk1NTQzLC0yOT
+A5NDQ1NDMsLTIwMDIxODQ2NDYsLTE3ODQ4NjczNTYsLTIwMzcw
+MzU3MjUsLTEzMjExODQ2NzQsLTYyOTExMjY1NSwzMTkzMzUzMj
+csLTE2MTM2ODYzNV19
 -->
