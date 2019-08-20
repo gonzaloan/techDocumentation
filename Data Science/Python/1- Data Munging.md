@@ -172,9 +172,9 @@ my_own_dataset = pd.DataFrame({
 my_own_dataset
 ```
 
-
+Para unir un dataset ya existente, se debe usar **concat**, útil para Series y DataFrame
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDIzMDg5MDUsNzY2MjI2MzE3XX0=
+eyJoaXN0b3J5IjpbMTkyNzc2NjY1MCw3NjYyMjYzMTddfQ==
 -->
