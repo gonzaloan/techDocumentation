@@ -66,10 +66,11 @@ fake_dataset_2 = pd.read_csv('filename.csv', parse_dates=[0])
 ```python
 dataset.fillna(50) #reemplazo todos los NaN por 50
 ```
+Ojo que esto sólo muestra los datos parseados, para guardarlos en el dataset, se debe enviar el parámetro **inplace=True**.
 
-
+#### Un approach común es reemplazar los NaN por la mediana
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzY0OTU4OCwtMTMyMTE4NDY3NCwtNj
+eyJoaXN0b3J5IjpbLTc1MTc4OTg1MCwtMTMyMTE4NDY3NCwtNj
 I5MTEyNjU1LDMxOTMzNTMyNywtMTYxMzY4NjM1XX0=
 -->
