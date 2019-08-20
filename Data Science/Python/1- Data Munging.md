@@ -185,11 +185,24 @@ my_new_dataset = pd.concat([my_own_dataset, a_new_dataset], axis=1)
 my_new_dataset
 ```
 
-En alguna ocasión será necesario unir distintos Series y DataFrame en columnas específicas, 
+En alguna ocasión será necesario unir distintos Series y DataFrame en columnas específicas, o Series de columnas. En ese caso es útil usar **merge**.
+
+Para un ejemplo tenemos esta tabla de referencia:
+
+```python
+key = pd.Series([1, 2, 4])
+    value = pd.Series(['alpha', 'beta', 'gamma'])
+    reference_table = pd.concat([key, value], axis=1,
+ignore_index = True,
+                                keys=['Col5', 'Col7'])
+    reference_table
+```
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MzQzMzA2MCwtNzcwOTU2MjA3LC0xOD
-M3NDE4NjI3LDc2NjIyNjMxN119
+eyJoaXN0b3J5IjpbLTQ1NTE2ODMsLTc3MDk1NjIwNywtMTgzNz
+QxODYyNyw3NjYyMjYzMTddfQ==
 -->
