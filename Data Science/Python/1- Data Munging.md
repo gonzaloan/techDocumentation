@@ -84,10 +84,18 @@ iris_chunks = pd.read_csv(filename, header=None, names= ['C1','C2', 'C3', 'C4', 
 #Con esto de debe iterar los chunks ahora:
 for chunk in iris_chunks:
 	print('Shape: ', chunk.shape
+	print(chunk, '\n')
 ```
+
+Y también al leer el csv, se puede especificar un iterador, y luego solicitar el chunk requerido:
+
+```
+
+```
+Esto imprimirá 15 chunks de 10, 5 cada uno. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3MDAwMjQ5LC0yMDAyMTg0NjQ2LC0xNz
-g0ODY3MzU2LC0yMDM3MDM1NzI1LC0xMzIxMTg0Njc0LC02Mjkx
-MTI2NTUsMzE5MzM1MzI3LC0xNjEzNjg2MzVdfQ==
+eyJoaXN0b3J5IjpbLTEwNzY1NTkyNTksLTIwMDIxODQ2NDYsLT
+E3ODQ4NjczNTYsLTIwMzcwMzU3MjUsLTEzMjExODQ2NzQsLTYy
+OTExMjY1NSwzMTkzMzUzMjcsLTE2MTM2ODYzNV19
 -->
