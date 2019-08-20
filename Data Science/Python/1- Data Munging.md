@@ -185,11 +185,11 @@ my_new_dataset = pd.concat([my_own_dataset, a_new_dataset], axis=1)
 my_new_dataset
 ```
 
-
+En alguna ocasión será necesario unir distintos Series y DataFrame en columnas específicas, 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3Nj
-YyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbMTE2MzQzMzA2MCwtNzcwOTU2MjA3LC0xOD
+M3NDE4NjI3LDc2NjIyNjMxN119
 -->
