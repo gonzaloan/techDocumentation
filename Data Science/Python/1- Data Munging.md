@@ -158,9 +158,23 @@ Luego de esto, se selecciona el que se quiere obtener
 fast_iris_upload = storage['iris']
 ```
 
+## Uniendo DATA con Pandas
+
+Finalmente, los DataFrames pueden ser creados al unir series u otro data en listas. 
+
+```python
+my_own_dataset = pd.DataFrame({
+    'Col1': range(5),
+    'Col2':[1.0]*5,
+    'Col3':1.0,
+    'Col4':'Hello World!'
+})
+my_own_dataset
+```
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTk0MzMwMSw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbLTEyMDIzMDg5MDUsNzY2MjI2MzE3XX0=
 -->
