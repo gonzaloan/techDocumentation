@@ -140,8 +140,5 @@ Esto retorna un data set con nuestra información.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY2MjI2MzE3LC03OTg1OTU1NDMsLTI5MD
-k0NDU0MywtMjAwMjE4NDY0NiwtMTc4NDg2NzM1NiwtMjAzNzAz
-NTcyNSwtMTMyMTE4NDY3NCwtNjI5MTEyNjU1LDMxOTMzNTMyNy
-wtMTYxMzY4NjM1XX0=
+eyJoaXN0b3J5IjpbNzY2MjI2MzE3XX0=
 -->
