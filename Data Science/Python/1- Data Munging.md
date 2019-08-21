@@ -294,13 +294,17 @@ iris.apply(np.count_nonzero, axis= 0).head()
 
 Usado para realizar una operación elemento por elemento. 
 
+Por ejemplo, buscamos el largo de la representación String de cada celda. Para obtener este valor, primero deberíamos castear cada celda a string y luego calcular su length, con applyMap:
 
+```python
+iris.applymap(lambda x:len(str(x))).head()
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTU2OTg4LDEwOTIzOTI4NTIsLTgyNj
-U0MTkyNCwtMTgyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0
-NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ
-==
+eyJoaXN0b3J5IjpbMTY5NjIzMDQ0OCwxMDkyMzkyODUyLC04Mj
+Y1NDE5MjQsLTE4MjY1MzIzMjEsNzAwODcyMTc5LC0yMDY4MDgw
+NDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2MzE3XX
+0=
 -->
