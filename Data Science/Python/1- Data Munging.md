@@ -222,12 +222,18 @@ Primero, si se necesita aplicar una función a una sección limitada de filas, s
 Por ejemplo, queremos obtener en iris todos los valores cuyo *sepal length* sea mayor a 6
 
 ```python
-mask_feature = iris['sepal_length
+mask_feature = iris['sepal_length'] > 6
+mask_feature
+```
+Ahora, queremos sustituir el target label 'Iris Virginica'  con un nuevo label que diga 'New Label' , esto se puede hacer así:
+
+```python
+
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1Mzg0MjcxLDcwMDg3MjE3OSwtMjA2OD
-A4MDQ2NywtNzcwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMx
-N119
+eyJoaXN0b3J5IjpbLTE4MjY1MzIzMjEsNzAwODcyMTc5LC0yMD
+Y4MDgwNDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2
+MzE3XX0=
 -->
