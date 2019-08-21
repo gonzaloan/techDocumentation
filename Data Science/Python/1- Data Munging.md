@@ -277,14 +277,14 @@ Para ordenar una observación podemos usar **.sort_index()**:
 ```python
 iris.sort_index(by='sepal_length').head()
 ```
-### Rolling
+### Apply
 
-Si el dataset contiene una Serie de tiempo
+Permite 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE2NzY1NTIsLTgyNjU0MTkyNCwtMT
-gyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1
-NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbMTAwNjE4NTc0OCwtODI2NTQxOTI0LC0xOD
+I2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNzcwOTU2
+MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
 -->
