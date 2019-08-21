@@ -388,14 +388,18 @@ dataset_good_index[['val3', 'val2']][0:2]
 Este comando anterior es igual a :
 ```python
 dataset_good_index.loc[range(100,102), ['val3', 'val2']
-```
+*(muestra los índices desde 100 a 102 y las columnas de val3 y val2)* ```
+Y equivalente a:
 
+```python
+
+```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDcxOTAwOCwtODYxMzI3NTg5LDE3Mz
+eyJoaXN0b3J5IjpbLTg3NTcyMTU3MCwtODYxMzI3NTg5LDE3Mz
 E2NzgyODcsODc5MjQxMzYsMTA5MjM5Mjg1MiwtODI2NTQxOTI0
 LC0xODI2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNz
 cwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
