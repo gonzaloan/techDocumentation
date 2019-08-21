@@ -302,13 +302,37 @@ iris.applymap(lambda x:len(str(x))).head()
 Cuando se aplican transformaciones a la data, no necesariamente se debe aplicar la función a cada columna. Podemos aplicar una transformación a una simple variable o a múltiples, al modificar la misma variable o crear nuevas:
 
 ```python
+def square(x):
+    return x**2
 
+original_variable = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+squared_iris = iris[original_variable].apply(square)
+squared_iris
 ```
+*Un problema con este approach es que la transformación puede tardar, porque la librería de pandas no usa todo el potencial de multiprocesamiento del procesador*
 
+Para ello, podemos usar **parallel_apply**. Esto funciona sólo en Linux, y crea un pool de workers, cada uno trabajando en paralelo y ejecutando las transformaciones:
 
+```python
+import multiprocessing
+
+    def apply_df(args):
+        df, func, kwargs = args
+        return df.apply(func, **kwargs)
+
+    def parallel_apply(df, func, **kwargs):
+         workers = kwargs.pop('workers')
+         pool = multiprocessing.Pool(processes=workers)
+         df_split = np.array_split(df, workers)
+         results = pool.map(apply_df, [(ds, func, kwargs)
+                                       for ds in df_split])
+         pool.close()
+         return pd.concat(list(results))
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5MjQxMzYsMTA5MjM5Mjg1MiwtODI2NT
-QxOTI0LC0xODI2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2
-NywtNzcwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
+eyJoaXN0b3J5IjpbMzg4NDc3OTcxLDg3OTI0MTM2LDEwOTIzOT
+I4NTIsLTgyNjU0MTkyNCwtMTgyNjUzMjMyMSw3MDA4NzIxNzks
+LTIwNjgwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3Nj
+YyMjYzMTddfQ==
 -->
