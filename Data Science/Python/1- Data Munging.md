@@ -232,11 +232,11 @@ mask_virginica = iris['target'] == 'virginica'
 iris.loc[mask_virginica, 'target'] = 'New Label'
 iris
 ```
-Todos los valore
+Todos los valores virginica, serán reemplazados por New Label. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTg1OTA3OCwtMTgyNjUzMjMyMSw3MD
-A4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQx
-ODYyNyw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbLTE1NDU2NDI1NjIsLTE4MjY1MzIzMjEsNz
+AwODcyMTc5LC0yMDY4MDgwNDY3LC03NzA5NTYyMDcsLTE4Mzc0
+MTg2MjcsNzY2MjI2MzE3XX0=
 -->
