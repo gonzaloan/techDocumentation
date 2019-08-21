@@ -379,13 +379,19 @@ dataset.iloc[4,2]
 ```
 **Esto busca en la fila 4 , columna 2**
 
+Otras selecciones interesantes:
+
+Este muestra columna Val3 y Val2, 
+```python
+dataset_good_index[['val3', 'val2']][0:2]
+```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODIxOTUsLTg2MTMyNzU4OSwxNzMxNj
-c4Mjg3LDg3OTI0MTM2LDEwOTIzOTI4NTIsLTgyNjU0MTkyNCwt
-MTgyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLTc3MD
-k1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbLTY0NzMyOTQ5NywtODYxMzI3NTg5LDE3Mz
+E2NzgyODcsODc5MjQxMzYsMTA5MjM5Mjg1MiwtODI2NTQxOTI0
+LC0xODI2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNz
+cwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
 -->
