@@ -328,11 +328,20 @@ import multiprocessing
                                        for ds in df_split])
          pool.close()
          return pd.concat(list(results))
+
+## Y llamamos a la función así:
+squared_iris = parallel_apply(iris[['sepal_length', 'sepal_width', 
+                                        'petal_length', 'petal_width']], 
+                                        func=square, 
+                                        axis=1, 
+                                        workers=4)
+    squared_iris
+
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4NDc3OTcxLDg3OTI0MTM2LDEwOTIzOT
-I4NTIsLTgyNjU0MTkyNCwtMTgyNjUzMjMyMSw3MDA4NzIxNzks
-LTIwNjgwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3Nj
-YyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbMTczMTY3ODI4Nyw4NzkyNDEzNiwxMDkyMz
+kyODUyLC04MjY1NDE5MjQsLTE4MjY1MzIzMjEsNzAwODcyMTc5
+LC0yMDY4MDgwNDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2MjcsNz
+Y2MjI2MzE3XX0=
 -->
