@@ -370,13 +370,19 @@ Tambien se puede de la siguiente forma:
 ```python
 dataset_good_index.loc[104, 'val3']
 ```
+**Acá primero es el indice y luego la columna**
 
+Podemos también buscar valores por índices:
+
+```python
+dataset.iloc[2,3]
+```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NjQ2NTcwOCwtODYxMzI3NTg5LDE3Mz
+eyJoaXN0b3J5IjpbLTI4NzE5NDAzMCwtODYxMzI3NTg5LDE3Mz
 E2NzgyODcsODc5MjQxMzYsMTA5MjM5Mjg1MiwtODI2NTQxOTI0
 LC0xODI2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNz
 cwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
