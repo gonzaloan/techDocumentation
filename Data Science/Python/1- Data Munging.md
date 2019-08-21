@@ -341,11 +341,23 @@ squared_iris = parallel_apply(iris[['sepal_length', 'sepal_width',
 
 ## Data Selection
 
+Por ejemplo, si cargamos este dataset, que tiene los índices erróneos:
 
+```
+n,val1,val2,val3
+100,10,10,C
+101,10,20,C
+102,10,30,B
+103,10,40,B
+104,10,50,A
+```
+En este caso, la columna **n** es tomada como una columna más, con datos. Y podemos arreglarla haciendo lo siguiente:
+
+- Se puede obtener
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTMyNzU4OSwxNzMxNjc4Mjg3LDg3OT
-I0MTM2LDEwOTIzOTI4NTIsLTgyNjU0MTkyNCwtMTgyNjUzMjMy
-MSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1NjIwNywtMT
-gzNzQxODYyNyw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbMTI4NTg5NzIwMywtODYxMzI3NTg5LDE3Mz
+E2NzgyODcsODc5MjQxMzYsMTA5MjM5Mjg1MiwtODI2NTQxOTI0
+LC0xODI2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNz
+cwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
 -->
