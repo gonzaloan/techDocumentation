@@ -257,11 +257,15 @@ grouped_target_var = iris.groupby(['target']).var()
 grouped_target_var
 ```
 
-También podemos juntar todas las operaciones que uq
+También podemos juntar todas las operaciones que queramos y armar un datasets con todo:
+
+```python
+
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU3NDQ3NTUsLTgyNjU0MTkyNCwtMT
-gyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1
-NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbNzg0NjUwMzAsLTgyNjU0MTkyNCwtMTgyNj
+UzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1NjIw
+NywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
 -->
