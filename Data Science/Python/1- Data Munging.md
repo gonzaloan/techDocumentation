@@ -257,15 +257,21 @@ grouped_target_var = iris.groupby(['target']).var()
 grouped_target_var
 ```
 
-También podemos juntar todas las operaciones que queramos y armar un datasets con todo:
+También podemos juntar todas las operaciones que queramos y armar un datasets con todo, con la función **agg**:
 
 ```python
+funcs = {'sepal_length' : ['mean', 'std'],
+         'sepal_width' : ['max', 'min'],
+         'petal_length' : ['mean', 'std'],
+         'petal_width' : ['max', 'min']}
 
+grouped_targets_f = iris.groupby(['target']).agg(funcs)
+grouped_targets_f
 ```
-
+Esto armará un dataset, separado por *sepal_length, sepal_width, petal_length, petal_width*. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0NjUwMzAsLTgyNjU0MTkyNCwtMTgyNj
-UzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1NjIw
-NywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbLTE0ODA4MDM4NTMsLTgyNjU0MTkyNCwtMT
+gyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1
+NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
 -->
