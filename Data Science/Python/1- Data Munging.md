@@ -203,12 +203,15 @@ El merge se opera seteando el operador **how** a **left**, generando un SQL left
 my_new_dataset.merge(reference_table,
                          on='Col5', how='left')
 ```
+Esto hizo un inner join de la columna 5. Es decir, unió la columna 7, y dependiendo del valor de la Col5 de reference_table, indico qué valor debía ser Col7
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwODcyMTc5LC0yMDY4MDgwNDY3LC03Nz
-A5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2MzE3XX0=
+eyJoaXN0b3J5IjpbMTY1MzY0MzkxMCw3MDA4NzIxNzksLTIwNj
+gwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYz
+MTddfQ==
 -->
