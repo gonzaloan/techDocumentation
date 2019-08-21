@@ -205,13 +205,11 @@ my_new_dataset.merge(reference_table,
 ```
 Esto hizo un inner join de la columna 5. Es decir, unió la columna 7, y dependiendo del valor de la Col5 de reference_table, indico qué valor debía ser Col7
 
-
-
-
+![Resultado](prnt.sc/ovkblc)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzY0MzkxMCw3MDA4NzIxNzksLTIwNj
-gwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYz
-MTddfQ==
+eyJoaXN0b3J5IjpbLTE0NzM1MzA4MzMsNzAwODcyMTc5LC0yMD
+Y4MDgwNDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2
+MzE3XX0=
 -->
