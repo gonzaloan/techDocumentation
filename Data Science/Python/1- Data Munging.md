@@ -200,12 +200,14 @@ ignore_index = True,
 El merge se opera seteando el operador **how** a **left**, generando un SQL left inner join. También puede ser **right**, **outer** e **inner**. 
 
 ```python
-
+my_new_dataset.merge(reference_table,
+                         on='Col5', how='left')
 ```
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjgwODA0NjcsLTc3MDk1NjIwNywtMT
-gzNzQxODYyNyw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbLTI5NDc1NjA5MSwtMjA2ODA4MDQ2NywtNz
+cwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
 -->
