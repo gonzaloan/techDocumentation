@@ -351,13 +351,20 @@ n,val1,val2,val3
 103,10,40,B
 104,10,50,A
 ```
-En este caso, la columna **n** es tomada como una columna más, con datos. Y podemos arreglarla haciendo lo siguiente:
+En este caso, la columna **n** es tomada como una columna más, con datos. Podemos especificar al cargar el dataset qué columna es nuestro index:
 
-- Se puede obtener
+```python
+dataset_good_index = pd.read_csv('data_selection_example_1.csv', index_col=0)
+```
+Ahora si se puede obtener el indice correcto.
+
+Además, podemos acceder al valor de una celda
+
+- 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTg5NzIwMywtODYxMzI3NTg5LDE3Mz
-E2NzgyODcsODc5MjQxMzYsMTA5MjM5Mjg1MiwtODI2NTQxOTI0
-LC0xODI2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNz
-cwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
+eyJoaXN0b3J5IjpbLTEzNjA0MTM4MTMsLTg2MTMyNzU4OSwxNz
+MxNjc4Mjg3LDg3OTI0MTM2LDEwOTIzOTI4NTIsLTgyNjU0MTky
+NCwtMTgyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLT
+c3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
 -->
