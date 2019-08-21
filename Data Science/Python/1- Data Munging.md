@@ -251,12 +251,17 @@ Podemos agrupar observaciones por su campo target, podemos ver la diferencia ent
 ```python
 grouped_targets_mean = iris.groupby(['target']).mean()
 grouped_targets_mean
+
+#O con la varianza 
+grouped_target_var = iris.groupby(['target']).var()
+grouped_target_var
 ```
 
+También podemos juntar todas las operaciones que uq
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDkzNjUxNSwtODI2NTQxOTI0LC0xOD
-I2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNzcwOTU2
-MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
+eyJoaXN0b3J5IjpbLTE4MzU3NDQ3NTUsLTgyNjU0MTkyNCwtMT
+gyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1
+NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
 -->
