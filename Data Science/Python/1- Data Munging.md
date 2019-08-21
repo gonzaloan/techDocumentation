@@ -218,14 +218,16 @@ my_own_dataset['Col1'] = my_own_dataset['Col1'].astype(float)
 Ahora se empieza a manipular los datos.
 
 Primero, si se necesita aplicar una función a una sección limitada de filas, se puede usar una **mask**. Esto es una serie de valores Boolean que indican si la línea está seleccionada o no.
-Por ejemplo, queremos setear en iris todos los valores cuyo *sepal length* sea mayor a 6
 
+Por ejemplo, queremos obtener en iris todos los valores cuyo *sepal length* sea mayor a 6
 
-
+```python
+mask_feature = iris['sepal_length
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzU2NjY5NSw3MDA4NzIxNzksLTIwNj
-gwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYz
-MTddfQ==
+eyJoaXN0b3J5IjpbNjU1Mzg0MjcxLDcwMDg3MjE3OSwtMjA2OD
+A4MDQ2NywtNzcwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMx
+N119
 -->
