@@ -268,10 +268,20 @@ funcs = {'sepal_length' : ['mean', 'std'],
 grouped_targets_f = iris.groupby(['target']).agg(funcs)
 grouped_targets_f
 ```
-Esto armará un dataset, separado por *sepal_length, sepal_width, petal_length, petal_width*. 
+Esto armará un dataset, separado por *sepal_length, sepal_width, petal_length, petal_width*.  Y los valores que indicamos en cada caso.
+
+### Sort
+
+Para ordenar una observación podemos usar **.sort_index()**:
+
+```python
+
+```
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA4MDM4NTMsLTgyNjU0MTkyNCwtMT
+eyJoaXN0b3J5IjpbLTE3NDczNDIzMzEsLTgyNjU0MTkyNCwtMT
 gyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1
 NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
 -->
