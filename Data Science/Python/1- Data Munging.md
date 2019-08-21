@@ -335,13 +335,17 @@ squared_iris = parallel_apply(iris[['sepal_length', 'sepal_width',
                                         func=square, 
                                         axis=1, 
                                         workers=4)
-    squared_iris
+ squared_iris
 
 ```
+
+## Data Selection
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTY3ODI4Nyw4NzkyNDEzNiwxMDkyMz
-kyODUyLC04MjY1NDE5MjQsLTE4MjY1MzIzMjEsNzAwODcyMTc5
-LC0yMDY4MDgwNDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2MjcsNz
-Y2MjI2MzE3XX0=
+eyJoaXN0b3J5IjpbLTg2MTMyNzU4OSwxNzMxNjc4Mjg3LDg3OT
+I0MTM2LDEwOTIzOTI4NTIsLTgyNjU0MTkyNCwtMTgyNjUzMjMy
+MSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1NjIwNywtMT
+gzNzQxODYyNyw3NjYyMjYzMTddfQ==
 -->
