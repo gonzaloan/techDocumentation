@@ -210,13 +210,19 @@ Esto hizo un inner join de la columna 5. Es decir, unió la columna 7, y dependi
 Podemos llamar a **dtypes** en un dataset, para ver los tipos de datos de cada columna.  Podemos además, reasignar data de las columnas
 
 ```python
-my_own_dataset['Col1'] = my_own_dataset['Col1'].as
+my_own_dataset['Col1'] = my_own_dataset['Col1'].astype(float)
 ```
+
+## Preprocesamiento de datos
+
+Ahora se empieza a manipular los datos.
+
+Primero, si se necesita aplicar una función a una sección limitada de 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzE0NTIwMCw3MDA4NzIxNzksLTIwNj
+eyJoaXN0b3J5IjpbMTEzNzI3NDQ2MSw3MDA4NzIxNzksLTIwNj
 gwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYz
 MTddfQ==
 -->
