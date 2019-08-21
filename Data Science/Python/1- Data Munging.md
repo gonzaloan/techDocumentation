@@ -290,11 +290,17 @@ iris.apply(np.count_nonzero, axis= 1).head()
 iris.apply(np.count_nonzero, axis= 0).head()
 ```
 
+### ApplyMap
+
+Usado para realizar una operación elemento por elemento. 
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjM5Mjg1MiwtODI2NTQxOTI0LC0xOD
-I2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNzcwOTU2
-MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
+eyJoaXN0b3J5IjpbLTI1MTU2OTg4LDEwOTIzOTI4NTIsLTgyNj
+U0MTkyNCwtMTgyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0
+NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ
+==
 -->
