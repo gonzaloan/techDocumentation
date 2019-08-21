@@ -299,11 +299,12 @@ Por ejemplo, buscamos el largo de la representación String de cada celda. Para 
 ```python
 iris.applymap(lambda x:len(str(x))).head()
 ```
+Cuando se aplican transformaciones a la data, no necesariamente se debe aplicar la función a cada columna. Podemos aplicar 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjIzMDQ0OCwxMDkyMzkyODUyLC04Mj
+eyJoaXN0b3J5IjpbLTU0MzY2NzY0MiwxMDkyMzkyODUyLC04Mj
 Y1NDE5MjQsLTE4MjY1MzIzMjEsNzAwODcyMTc5LC0yMDY4MDgw
 NDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2MzE3XX
 0=
