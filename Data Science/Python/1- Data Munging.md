@@ -381,17 +381,21 @@ dataset.iloc[4,2]
 
 Otras selecciones interesantes:
 
-Este muestra columna Val3 y Val2, 
+Este muestra columna Val3 y Val2, y los valores de las filas 0 y 1. (el dos queda fuera de la selección)
 ```python
 dataset_good_index[['val3', 'val2']][0:2]
+```
+Este comando anterior es igual a :
+```python
+
 ```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzMyOTQ5NywtODYxMzI3NTg5LDE3Mz
-E2NzgyODcsODc5MjQxMzYsMTA5MjM5Mjg1MiwtODI2NTQxOTI0
-LC0xODI2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNz
-cwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
+eyJoaXN0b3J5IjpbLTEwMzkxMjkwNTEsLTg2MTMyNzU4OSwxNz
+MxNjc4Mjg3LDg3OTI0MTM2LDEwOTIzOTI4NTIsLTgyNjU0MTky
+NCwtMTgyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLT
+c3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
 -->
