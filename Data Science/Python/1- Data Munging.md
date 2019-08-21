@@ -240,11 +240,13 @@ Para poder ver los valores de la columna target, podemos usar unique, que traerÃ
 iris['target'].unique()
 #El resultado es setosa, versicolor, New Label.
 ```
+Hay muchas operaciones para datasets
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjU0MTkyNCwtMTgyNjUzMjMyMSw3MD
-A4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQx
-ODYyNyw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbMTI5MTMxMDkzNiwtODI2NTQxOTI0LC0xOD
+I2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNzcwOTU2
+MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
 -->
