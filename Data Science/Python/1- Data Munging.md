@@ -285,13 +285,16 @@ Por ejemplo, queremos contar todos los elementos que no son cero en cada línea:
 
 ```python
 iris.apply(np.count_nonzero, axis= 1).head()
+
+#O los de cada columna
+iris.apply(np.count_nonzero, axis= 0).head()
 ```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTM4NjkyNSwtODI2NTQxOTI0LC0xOD
+eyJoaXN0b3J5IjpbMTA5MjM5Mjg1MiwtODI2NTQxOTI0LC0xOD
 I2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNzcwOTU2
 MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
 -->
