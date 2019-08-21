@@ -398,13 +398,21 @@ dataset.iloc[range(2), [2,1])
 ```
 *iloc desde indice 0 , 1 , 2 (sin tomar el 2), y las columnas 2, y 1.*
 
+## Datos Categóricos
+
+Es cuando usamos representaciones booleanas para datos categorizados.
+Ejemplo:
+Tenemos variables posibles para los datos que pueden ser **cloudy, sunny, snowy, rainy, foggy**.
+Para poder almacenar estos datos podríamos armar una matriz así:
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5ODM4ODY3LC04NjEzMjc1ODksMTczMT
-Y3ODI4Nyw4NzkyNDEzNiwxMDkyMzkyODUyLC04MjY1NDE5MjQs
-LTE4MjY1MzIzMjEsNzAwODcyMTc5LC0yMDY4MDgwNDY3LC03Nz
-A5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2MzE3XX0=
+eyJoaXN0b3J5IjpbLTIwMTk2MDcwNzMsNDk5ODM4ODY3LC04Nj
+EzMjc1ODksMTczMTY3ODI4Nyw4NzkyNDEzNiwxMDkyMzkyODUy
+LC04MjY1NDE5MjQsLTE4MjY1MzIzMjEsNzAwODcyMTc5LC0yMD
+Y4MDgwNDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2
+MzE3XX0=
 -->
