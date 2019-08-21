@@ -228,12 +228,15 @@ mask_feature
 Ahora, queremos sustituir el target label 'Iris Virginica'  con un nuevo label que diga 'New Label' , esto se puede hacer así:
 
 ```python
-
+mask_virginica = iris['target'] == 'virginica'
+iris.loc[mask_virginica, 'target'] = 'New Label'
+iris
 ```
+Todos los valore
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjY1MzIzMjEsNzAwODcyMTc5LC0yMD
-Y4MDgwNDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2
-MzE3XX0=
+eyJoaXN0b3J5IjpbMTY2OTg1OTA3OCwtMTgyNjUzMjMyMSw3MD
+A4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQx
+ODYyNyw3NjYyMjYzMTddfQ==
 -->
