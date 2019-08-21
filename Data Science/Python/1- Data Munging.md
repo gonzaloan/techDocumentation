@@ -279,12 +279,18 @@ iris.sort_index(by='sepal_length').head()
 ```
 ### Apply
 
-Permite 
+Permite realizar una operación programática a cualquier fila o columna. 
+
+Por ejemplo, queremos contar todos los elementos que no son cero en cada línea:
+
+```python
+
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjE4NTc0OCwtODI2NTQxOTI0LC0xOD
-I2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNzcwOTU2
-MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
+eyJoaXN0b3J5IjpbMzQzNTE2NzgyLC04MjY1NDE5MjQsLTE4Mj
+Y1MzIzMjEsNzAwODcyMTc5LC0yMDY4MDgwNDY3LC03NzA5NTYy
+MDcsLTE4Mzc0MTg2MjcsNzY2MjI2MzE3XX0=
 -->
