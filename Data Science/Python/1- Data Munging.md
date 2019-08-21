@@ -246,11 +246,13 @@ Hay muchas operaciones para datasets
 
 ### GroupBy
 
-Podemos agrupar observaciones por su campo target, podemos ver la diferencia entre el valor promedio y la varianza
+Podemos agrupar observaciones por su campo target, podemos ver la diferencia entre el valor promedio y la diferencia de las características para cada grupo (que imprimos arriba con Unique)
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Nzk5NzAxOSwtODI2NTQxOTI0LC0xOD
+eyJoaXN0b3J5IjpbMTI1MzE3NjgxNSwtODI2NTQxOTI0LC0xOD
 I2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNzcwOTU2
 MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
 -->
