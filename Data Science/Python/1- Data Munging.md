@@ -413,13 +413,25 @@ Categorical_feature = rainy   binary_features = [0, 0, 0, 1, 0]
 Categorical_feature = foggy   binary_features = [0, 0, 0, 0, 1]
 ```
 
+Pandas ayuda a hacer esto:
 
+```python
+categorical_feature = pd.Series(['sunny', 'cloudy', 'rainy', 'snowy', 'foggy'])
+mapping = pd.get_dummies(categorical_feature)
+mapping
+```
+Esto retorna un arreglo o represetnación en la que cada valor de la serie tiene un 1 asignado en cierta columna. 
+
+Podemos ver cada representación:
+```python
+mapping['sunny']
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzgyOTU5OCw0OTk4Mzg4NjcsLTg2MT
-MyNzU4OSwxNzMxNjc4Mjg3LDg3OTI0MTM2LDEwOTIzOTI4NTIs
-LTgyNjU0MTkyNCwtMTgyNjUzMjMyMSw3MDA4NzIxNzksLTIwNj
-gwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYz
-MTddfQ==
+eyJoaXN0b3J5IjpbLTE1MjcxMjEwNjMsNDk5ODM4ODY3LC04Nj
+EzMjc1ODksMTczMTY3ODI4Nyw4NzkyNDEzNiwxMDkyMzkyODUy
+LC04MjY1NDE5MjQsLTE4MjY1MzIzMjEsNzAwODcyMTc5LC0yMD
+Y4MDgwNDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2
+MzE3XX0=
 -->
