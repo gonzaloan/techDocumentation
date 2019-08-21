@@ -358,13 +358,18 @@ dataset_good_index = pd.read_csv('data_selection_example_1.csv', index_col=0)
 ```
 Ahora si se puede obtener el indice correcto.
 
-Además, podemos acceder al valor de una celda
+Además, podemos acceder al valor de una celda así:
 
-- 
+```python
+dataset['val3'][104]
+```
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA0MTM4MTMsLTg2MTMyNzU4OSwxNz
-MxNjc4Mjg3LDg3OTI0MTM2LDEwOTIzOTI4NTIsLTgyNjU0MTky
-NCwtMTgyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLT
-c3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbNzA3MTQ0NDI0LC04NjEzMjc1ODksMTczMT
+Y3ODI4Nyw4NzkyNDEzNiwxMDkyMzkyODUyLC04MjY1NDE5MjQs
+LTE4MjY1MzIzMjEsNzAwODcyMTc5LC0yMDY4MDgwNDY3LC03Nz
+A5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2MzE3XX0=
 -->
