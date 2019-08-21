@@ -405,14 +405,21 @@ Ejemplo:
 Tenemos variables posibles para los datos que pueden ser **cloudy, sunny, snowy, rainy, foggy**.
 Para poder almacenar estos datos podríamos armar una matriz así:
 
+```python
+Categorical_feature = sunny   binary_features = [1, 0, 0, 0, 0]
+Categorical_feature = cloudy  binary_features = [0, 1, 0, 0, 0]
+Categorical_feature = snowy   binary_features = [0, 0, 1, 0, 0]
+Categorical_feature = rainy   binary_features = [0, 0, 0, 1, 0]
+Categorical_feature = foggy   binary_features = [0, 0, 0, 0, 1]
+```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk2MDcwNzMsNDk5ODM4ODY3LC04Nj
-EzMjc1ODksMTczMTY3ODI4Nyw4NzkyNDEzNiwxMDkyMzkyODUy
-LC04MjY1NDE5MjQsLTE4MjY1MzIzMjEsNzAwODcyMTc5LC0yMD
-Y4MDgwNDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2
-MzE3XX0=
+eyJoaXN0b3J5IjpbLTgyNzgyOTU5OCw0OTk4Mzg4NjcsLTg2MT
+MyNzU4OSwxNzMxNjc4Mjg3LDg3OTI0MTM2LDEwOTIzOTI4NTIs
+LTgyNjU0MTkyNCwtMTgyNjUzMjMyMSw3MDA4NzIxNzksLTIwNj
+gwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYz
+MTddfQ==
 -->
