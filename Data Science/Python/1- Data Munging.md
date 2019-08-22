@@ -465,14 +465,17 @@ count_vect = CountVectorizer()
 word_count = count_vect.fit_transform(twenty_sci_news.data)
 word_count.shape
 ```
-
+Acá lo que está pasando es:
+- Importamos CountVectorizer. 
+- Llamamos al método que cuenta las palabras en cada documento y produce un vector.
+- Este shape da (
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTg3NTQ1MDYsMzc5MjUwNDAxLDExOD
-M4ODI3MTMsODkwMDU1ODY2LDQ5OTgzODg2NywtODYxMzI3NTg5
-LDE3MzE2NzgyODcsODc5MjQxMzYsMTA5MjM5Mjg1MiwtODI2NT
-QxOTI0LC0xODI2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2
-NywtNzcwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
+eyJoaXN0b3J5IjpbLTYwNDMwNjI0MCwzNzkyNTA0MDEsMTE4Mz
+g4MjcxMyw4OTAwNTU4NjYsNDk5ODM4ODY3LC04NjEzMjc1ODks
+MTczMTY3ODI4Nyw4NzkyNDEzNiwxMDkyMzkyODUyLC04MjY1ND
+E5MjQsLTE4MjY1MzIzMjEsNzAwODcyMTc5LC0yMDY4MDgwNDY3
+LC03NzA5NTYyMDcsLTE4Mzc0MTg2MjcsNzY2MjI2MzE3XX0=
 -->
