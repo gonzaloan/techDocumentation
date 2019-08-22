@@ -426,15 +426,16 @@ Podemos ver cada representación:
 ```python
 mapping['sunny']
 ```
-Esta misma operación puede hacerse con SkiKit Learn.
+Esta misma operación puede hacerse con SkiKit Learn:
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzM5MTA4MCw0OTk4Mzg4NjcsLTg2MT
-MyNzU4OSwxNzMxNjc4Mjg3LDg3OTI0MTM2LDEwOTIzOTI4NTIs
-LTgyNjU0MTkyNCwtMTgyNjUzMjMyMSw3MDA4NzIxNzksLTIwNj
-gwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYz
-MTddfQ==
+eyJoaXN0b3J5IjpbODkwMDU1ODY2LDQ5OTgzODg2NywtODYxMz
+I3NTg5LDE3MzE2NzgyODcsODc5MjQxMzYsMTA5MjM5Mjg1Miwt
+ODI2NTQxOTI0LC0xODI2NTMyMzIxLDcwMDg3MjE3OSwtMjA2OD
+A4MDQ2NywtNzcwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMx
+N119
 -->
