@@ -428,14 +428,30 @@ mapping['sunny']
 ```
 Esta misma operación puede hacerse con SkiKit Learn:
 
+```python
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import LabelEncoder
+le = LabelEncoder()
+ohe = OneHotEncoder()
+levels = ['sunny', 'cloudy', 'snowy', 'rainy', 'foggy']
+fit_levs = le.fit_transform(levels)
+ohe.fit([[fit_levs[0]], [fit_levs[1]], [fit_levs[2]], [fit_levs[3]], [fit_levs[4]]])
+
+
+print (ohe.transform([le.transform(['sunny'])]).toarray())
+print (ohe.transform([le.transform(['cloudy'])]).toarray())
+```
+
+### Tipo de dato Text
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkwMDU1ODY2LDQ5OTgzODg2NywtODYxMz
-I3NTg5LDE3MzE2NzgyODcsODc5MjQxMzYsMTA5MjM5Mjg1Miwt
-ODI2NTQxOTI0LC0xODI2NTMyMzIxLDcwMDg3MjE3OSwtMjA2OD
-A4MDQ2NywtNzcwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMx
-N119
+eyJoaXN0b3J5IjpbMTE4Mzg4MjcxMyw4OTAwNTU4NjYsNDk5OD
+M4ODY3LC04NjEzMjc1ODksMTczMTY3ODI4Nyw4NzkyNDEzNiwx
+MDkyMzkyODUyLC04MjY1NDE5MjQsLTE4MjY1MzIzMjEsNzAwOD
+cyMTc5LC0yMDY4MDgwNDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2
+MjcsNzY2MjI2MzE3XX0=
 -->
