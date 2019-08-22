@@ -444,14 +444,26 @@ print (ohe.transform([le.transform(['cloudy'])]).toarray())
 
 ### Tipo de dato Text
 
+Podemos tener un dataset de muchas palabras, el siguiente tiene noticias:
+
+```python
+from sklearn.datasets import fetch_20newsgroups
+categories = ['sci.med', 'sci.space']
+twenty_sci_news = fetch_20newsgroups(categories = categories)
+print(twenty_sci_news.data[0])
+print(twenty_sci_news.filenames)
+```
+El .data[0] indica las noticias de sci.med, y el 1 de sci.space.
+
+La mejor manera de lidiar con los textos es convertirlos a una serie de palabras. Esto significa que, para cada documento, se contará la cantidad de veces que aparece una palabra
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mzg4MjcxMyw4OTAwNTU4NjYsNDk5OD
-M4ODY3LC04NjEzMjc1ODksMTczMTY3ODI4Nyw4NzkyNDEzNiwx
-MDkyMzkyODUyLC04MjY1NDE5MjQsLTE4MjY1MzIzMjEsNzAwOD
-cyMTc5LC0yMDY4MDgwNDY3LC03NzA5NTYyMDcsLTE4Mzc0MTg2
-MjcsNzY2MjI2MzE3XX0=
+eyJoaXN0b3J5IjpbLTEwNDYxMDMxNDksMTE4Mzg4MjcxMyw4OT
+AwNTU4NjYsNDk5ODM4ODY3LC04NjEzMjc1ODksMTczMTY3ODI4
+Nyw4NzkyNDEzNiwxMDkyMzkyODUyLC04MjY1NDE5MjQsLTE4Mj
+Y1MzIzMjEsNzAwODcyMTc5LC0yMDY4MDgwNDY3LC03NzA5NTYy
+MDcsLTE4Mzc0MTg2MjcsNzY2MjI2MzE3XX0=
 -->
