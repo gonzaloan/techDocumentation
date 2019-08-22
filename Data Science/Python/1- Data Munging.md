@@ -468,12 +468,12 @@ word_count.shape
 Acá lo que está pasando es:
 - Importamos CountVectorizer. 
 - Llamamos al método que cuenta las palabras en cada documento y produce un vector.
-- Este shape da (
+- Este shape da (1187, 25638): El primer valor corresponde al número de observaciones en el dataset (Número de documentos), mientras que el segundo es el número de palabras únicas en el dataset.
 
-
+Luego de eso, podemos ver 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDMwNjI0MCwzNzkyNTA0MDEsMTE4Mz
+eyJoaXN0b3J5IjpbLTUxMTYyNzE2NSwzNzkyNTA0MDEsMTE4Mz
 g4MjcxMyw4OTAwNTU4NjYsNDk5ODM4ODY3LC04NjEzMjc1ODks
 MTczMTY3ODI4Nyw4NzkyNDEzNiwxMDkyMzkyODUyLC04MjY1ND
 E5MjQsLTE4MjY1MzIzMjEsNzAwODcyMTc5LC0yMDY4MDgwNDY3
