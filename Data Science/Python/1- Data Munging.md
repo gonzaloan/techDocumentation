@@ -477,14 +477,18 @@ print(word_count[0])
 Este muestra un vector donde sólo se muestran los valores no ceros. Para ver la correspondencia de palabras podemos usar el siguiente código:
 
 ```python
-
+word_list = count_vect.get_feature_names()
+for n in word_count[0].indices:
+    print('La palabra "%s" aparece %i veces' % (word_list[n], word_count[0, n]))
 ```
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjM4NDQ4MSwtNTExNjI3MTY1LDM3OT
-I1MDQwMSwxMTgzODgyNzEzLDg5MDA1NTg2Niw0OTk4Mzg4Njcs
-LTg2MTMyNzU4OSwxNzMxNjc4Mjg3LDg3OTI0MTM2LDEwOTIzOT
-I4NTIsLTgyNjU0MTkyNCwtMTgyNjUzMjMyMSw3MDA4NzIxNzks
-LTIwNjgwODA0NjcsLTc3MDk1NjIwNywtMTgzNzQxODYyNyw3Nj
-YyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbLTI1OTY1MTMxOSwtNDI2Mzg0NDgxLC01MT
+E2MjcxNjUsMzc5MjUwNDAxLDExODM4ODI3MTMsODkwMDU1ODY2
+LDQ5OTgzODg2NywtODYxMzI3NTg5LDE3MzE2NzgyODcsODc5Mj
+QxMzYsMTA5MjM5Mjg1MiwtODI2NTQxOTI0LC0xODI2NTMyMzIx
+LDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNzcwOTU2MjA3LC0xOD
+M3NDE4NjI3LDc2NjIyNjMxN119
 -->
