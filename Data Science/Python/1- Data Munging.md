@@ -457,13 +457,18 @@ El .data[0] indica las noticias de sci.med, y el 1 de sci.space.
 
 La mejor manera de lidiar con los textos es convertirlos a una serie de palabras. Esto significa que, para cada documento, se contará la cantidad de veces que aparece una palabra. 
 
+Podemos contar con skelearn:
+
+```python
+from sklearn.
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5MjUwNDAxLDExODM4ODI3MTMsODkwMD
-U1ODY2LDQ5OTgzODg2NywtODYxMzI3NTg5LDE3MzE2NzgyODcs
-ODc5MjQxMzYsMTA5MjM5Mjg1MiwtODI2NTQxOTI0LC0xODI2NT
-MyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNzcwOTU2MjA3
-LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
+eyJoaXN0b3J5IjpbOTEzNDE3Njc2LDM3OTI1MDQwMSwxMTgzOD
+gyNzEzLDg5MDA1NTg2Niw0OTk4Mzg4NjcsLTg2MTMyNzU4OSwx
+NzMxNjc4Mjg3LDg3OTI0MTM2LDEwOTIzOTI4NTIsLTgyNjU0MT
+kyNCwtMTgyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0Njcs
+LTc3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
 -->
