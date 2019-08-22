@@ -460,15 +460,19 @@ La mejor manera de lidiar con los textos es convertirlos a una serie de palabras
 Podemos contar con skelearn:
 
 ```python
-from sklearn.
+from sklearn.feature_extraction.text import CountVectorizer
+count_vect = CountVectorizer()
+word_count = count_vect.fit_transform(twenty_sci_news.data)
+word_count.shape
 ```
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzNDE3Njc2LDM3OTI1MDQwMSwxMTgzOD
-gyNzEzLDg5MDA1NTg2Niw0OTk4Mzg4NjcsLTg2MTMyNzU4OSwx
-NzMxNjc4Mjg3LDg3OTI0MTM2LDEwOTIzOTI4NTIsLTgyNjU0MT
-kyNCwtMTgyNjUzMjMyMSw3MDA4NzIxNzksLTIwNjgwODA0Njcs
-LTc3MDk1NjIwNywtMTgzNzQxODYyNyw3NjYyMjYzMTddfQ==
+eyJoaXN0b3J5IjpbLTIwNTg3NTQ1MDYsMzc5MjUwNDAxLDExOD
+M4ODI3MTMsODkwMDU1ODY2LDQ5OTgzODg2NywtODYxMzI3NTg5
+LDE3MzE2NzgyODcsODc5MjQxMzYsMTA5MjM5Mjg1MiwtODI2NT
+QxOTI0LC0xODI2NTMyMzIxLDcwMDg3MjE3OSwtMjA2ODA4MDQ2
+NywtNzcwOTU2MjA3LC0xODM3NDE4NjI3LDc2NjIyNjMxN119
 -->
