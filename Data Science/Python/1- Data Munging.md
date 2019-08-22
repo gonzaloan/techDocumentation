@@ -482,13 +482,13 @@ for n in word_count[0].indices:
     print('La palabra "%s" aparece %i veces' % (word_list[n], word_count[0, n]))
 ```
 
-
+También podemos contar la fre
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTY1MTMxOSwtNDI2Mzg0NDgxLC01MT
-E2MjcxNjUsMzc5MjUwNDAxLDExODM4ODI3MTMsODkwMDU1ODY2
-LDQ5OTgzODg2NywtODYxMzI3NTg5LDE3MzE2NzgyODcsODc5Mj
-QxMzYsMTA5MjM5Mjg1MiwtODI2NTQxOTI0LC0xODI2NTMyMzIx
-LDcwMDg3MjE3OSwtMjA2ODA4MDQ2NywtNzcwOTU2MjA3LC0xOD
-M3NDE4NjI3LDc2NjIyNjMxN119
+eyJoaXN0b3J5IjpbLTE4ODI5NjUzNDksLTQyNjM4NDQ4MSwtNT
+ExNjI3MTY1LDM3OTI1MDQwMSwxMTgzODgyNzEzLDg5MDA1NTg2
+Niw0OTk4Mzg4NjcsLTg2MTMyNzU4OSwxNzMxNjc4Mjg3LDg3OT
+I0MTM2LDEwOTIzOTI4NTIsLTgyNjU0MTkyNCwtMTgyNjUzMjMy
+MSw3MDA4NzIxNzksLTIwNjgwODA0NjcsLTc3MDk1NjIwNywtMT
+gzNzQxODYyNyw3NjYyMjYzMTddfQ==
 -->
