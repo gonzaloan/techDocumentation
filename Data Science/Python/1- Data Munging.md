@@ -482,10 +482,10 @@ for n in word_count[0].indices:
     print('La palabra "%s" aparece %i veces' % (word_list[n], word_count[0, n]))
 ```
 
-También podemos contar la fre
+También podemos contar la frecuencia, así podemos detectar si es una **stop word** o una palabra única. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI5NjUzNDksLTQyNjM4NDQ4MSwtNT
+eyJoaXN0b3J5IjpbLTE1OTI5NjYwMTAsLTQyNjM4NDQ4MSwtNT
 ExNjI3MTY1LDM3OTI1MDQwMSwxMTgzODgyNzEzLDg5MDA1NTg2
 Niw0OTk4Mzg4NjcsLTg2MTMyNzU4OSwxNzMxNjc4Mjg3LDg3OT
 I0MTM2LDEwOTIzOTI4NTIsLTgyNjU0MTkyNCwtMTgyNjUzMjMy
