@@ -55,6 +55,14 @@ sorted(a, key=itemgetter(1)) #Ordena por el valor 1 de cada tupla.
 
 ```
 
+##### List Comprehensions
+```python
+[x+5 for x in [1,2,3]] 
+#imprime 6,7,8
+```
+
+
+
 #### Dictionary
 
 Formas de crear un diccionario con los valores {'A':1, 'Z': -1}
@@ -91,5 +99,5 @@ d.get('a') #obtiene
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTk2MzgyOCwxMDgzMjA0MjIxXX0=
+eyJoaXN0b3J5IjpbMTkzNzA5NjQ1NSwxMDgzMjA0MjIxXX0=
 -->
