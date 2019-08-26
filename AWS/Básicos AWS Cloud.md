@@ -8,11 +8,14 @@ Bloques de creación fundamentales para la TI en la nube.
 Acceso a características de red, los equipos y espacio de almacenamiento de datos. 
 
 ### Plattform as a Service (PaaS)
+Elimina a los negocios la necesidad de administrar infraestructura subyacente(hardware y SO) 
 
-
+### Software as a Service (SaaS)
+Proporciona un producto completo que el proveedor del servicio ejecuta y administra.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTAwOTY0NSwxNDk2NzI4MDgxXX0=
+eyJoaXN0b3J5IjpbLTExMTc5OTg3NDUsMTcxNTAwOTY0NSwxND
+k2NzI4MDgxXX0=
 -->
