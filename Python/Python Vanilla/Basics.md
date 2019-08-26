@@ -114,11 +114,17 @@ vision.right #8.8
 d = {}
 d['age'] = d.get('age', 0) +1 #Si no hay edad, el default es 0 y se suma 1
 #con default dict
+from collections import defaultdict
+dd = defaultdict(int)
+dd['age'] += 1
+dd #daría 1
 
 ```
+- **chainMap**
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzk3Mjc4OCwtMjA3NDUwNjk1NCwtNz
+eyJoaXN0b3J5IjpbMTU1NDQyMDQzNCwtMjA3NDUwNjk1NCwtNz
 UxMDAzODY1LDEwODMyMDQyMjFdfQ==
 -->
