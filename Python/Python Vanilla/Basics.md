@@ -98,8 +98,18 @@ d.get('a') #obtiene
 
 - **namedtuple()**: 
 
+```python
+from collections import namedtuple
+vision = namedtuple('Vision', ['left', 'right'])
+vision = vision(9.5, 8.8)
+vision[0] #9.5
+vision.left # 9.5
+
+```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTAwMzg2NSwxMDgzMjA0MjIxXX0=
+eyJoaXN0b3J5IjpbOTg5NzQ1Nzg3LC03NTEwMDM4NjUsMTA4Mz
+IwNDIyMV19
 -->
