@@ -19,7 +19,7 @@ Proporciona un producto completo que el proveedor del servicio ejecuta y adminis
 - Amazon EC2 : Elastic Cloud server
 - LightSail : VPS 
 - ECS: Elastic Container Service: Registro de Docker Container. 
-- Lambda: 
+- Lambda: Serverles Compute. Gestiona backend code al hacer cosas como subir documentos, o en app actividad
 
 
 
@@ -27,6 +27,6 @@ Proporciona un producto completo que el proveedor del servicio ejecuta y adminis
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4Mzg5OTQ5LC0xMDMxNjg4MDQ5LC0xMT
-E3OTk4NzQ1LDE3MTUwMDk2NDUsMTQ5NjcyODA4MV19
+eyJoaXN0b3J5IjpbLTI0MTQ1MjI0MywtMTAzMTY4ODA0OSwtMT
+ExNzk5ODc0NSwxNzE1MDA5NjQ1LDE0OTY3MjgwODFdfQ==
 -->
