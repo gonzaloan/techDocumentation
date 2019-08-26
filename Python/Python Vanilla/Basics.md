@@ -110,11 +110,13 @@ vision.right #8.8
 - **defaultdict**: 
 
 ```python
-
+#dictionario normal
+d = {}
+d
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ1MDY5NTQsLTc1MTAwMzg2NSwxMD
-gzMjA0MjIxXX0=
+eyJoaXN0b3J5IjpbMTY0MzY0NTEwOCwtMjA3NDUwNjk1NCwtNz
+UxMDAzODY1LDEwODMyMDQyMjFdfQ==
 -->
