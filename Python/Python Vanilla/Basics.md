@@ -132,6 +132,8 @@ conn = ChainMap(connection, default_connection) #linkea los maps
 conn['port'] #retorna 4567
 conn['host'] #localhost
 conn.maps #muestra todos los map
+conn['host'] = 'nuevo!' #Añade otro
+#Se le agrega al primer map. 
 
 
 ```
@@ -139,6 +141,6 @@ conn.maps #muestra todos los map
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjY0ODA4NywxNTU0NDIwNDM0LC0yMD
-c0NTA2OTU0LC03NTEwMDM4NjUsMTA4MzIwNDIyMV19
+eyJoaXN0b3J5IjpbMzkxNTIwMjMwLDE1NTQ0MjA0MzQsLTIwNz
+Q1MDY5NTQsLTc1MTAwMzg2NSwxMDgzMjA0MjIxXX0=
 -->
