@@ -144,18 +144,20 @@ from enum import Enum
 class TrafficLight(Enum):
 	GREEN = 1
 	YELLOW = 2
-	GREEN = 3
+	RED = 3
 
 #llamamos al ENUM así:
 TrafficLight.GREEN
 #O:
 TrafficLight.GREEN.value
 TrafficLight.GREEN.name
+TrafficLight(1)
+TrafficLight(3) #RED
 
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU3MTUzODAsMTU1NDQyMDQzNCwtMj
-A3NDUwNjk1NCwtNzUxMDAzODY1LDEwODMyMDQyMjFdfQ==
+eyJoaXN0b3J5IjpbNTgwMzIxNTQyLDE1NTQ0MjA0MzQsLTIwNz
+Q1MDY5NTQsLTc1MTAwMzg2NSwxMDgzMjA0MjIxXX0=
 -->
