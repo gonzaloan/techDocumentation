@@ -16,7 +16,7 @@ Proporciona un producto completo que el proveedor del servicio ejecuta y adminis
 
 ## Servicios de Informática
 
-### Amazon EC2 : Elastic Cloud server.
+### Amazon EC2 : Elastic Cloud server
 ### LightSail : VPS 
 
 
@@ -25,6 +25,6 @@ Proporciona un producto completo que el proveedor del servicio ejecuta y adminis
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjQxNjM2OSwtMTExNzk5ODc0NSwxNz
-E1MDA5NjQ1LDE0OTY3MjgwODFdfQ==
+eyJoaXN0b3J5IjpbLTEwMzE2ODgwNDksLTExMTc5OTg3NDUsMT
+cxNTAwOTY0NSwxNDk2NzI4MDgxXX0=
 -->
