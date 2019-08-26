@@ -21,12 +21,13 @@ Proporciona un producto completo que el proveedor del servicio ejecuta y adminis
 - ECS: Elastic Container Service: Registro de Docker Container. 
 - Lambda: Serverles Compute. Gestiona backend code al hacer cosas como subir documentos, o en app actividad
 
+##  Servicios de AWS Analytics
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTQ1MjI0MywtMTAzMTY4ODA0OSwtMT
-ExNzk5ODc0NSwxNzE1MDA5NjQ1LDE0OTY3MjgwODFdfQ==
+eyJoaXN0b3J5IjpbLTE2MTM1MjkxMzIsLTEwMzE2ODgwNDksLT
+ExMTc5OTg3NDUsMTcxNTAwOTY0NSwxNDk2NzI4MDgxXX0=
 -->
