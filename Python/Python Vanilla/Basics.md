@@ -158,6 +158,5 @@ TrafficLight(3) #RED
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwMzIxNTQyLDE1NTQ0MjA0MzQsLTIwNz
-Q1MDY5NTQsLTc1MTAwMzg2NSwxMDgzMjA0MjIxXX0=
+eyJoaXN0b3J5IjpbNTgwMzIxNTQyXX0=
 -->
