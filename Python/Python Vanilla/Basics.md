@@ -126,12 +126,19 @@ Sirve para unir grupos de maps
 
 ```python
 from collections import ChainMap
-default_connection = {'host': 'lo
+default_connection = {'host': 'localhost', 'port':4567}
+connection = {'port': 5678}
+conn = ChainMap(connection, default_connection) #linkea los maps
+conn['port'] #retorna 4567
+conn['host'] #localhost
+conn.maps #muestra todos los map
+
+
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTg1NzI0NiwxNTU0NDIwNDM0LC0yMD
+eyJoaXN0b3J5IjpbMTA0MjY0ODA4NywxNTU0NDIwNDM0LC0yMD
 c0NTA2OTU0LC03NTEwMDM4NjUsMTA4MzIwNDIyMV19
 -->
