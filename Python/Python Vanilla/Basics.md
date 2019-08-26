@@ -86,15 +86,10 @@ d.update({'another':'value'})
 d.update(a=13) #también
 d.get('a') #obtiene
 ```
-##### List Comprehensions
-```python
-[x+5 for x in [1,2,3]] 
-#imprime 6,7,8
-```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzIwNDIyMV19
+eyJoaXN0b3J5IjpbMTQzMTk2MzgyOCwxMDgzMjA0MjIxXX0=
 -->
