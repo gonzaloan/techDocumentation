@@ -122,9 +122,16 @@ dd #daría 1
 ```
 - **chainMap**
 
+Sirve para unir grupos de maps
+
+```python
+from collections import ChainMap
+default_connection = {'host': 'lo
+```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDQyMDQzNCwtMjA3NDUwNjk1NCwtNz
-UxMDAzODY1LDEwODMyMDQyMjFdfQ==
+eyJoaXN0b3J5IjpbLTQ1NTg1NzI0NiwxNTU0NDIwNDM0LC0yMD
+c0NTA2OTU0LC03NTEwMDM4NjUsMTA4MzIwNDIyMV19
 -->
