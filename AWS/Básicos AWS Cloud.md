@@ -14,9 +14,17 @@ Elimina a los negocios la necesidad de administrar infraestructura subyacente(ha
 Proporciona un producto completo que el proveedor del servicio ejecuta y administra.
 
 
-##
+## Servicios de Informática
+
+### Amazon EC2 : Elastic Cloud server.
+### LightSail : VPS 
+
+
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk3NTA5ODcsLTExMTc5OTg3NDUsMT
-cxNTAwOTY0NSwxNDk2NzI4MDgxXX0=
+eyJoaXN0b3J5IjpbMTQyMjQxNjM2OSwtMTExNzk5ODc0NSwxNz
+E1MDA5NjQ1LDE0OTY3MjgwODFdfQ==
 -->
