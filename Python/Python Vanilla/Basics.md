@@ -138,10 +138,24 @@ conn['host'] = 'nuevo!' #Añade otro
 ```
 ### Enums
 
+```python
+from enum import Enum
 
+class TrafficLight(Enum):
+	GREEN = 1
+	YELLOW = 2
+	GREEN = 3
+
+#llamamos al ENUM así:
+TrafficLight.GREEN
+#O:
+TrafficLight.GREEN.value
+TrafficLight.GREEN.name
+
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDA1Mjg1OSwxNTU0NDIwNDM0LC0yMD
-c0NTA2OTU0LC03NTEwMDM4NjUsMTA4MzIwNDIyMV19
+eyJoaXN0b3J5IjpbLTE5OTU3MTUzODAsMTU1NDQyMDQzNCwtMj
+A3NDUwNjk1NCwtNzUxMDAzODY1LDEwODMyMDQyMjFdfQ==
 -->
