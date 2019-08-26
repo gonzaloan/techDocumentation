@@ -94,10 +94,12 @@ d.update({'another':'value'})
 d.update(a=13) #también
 d.get('a') #obtiene
 ```
+### Otros tipos de datos de contenedores
 
+- **namedtuple()**: 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzA5NjQ1NSwxMDgzMjA0MjIxXX0=
+eyJoaXN0b3J5IjpbLTc1MTAwMzg2NSwxMDgzMjA0MjIxXX0=
 -->
