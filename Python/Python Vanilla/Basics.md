@@ -112,11 +112,13 @@ vision.right #8.8
 ```python
 #dictionario normal
 d = {}
-d
+d['age'] = d.get('age', 0) +1 #Si no hay edad, el default es 0 y se suma 1
+#con default dict
+
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzY0NTEwOCwtMjA3NDUwNjk1NCwtNz
+eyJoaXN0b3J5IjpbMTIxMzk3Mjc4OCwtMjA3NDUwNjk1NCwtNz
 UxMDAzODY1LDEwODMyMDQyMjFdfQ==
 -->
