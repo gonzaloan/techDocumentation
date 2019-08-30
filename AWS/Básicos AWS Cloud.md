@@ -57,7 +57,7 @@ No hay un servidor como EC2, AWS se encarga de ejecutarlo cuando se necesite.
 
 Se pueden programar funciones lambda en NodeJS, Python, Java, C# y Go. 
 
- 
+Está limitada a 1000 ejecuciones concurrentes. 
 
 
 
@@ -65,9 +65,9 @@ Se pueden programar funciones lambda en NodeJS, Python, Java, C# y Go.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDA0NTc4NywxNTY5NDc0MDU5LDQwOD
-Y1NTQ4LC0yMDgxNTU2MDE3LC0xNzA3MzQyMzQsODQzODUyNzY5
-LDIwMzQ5NDMzOTYsLTE5OTMzOTA1NzcsLTE2MTM1MjkxMzIsLT
-EwMzE2ODgwNDksLTExMTc5OTg3NDUsMTcxNTAwOTY0NSwxNDk2
-NzI4MDgxXX0=
+eyJoaXN0b3J5IjpbLTc0NjQ0MDc5MSwtNDU0MDQ1Nzg3LDE1Nj
+k0NzQwNTksNDA4NjU1NDgsLTIwODE1NTYwMTcsLTE3MDczNDIz
+NCw4NDM4NTI3NjksMjAzNDk0MzM5NiwtMTk5MzM5MDU3NywtMT
+YxMzUyOTEzMiwtMTAzMTY4ODA0OSwtMTExNzk5ODc0NSwxNzE1
+MDA5NjQ1LDE0OTY3MjgwODFdfQ==
 -->
