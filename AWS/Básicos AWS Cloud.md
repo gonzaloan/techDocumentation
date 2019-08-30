@@ -39,12 +39,18 @@ agregamos la IP.
 -- Hacer los update del sistema operativo
 -- Hacer respaldos, pueden hacerse periódicamente o según se necesite. También se puede hacer un snapshot y copiarlos en otra máquina. En el menú Actions de Amazon, se puede Crear una imagen. 
 
+## Implementando un proyecto en EC2
+
+- Mediante MobaXterm podemos conectarnos a nuestra máquina.
+- 
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzODUyNzY5LDIwMzQ5NDMzOTYsLTE5OT
-MzOTA1NzcsLTE2MTM1MjkxMzIsLTEwMzE2ODgwNDksLTExMTc5
-OTg3NDUsMTcxNTAwOTY0NSwxNDk2NzI4MDgxXX0=
+eyJoaXN0b3J5IjpbLTE3MDczNDIzNCw4NDM4NTI3NjksMjAzND
+k0MzM5NiwtMTk5MzM5MDU3NywtMTYxMzUyOTEzMiwtMTAzMTY4
+ODA0OSwtMTExNzk5ODc0NSwxNzE1MDA5NjQ1LDE0OTY3MjgwOD
+FdfQ==
 -->
