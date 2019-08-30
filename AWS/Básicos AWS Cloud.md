@@ -51,14 +51,23 @@ agregamos la IP.
 
 ## Lambdas Y Serverless
 
+Lugar donde se ejecutan funciones de código. Viven de manera independiente.
+
+No hay un servidor como EC2, AWS se encarga de ejecutarlo cuando se necesite. 
+
+Se pueden programar funciones lambda en NodeJS, Python, Java, C# y Go. 
+
+ 
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTQ3NDA1OSw0MDg2NTU0OCwtMjA4MT
-U1NjAxNywtMTcwNzM0MjM0LDg0Mzg1Mjc2OSwyMDM0OTQzMzk2
-LC0xOTkzMzkwNTc3LC0xNjEzNTI5MTMyLC0xMDMxNjg4MDQ5LC
-0xMTE3OTk4NzQ1LDE3MTUwMDk2NDUsMTQ5NjcyODA4MV19
+eyJoaXN0b3J5IjpbLTQ1NDA0NTc4NywxNTY5NDc0MDU5LDQwOD
+Y1NTQ4LC0yMDgxNTU2MDE3LC0xNzA3MzQyMzQsODQzODUyNzY5
+LDIwMzQ5NDMzOTYsLTE5OTMzOTA1NzcsLTE2MTM1MjkxMzIsLT
+EwMzE2ODgwNDksLTExMTc5OTg3NDUsMTcxNTAwOTY0NSwxNDk2
+NzI4MDgxXX0=
 -->
