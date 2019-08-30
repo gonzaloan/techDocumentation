@@ -45,15 +45,15 @@ agregamos la IP.
 - Hacemos un git clone del proyecto que queramos instalar: git clone https://github.com/mauropm/aws-platzi-python.git
 - Dentro de la máquina, se instalan todas las dependencias, y en este caso se inicia el proyecto con python app.py
 - Esto debe levantar la máquina en el puerto 5000.
-- Es necesario entrar a la consola de AWS, y presionar en security group. 
+- Es necesario entrar a la consola de AWS, y presionar en security group. Esto abrirá un menú y se debe ver los permisos en **Inbound** (Cómo nos conectaremos a esa máquina). se 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzEwMzU1MiwtMjA4MTU1NjAxNywtMT
-cwNzM0MjM0LDg0Mzg1Mjc2OSwyMDM0OTQzMzk2LC0xOTkzMzkw
-NTc3LC0xNjEzNTI5MTMyLC0xMDMxNjg4MDQ5LC0xMTE3OTk4Nz
-Q1LDE3MTUwMDk2NDUsMTQ5NjcyODA4MV19
+eyJoaXN0b3J5IjpbLTIxMzc2MTAxNDksLTIwODE1NTYwMTcsLT
+E3MDczNDIzNCw4NDM4NTI3NjksMjAzNDk0MzM5NiwtMTk5MzM5
+MDU3NywtMTYxMzUyOTEzMiwtMTAzMTY4ODA0OSwtMTExNzk5OD
+c0NSwxNzE1MDA5NjQ1LDE0OTY3MjgwODFdfQ==
 -->
