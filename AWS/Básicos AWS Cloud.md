@@ -42,6 +42,7 @@ agregamos la IP.
 ## Implementando un proyecto en EC2
 
 - Mediante MobaXterm podemos conectarnos a nuestra máquina.
+- Hacemos un git clone del proyecto que queramos instalar: git clone https://github.com/mauropm/aws-platzi-python.git
 - 
 
 
@@ -49,8 +50,8 @@ agregamos la IP.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDczNDIzNCw4NDM4NTI3NjksMjAzND
-k0MzM5NiwtMTk5MzM5MDU3NywtMTYxMzUyOTEzMiwtMTAzMTY4
-ODA0OSwtMTExNzk5ODc0NSwxNzE1MDA5NjQ1LDE0OTY3MjgwOD
-FdfQ==
+eyJoaXN0b3J5IjpbLTIwODE1NTYwMTcsLTE3MDczNDIzNCw4ND
+M4NTI3NjksMjAzNDk0MzM5NiwtMTk5MzM5MDU3NywtMTYxMzUy
+OTEzMiwtMTAzMTY4ODA0OSwtMTExNzk5ODc0NSwxNzE1MDA5Nj
+Q1LDE0OTY3MjgwODFdfQ==
 -->
