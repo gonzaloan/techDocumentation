@@ -23,15 +23,17 @@ Proporciona un producto completo que el proveedor del servicio ejecuta y adminis
 
 ##  Conectarse a EC2 por MobaXterm
 
-En Amazon, puede extraerse la IPv4 pública:
-
-
+- En Amazon, puede extraerse la IPv4 pública:
+**3.83.217.146**
+- En MobaXTerm creamos una nueva sesión SSH
+agregamos la IP. 
+- El usuario por defecto de una máquina de amazon es ec2-user. En el caso de Ubuntu el usuario es *ubuntu*. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMDQ2MDE1LC0xNjEzNTI5MTMyLC0xMD
-MxNjg4MDQ5LC0xMTE3OTk4NzQ1LDE3MTUwMDk2NDUsMTQ5Njcy
-ODA4MV19
+eyJoaXN0b3J5IjpbLTE5OTMzOTA1NzcsLTE2MTM1MjkxMzIsLT
+EwMzE2ODgwNDksLTExMTc5OTg3NDUsMTcxNTAwOTY0NSwxNDk2
+NzI4MDgxXX0=
 -->
