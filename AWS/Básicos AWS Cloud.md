@@ -57,13 +57,28 @@ agregamos la IP.
 - Está limitada a 1000 ejecuciones concurrentes. 
 - AWS maneja la seguridad. Es aislado.
 
-Para crear un lambda ha
+Para crear un lambda hay cosas útiles, como variables de ambiente:
+
+```python
+import os
+def lambda_handler(event, context):
+    what_to_print = os.environ.get("what_to_print")
+    how_many_times = int(os.environ.get("how_many_times"))
+    if what_to_print and how_many_times > 0:
+        for i in range(0, how_many_times):
+            print(f"what_to_print: {what_to_print}.")
+        return what_to_print
+    return None 
+```
+Estas variables de ambiente se pueden definir en AWS. En el mismo menú de creación de function:
+
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTQ0MTgzMyw1MzkxNTEzMTUsLTQ1ND
+eyJoaXN0b3J5IjpbLTgwOTU1NzEyMCw1MzkxNTEzMTUsLTQ1ND
 A0NTc4NywxNTY5NDc0MDU5LDQwODY1NTQ4LC0yMDgxNTU2MDE3
 LC0xNzA3MzQyMzQsODQzODUyNzY5LDIwMzQ5NDMzOTYsLTE5OT
 MzOTA1NzcsLTE2MTM1MjkxMzIsLTEwMzE2ODgwNDksLTExMTc5
