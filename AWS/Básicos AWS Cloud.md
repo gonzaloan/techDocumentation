@@ -43,14 +43,16 @@ agregamos la IP.
 
 - Mediante MobaXterm podemos conectarnos a nuestra máquina.
 - Hacemos un git clone del proyecto que queramos instalar: git clone https://github.com/mauropm/aws-platzi-python.git
-- Dentr
+- Dentro de la máquina, se instalan todas las dependencias, y en este caso se inicia el proyecto con python app.py
+- Esto debe levantar la máquina en el puerto 5000.
+- Es necesario entrar a la consola de AWS, y presionar en security group. 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjMwMTU2NiwtMjA4MTU1NjAxNywtMT
+eyJoaXN0b3J5IjpbMTAyMzEwMzU1MiwtMjA4MTU1NjAxNywtMT
 cwNzM0MjM0LDg0Mzg1Mjc2OSwyMDM0OTQzMzk2LC0xOTkzMzkw
 NTc3LC0xNjEzNTI5MTMyLC0xMDMxNjg4MDQ5LC0xMTE3OTk4Nz
 Q1LDE3MTUwMDk2NDUsMTQ5NjcyODA4MV19
