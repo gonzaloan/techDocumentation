@@ -27,7 +27,6 @@ Proporciona un producto completo que el proveedor del servicio ejecuta y adminis
 - En la creación de una máquina EC2, lo más importante es la configuración del security group:
 -- Acá se puede indicar qué puertos están abiertos, y de dónde podremos conectarnos. Por ejemplo desde un SSH y desde la IP que se desee. 
 
-
 ##  Conectarse a EC2 por MobaXterm
 
 - En Amazon, puede extraerse la IPv4 pública:
@@ -35,12 +34,17 @@ Proporciona un producto completo que el proveedor del servicio ejecuta y adminis
 - En MobaXTerm creamos una nueva sesión SSH
 agregamos la IP. 
 - El usuario por defecto de una máquina de amazon es ec2-user. En el caso de Ubuntu el usuario es *ubuntu*. 
+- En la pestaña de avanzado, se agrega la key generada por amazon. 
+- Es importante saber que se debe controlar lo siguiente:
+-- Hacer los update del sistema operativo
+-- Hacer respaldos, pueden hacerse periódicamente o según se necesite. También se puede hacer un snapshot y copiarlos en otra máquina. 
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3MjIyNTgyLDIwMzQ5NDMzOTYsLTE5OT
-MzOTA1NzcsLTE2MTM1MjkxMzIsLTEwMzE2ODgwNDksLTExMTc5
-OTg3NDUsMTcxNTAwOTY0NSwxNDk2NzI4MDgxXX0=
+eyJoaXN0b3J5IjpbLTg4NjEzMTY5NCwyMDM0OTQzMzk2LC0xOT
+kzMzkwNTc3LC0xNjEzNTI5MTMyLC0xMDMxNjg4MDQ5LC0xMTE3
+OTk4NzQ1LDE3MTUwMDk2NDUsMTQ5NjcyODA4MV19
 -->
