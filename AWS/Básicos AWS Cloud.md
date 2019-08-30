@@ -76,14 +76,15 @@ Estas variables de ambiente se pueden definir en AWS. En el mismo menú de creac
 
 # Elastic Beanstalk
 
-Obtiene balanceador de cargas y tantas instancias EC2 como se indiquen.
+- Obtiene balanceador de cargas y tantas instancias EC2 como se indiquen.
 
-Ambiente escala de manera dinámica de acuerdo a varios factores como memoria, latencia, etc.
+- Ambiente escala de manera dinámica de acuerdo a varios factores como memoria, latencia, etc.
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTk3MzU3OTMsLTE1NTQxNDcxNjQsNT
+eyJoaXN0b3J5IjpbLTE3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNT
 M5MTUxMzE1LC00NTQwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0
 OCwtMjA4MTU1NjAxNywtMTcwNzM0MjM0LDg0Mzg1Mjc2OSwyMD
 M0OTQzMzk2LC0xOTkzMzkwNTc3LC0xNjEzNTI5MTMyLC0xMDMx
