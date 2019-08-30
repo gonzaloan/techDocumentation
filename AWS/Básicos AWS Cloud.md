@@ -78,15 +78,15 @@ Estas variables de ambiente se pueden definir en AWS. En el mismo menú de creac
 
 Obtiene balanceador de cargas y tantas instancias EC2 como se indiquen.
 
-
+Ambiente escala de manera dinámica de acuerdo a varios factores como memoria, latencia, etc.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTU2NjM3LC0xNTU0MTQ3MTY0LDUzOT
-E1MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNTksNDA4NjU1NDgs
-LTIwODE1NTYwMTcsLTE3MDczNDIzNCw4NDM4NTI3NjksMjAzND
-k0MzM5NiwtMTk5MzM5MDU3NywtMTYxMzUyOTEzMiwtMTAzMTY4
-ODA0OSwtMTExNzk5ODc0NSwxNzE1MDA5NjQ1LDE0OTY3MjgwOD
-FdfQ==
+eyJoaXN0b3J5IjpbLTExOTk3MzU3OTMsLTE1NTQxNDcxNjQsNT
+M5MTUxMzE1LC00NTQwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0
+OCwtMjA4MTU1NjAxNywtMTcwNzM0MjM0LDg0Mzg1Mjc2OSwyMD
+M0OTQzMzk2LC0xOTkzMzkwNTc3LC0xNjEzNTI5MTMyLC0xMDMx
+Njg4MDQ5LC0xMTE3OTk4NzQ1LDE3MTUwMDk2NDUsMTQ5NjcyOD
+A4MV19
 -->
