@@ -74,14 +74,19 @@ Estas variables de ambiente se pueden definir en AWS. En el mismo menú de creac
 
 - Una utilidad para los lambdas sería por ejemplo, apagar instancias a ciertas horas. 
 
+# Elastic Beanstalk
+
+Obtiene balanceador de cargas y tantas instancias EC2 como se indiquen.
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC00NT
-QwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0OCwtMjA4MTU1NjAx
-NywtMTcwNzM0MjM0LDg0Mzg1Mjc2OSwyMDM0OTQzMzk2LC0xOT
-kzMzkwNTc3LC0xNjEzNTI5MTMyLC0xMDMxNjg4MDQ5LC0xMTE3
-OTk4NzQ1LDE3MTUwMDk2NDUsMTQ5NjcyODA4MV19
+eyJoaXN0b3J5IjpbLTI4OTU2NjM3LC0xNTU0MTQ3MTY0LDUzOT
+E1MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNTksNDA4NjU1NDgs
+LTIwODE1NTYwMTcsLTE3MDczNDIzNCw4NDM4NTI3NjksMjAzND
+k0MzM5NiwtMTk5MzM5MDU3NywtMTYxMzUyOTEzMiwtMTAzMTY4
+ODA0OSwtMTExNzk5ODc0NSwxNzE1MDA5NjQ1LDE0OTY3MjgwOD
+FdfQ==
 -->
