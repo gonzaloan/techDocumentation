@@ -27,6 +27,7 @@ Proporciona un producto completo que el proveedor del servicio ejecuta y adminis
 - En la creación de una máquina EC2, lo más importante es la configuración del security group:
 -- Acá se puede indicar qué puertos están abiertos, y de dónde podremos conectarnos. Por ejemplo desde un SSH y desde la IP que se desee. 
 
+
 ##  Conectarse a EC2 por MobaXterm
 
 - En Amazon, puede extraerse la IPv4 pública:
@@ -39,7 +40,7 @@ agregamos la IP.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDk0MzM5NiwtMTk5MzM5MDU3NywtMT
-YxMzUyOTEzMiwtMTAzMTY4ODA0OSwtMTExNzk5ODc0NSwxNzE1
-MDA5NjQ1LDE0OTY3MjgwODFdfQ==
+eyJoaXN0b3J5IjpbNDc3MjIyNTgyLDIwMzQ5NDMzOTYsLTE5OT
+MzOTA1NzcsLTE2MTM1MjkxMzIsLTEwMzE2ODgwNDksLTExMTc5
+OTg3NDUsMTcxNTAwOTY0NSwxNDk2NzI4MDgxXX0=
 -->
