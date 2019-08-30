@@ -51,13 +51,11 @@ agregamos la IP.
 
 ## Lambdas Y Serverless
 
-Lugar donde se ejecutan funciones de código. Viven de manera independiente.
-
-No hay un servidor como EC2, AWS se encarga de ejecutarlo cuando se necesite. 
-
-Se pueden programar funciones lambda en NodeJS, Python, Java, C# y Go. 
-
-Está limitada a 1000 ejecuciones concurrentes. 
+- Lugar donde se ejecutan funciones de código. Viven de manera independiente.
+- No hay un servidor como EC2, AWS se encarga de ejecutarlo cuando se necesite. 
+- Se pueden programar funciones lambda en NodeJS, Python, Java, C# y Go. 
+- Está limitada a 1000 ejecuciones concurrentes. 
+- AWS maneja la seguridad. Es aislado.
 
 
 
@@ -65,9 +63,9 @@ Está limitada a 1000 ejecuciones concurrentes.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjQ0MDc5MSwtNDU0MDQ1Nzg3LDE1Nj
-k0NzQwNTksNDA4NjU1NDgsLTIwODE1NTYwMTcsLTE3MDczNDIz
-NCw4NDM4NTI3NjksMjAzNDk0MzM5NiwtMTk5MzM5MDU3NywtMT
-YxMzUyOTEzMiwtMTAzMTY4ODA0OSwtMTExNzk5ODc0NSwxNzE1
-MDA5NjQ1LDE0OTY3MjgwODFdfQ==
+eyJoaXN0b3J5IjpbNTM5MTUxMzE1LC00NTQwNDU3ODcsMTU2OT
+Q3NDA1OSw0MDg2NTU0OCwtMjA4MTU1NjAxNywtMTcwNzM0MjM0
+LDg0Mzg1Mjc2OSwyMDM0OTQzMzk2LC0xOTkzMzkwNTc3LC0xNj
+EzNTI5MTMyLC0xMDMxNjg4MDQ5LC0xMTE3OTk4NzQ1LDE3MTUw
+MDk2NDUsMTQ5NjcyODA4MV19
 -->
