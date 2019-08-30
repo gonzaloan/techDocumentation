@@ -37,14 +37,14 @@ agregamos la IP.
 - En la pestaña de avanzado, se agrega la key generada por amazon. 
 - Es importante saber que se debe controlar lo siguiente:
 -- Hacer los update del sistema operativo
--- Hacer respaldos, pueden hacerse periódicamente o según se necesite. También se puede hacer un snapshot y copiarlos en otra máquina. 
+-- Hacer respaldos, pueden hacerse periódicamente o según se necesite. También se puede hacer un snapshot y copiarlos en otra máquina. En el menú Actions de Amazon, se puede Crear una imagen. 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjEzMTY5NCwyMDM0OTQzMzk2LC0xOT
-kzMzkwNTc3LC0xNjEzNTI5MTMyLC0xMDMxNjg4MDQ5LC0xMTE3
-OTk4NzQ1LDE3MTUwMDk2NDUsMTQ5NjcyODA4MV19
+eyJoaXN0b3J5IjpbODQzODUyNzY5LDIwMzQ5NDMzOTYsLTE5OT
+MzOTA1NzcsLTE2MTM1MjkxMzIsLTEwMzE2ODgwNDksLTExMTc5
+OTg3NDUsMTcxNTAwOTY0NSwxNDk2NzI4MDgxXX0=
 -->
