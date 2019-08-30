@@ -21,6 +21,7 @@ Proporciona un producto completo que el proveedor del servicio ejecuta y adminis
 - ECS: Elastic Container Service: Registro de Docker Container. 
 - Lambda: Serverles Compute. Gestiona backend code al hacer cosas como subir documentos, o en app actividad
 
+
 ##  Conectarse a EC2 por MobaXterm
 
 - En Amazon, puede extraerse la IPv4 pública:
@@ -33,7 +34,7 @@ agregamos la IP.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMzOTA1NzcsLTE2MTM1MjkxMzIsLT
-EwMzE2ODgwNDksLTExMTc5OTg3NDUsMTcxNTAwOTY0NSwxNDk2
-NzI4MDgxXX0=
+eyJoaXN0b3J5IjpbLTk4NjE5MTc3NSwtMTk5MzM5MDU3NywtMT
+YxMzUyOTEzMiwtMTAzMTY4ODA0OSwtMTExNzk5ODc0NSwxNzE1
+MDA5NjQ1LDE0OTY3MjgwODFdfQ==
 -->
