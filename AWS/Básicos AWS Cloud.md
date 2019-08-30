@@ -70,17 +70,18 @@ def lambda_handler(event, context):
         return what_to_print
     return None 
 ```
-Estas variables de ambiente se pueden definir en AWS. En el mismo menú de creación de function:
+Estas variables de ambiente se pueden definir en AWS. En el mismo menú de creación de function.
 
+- Una utilidad para los lambdas sería por ejemplo, apagar instancias a ciertas horas. 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTU1NzEyMCw1MzkxNTEzMTUsLTQ1ND
-A0NTc4NywxNTY5NDc0MDU5LDQwODY1NTQ4LC0yMDgxNTU2MDE3
-LC0xNzA3MzQyMzQsODQzODUyNzY5LDIwMzQ5NDMzOTYsLTE5OT
-MzOTA1NzcsLTE2MTM1MjkxMzIsLTEwMzE2ODgwNDksLTExMTc5
-OTg3NDUsMTcxNTAwOTY0NSwxNDk2NzI4MDgxXX0=
+eyJoaXN0b3J5IjpbLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC00NT
+QwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0OCwtMjA4MTU1NjAx
+NywtMTcwNzM0MjM0LDg0Mzg1Mjc2OSwyMDM0OTQzMzk2LC0xOT
+kzMzkwNTc3LC0xNjEzNTI5MTMyLC0xMDMxNjg4MDQ5LC0xMTE3
+OTk4NzQ1LDE3MTUwMDk2NDUsMTQ5NjcyODA4MV19
 -->
