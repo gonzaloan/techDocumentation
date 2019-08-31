@@ -81,13 +81,40 @@ Estas variables de ambiente se pueden definir en AWS. En el mismo menú de creac
 - Ambiente escala de manera dinámica de acuerdo a varios factores como memoria, latencia, etc.
 
 
+## Creación de ambiente
 
+Se debe agregar al proyecto a subir unos cambios:
+- Crear directorio **.ebextensions**. Dentro del folder van configuraciones:
+
+~~~python
+option_settings:
+
+"aws:elasticbeanstalk:container:python":
+
+WSGIPath: application.py
+~~~
+- Se puede subir zip con el proyecto.
+- Se puede configurar
+
+
+# S3
+- Permite guardar archivos en la nube, hacer buckets, y respaldar información.
+- Se almacenan en **Buckets** unidades de almacenamiento.
+- Una vez creado un bucket, podemos subir muchos archivos.
+- En la pestaña **properties** podemos elegir las propiedades del Bucket, podemos subir una página estática, o versionada. 
+- Y se puede respaldar los buckets, en otras máquinas o espacios de AWS (**management**)
+
+### Glacier
+
+- Al igual que S3 permite hacer almacenamiento de tipo histórico. 
+- Es más económico, pero más lento.
+- 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNT
-M5MTUxMzE1LC00NTQwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0
-OCwtMjA4MTU1NjAxNywtMTcwNzM0MjM0LDg0Mzg1Mjc2OSwyMD
-M0OTQzMzk2LC0xOTkzMzkwNTc3LC0xNjEzNTI5MTMyLC0xMDMx
-Njg4MDQ5LC0xMTE3OTk4NzQ1LDE3MTUwMDk2NDUsMTQ5NjcyOD
-A4MV19
+eyJoaXN0b3J5IjpbLTE5NDQ4MzIzMzMsLTE3MzEyMDMwNDMsLT
+E1NTQxNDcxNjQsNTM5MTUxMzE1LC00NTQwNDU3ODcsMTU2OTQ3
+NDA1OSw0MDg2NTU0OCwtMjA4MTU1NjAxNywtMTcwNzM0MjM0LD
+g0Mzg1Mjc2OSwyMDM0OTQzMzk2LC0xOTkzMzkwNTc3LC0xNjEz
+NTI5MTMyLC0xMDMxNjg4MDQ5LC0xMTE3OTk4NzQ1LDE3MTUwMD
+k2NDUsMTQ5NjcyODA4MV19
 -->
