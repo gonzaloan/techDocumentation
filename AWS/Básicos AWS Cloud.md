@@ -126,7 +126,7 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 - Instalación de postgresql: *yum install postgresql*
 - hacemos un wget del archivo con el script: *wget www.blablabla.com/script.sql*
-- *psql -h [hostdelabasededatos]  -U [nombreUsuario] [NombreBD]   
+- *psql -h [hostdelabasededatos]  -U [nombreUsuario] [NombreBD]*
 - Host de la base de datos se obtiene de la consola de AWS: database-1.cogypn2qn15r.us-east-1.rds.amazonaws.com
 - 
 
@@ -144,11 +144,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjczODE1MDksMjA2Njc0NzUyNCwxMz
-M1MTE3NTU2LC0zMzE5MjQ2NDYsNDAwNTU4NjE1LDk1NjIzMzYz
-NywtMjAzMDY3MzQ5MCwtMTk0NDgzMjMzMywtMTczMTIwMzA0My
-wtMTU1NDE0NzE2NCw1MzkxNTEzMTUsLTQ1NDA0NTc4NywxNTY5
-NDc0MDU5LDQwODY1NTQ4LC0yMDgxNTU2MDE3LC0xNzA3MzQyMz
-QsODQzODUyNzY5LDIwMzQ5NDMzOTYsLTE5OTMzOTA1NzcsLTE2
-MTM1MjkxMzJdfQ==
+eyJoaXN0b3J5IjpbMTAyMjI3MzY2OSwyMDY2NzQ3NTI0LDEzMz
+UxMTc1NTYsLTMzMTkyNDY0Niw0MDA1NTg2MTUsOTU2MjMzNjM3
+LC0yMDMwNjczNDkwLC0xOTQ0ODMyMzMzLC0xNzMxMjAzMDQzLC
+0xNTU0MTQ3MTY0LDUzOTE1MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0
+NzQwNTksNDA4NjU1NDgsLTIwODE1NTYwMTcsLTE3MDczNDIzNC
+w4NDM4NTI3NjksMjAzNDk0MzM5NiwtMTk5MzM5MDU3NywtMTYx
+MzUyOTEzMl19
 -->
