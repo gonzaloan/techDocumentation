@@ -115,7 +115,8 @@ Optimiza el funcionamiento de un motor de base de datos.
 Tiene varias opciones de bases de datos: 
 Mysql, PostgresQL, Oracle, SQL Server
 
-
+Crear base de datos:
+- Click en RDS
 
 
 
@@ -131,11 +132,11 @@ Mysql, PostgresQL, Oracle, SQL Server
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ0NTMwNzksNDAwNTU4NjE1LDk1Nj
-IzMzYzNywtMjAzMDY3MzQ5MCwtMTk0NDgzMjMzMywtMTczMTIw
-MzA0MywtMTU1NDE0NzE2NCw1MzkxNTEzMTUsLTQ1NDA0NTc4Ny
-wxNTY5NDc0MDU5LDQwODY1NTQ4LC0yMDgxNTU2MDE3LC0xNzA3
-MzQyMzQsODQzODUyNzY5LDIwMzQ5NDMzOTYsLTE5OTMzOTA1Nz
-csLTE2MTM1MjkxMzIsLTEwMzE2ODgwNDksLTExMTc5OTg3NDUs
-MTcxNTAwOTY0NV19
+eyJoaXN0b3J5IjpbLTMzMTkyNDY0Niw0MDA1NTg2MTUsOTU2Mj
+MzNjM3LC0yMDMwNjczNDkwLC0xOTQ0ODMyMzMzLC0xNzMxMjAz
+MDQzLC0xNTU0MTQ3MTY0LDUzOTE1MTMxNSwtNDU0MDQ1Nzg3LD
+E1Njk0NzQwNTksNDA4NjU1NDgsLTIwODE1NTYwMTcsLTE3MDcz
+NDIzNCw4NDM4NTI3NjksMjAzNDk0MzM5NiwtMTk5MzM5MDU3Ny
+wtMTYxMzUyOTEzMiwtMTAzMTY4ODA0OSwtMTExNzk5ODc0NSwx
+NzE1MDA5NjQ1XX0=
 -->
