@@ -128,7 +128,7 @@ En nuestra máquina amzn, por ssh, debemos tener:
 - hacemos un wget del archivo con el script: *wget www.blablabla.com/script.sql*
 - **psql -h [hostdelabasededatos]  -U [nombreUsuario] [NombreBD]**
 - Host de la base de datos se obtiene de la consola de AWS: database-1.cogypn2qn15r.us-east-1.rds.amazonaws.com
-- 
+
 
 
 
@@ -144,11 +144,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU5NzI3MSwyMDY2NzQ3NTI0LDEzMz
-UxMTc1NTYsLTMzMTkyNDY0Niw0MDA1NTg2MTUsOTU2MjMzNjM3
-LC0yMDMwNjczNDkwLC0xOTQ0ODMyMzMzLC0xNzMxMjAzMDQzLC
-0xNTU0MTQ3MTY0LDUzOTE1MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0
-NzQwNTksNDA4NjU1NDgsLTIwODE1NTYwMTcsLTE3MDczNDIzNC
-w4NDM4NTI3NjksMjAzNDk0MzM5NiwtMTk5MzM5MDU3NywtMTYx
-MzUyOTEzMl19
+eyJoaXN0b3J5IjpbNTExMzQ2OTA4LC0yMTA1OTcyNzEsMjA2Nj
+c0NzUyNCwxMzM1MTE3NTU2LC0zMzE5MjQ2NDYsNDAwNTU4NjE1
+LDk1NjIzMzYzNywtMjAzMDY3MzQ5MCwtMTk0NDgzMjMzMywtMT
+czMTIwMzA0MywtMTU1NDE0NzE2NCw1MzkxNTEzMTUsLTQ1NDA0
+NTc4NywxNTY5NDc0MDU5LDQwODY1NTQ4LC0yMDgxNTU2MDE3LC
+0xNzA3MzQyMzQsODQzODUyNzY5LDIwMzQ5NDMzOTYsLTE5OTMz
+OTA1NzddfQ==
 -->
