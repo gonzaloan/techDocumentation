@@ -118,7 +118,8 @@ Mysql, PostgresQL, Oracle, SQL Server
 Crear base de datos:
 - Click en RDS
 - Create Dabase
-- Se puede modii
+- Se puede modificar clave, puertos usados, fechas de respaldo. 
+- 
 
 
 
@@ -134,7 +135,7 @@ Crear base de datos:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Njg4MDUzNSwtMzMxOTI0NjQ2LDQwMD
+eyJoaXN0b3J5IjpbLTk1NTYyODc4NSwtMzMxOTI0NjQ2LDQwMD
 U1ODYxNSw5NTYyMzM2MzcsLTIwMzA2NzM0OTAsLTE5NDQ4MzIz
 MzMsLTE3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC
 00NTQwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0OCwtMjA4MTU1
