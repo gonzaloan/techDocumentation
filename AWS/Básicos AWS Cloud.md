@@ -112,12 +112,12 @@ WSGIPath: application.py
 # RDS Aurora
 
 Optimiza el funcionamiento de un motor de base de datos.
-Tiene var
-
+Tiene varias opciones de bases de datos: 
+Mysql, PostgresQL, Oracle, SQL Server
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjExODgyLC0yMDMwNjczNDkwLC0xOT
+eyJoaXN0b3J5IjpbOTU2MjMzNjM3LC0yMDMwNjczNDkwLC0xOT
 Q0ODMyMzMzLC0xNzMxMjAzMDQzLC0xNTU0MTQ3MTY0LDUzOTE1
 MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNTksNDA4NjU1NDgsLT
 IwODE1NTYwMTcsLTE3MDczNDIzNCw4NDM4NTI3NjksMjAzNDk0
