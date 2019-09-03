@@ -119,7 +119,12 @@ Crear base de datos:
 - Click en RDS
 - Create Dabase
 - Se puede modificar clave, puertos usados, fechas de respaldo. 
-- 
+
+### Migración a RDSPG
+
+En nuestra máquina amzn, por ssh, debemos tener:
+
+- Instalación de postgresql: *yu
 
 
 
@@ -135,11 +140,11 @@ Crear base de datos:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTYyODc4NSwtMzMxOTI0NjQ2LDQwMD
-U1ODYxNSw5NTYyMzM2MzcsLTIwMzA2NzM0OTAsLTE5NDQ4MzIz
-MzMsLTE3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC
-00NTQwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0OCwtMjA4MTU1
-NjAxNywtMTcwNzM0MjM0LDg0Mzg1Mjc2OSwyMDM0OTQzMzk2LC
-0xOTkzMzkwNTc3LC0xNjEzNTI5MTMyLC0xMDMxNjg4MDQ5LC0x
-MTE3OTk4NzQ1XX0=
+eyJoaXN0b3J5IjpbODU2NTQzMDQxLC0zMzE5MjQ2NDYsNDAwNT
+U4NjE1LDk1NjIzMzYzNywtMjAzMDY3MzQ5MCwtMTk0NDgzMjMz
+MywtMTczMTIwMzA0MywtMTU1NDE0NzE2NCw1MzkxNTEzMTUsLT
+Q1NDA0NTc4NywxNTY5NDc0MDU5LDQwODY1NTQ4LC0yMDgxNTU2
+MDE3LC0xNzA3MzQyMzQsODQzODUyNzY5LDIwMzQ5NDMzOTYsLT
+E5OTMzOTA1NzcsLTE2MTM1MjkxMzIsLTEwMzE2ODgwNDksLTEx
+MTc5OTg3NDVdfQ==
 -->
