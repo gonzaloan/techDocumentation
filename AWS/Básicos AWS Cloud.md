@@ -126,7 +126,7 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 - Instalación de postgresql: *yum install postgresql*
 - hacemos un wget del archivo con el script: *wget www.blablabla.com/script.sql*
-- 
+- *psql -h [hostdelabasededatos] 
 
 
 
@@ -142,7 +142,7 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzOTM3NTcwLDEzMzUxMTc1NTYsLTMzMT
+eyJoaXN0b3J5IjpbNDcxMDg0NTY2LDEzMzUxMTc1NTYsLTMzMT
 kyNDY0Niw0MDA1NTg2MTUsOTU2MjMzNjM3LC0yMDMwNjczNDkw
 LC0xOTQ0ODMyMzMzLC0xNzMxMjAzMDQzLC0xNTU0MTQ3MTY0LD
 UzOTE1MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNTksNDA4NjU1
