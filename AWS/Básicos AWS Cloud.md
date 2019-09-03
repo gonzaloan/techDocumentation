@@ -125,6 +125,7 @@ Crear base de datos:
 En nuestra máquina amzn, por ssh, debemos tener:
 
 - Instalación de postgresql: *yum install postgresql*
+- hacemos un wget del archivo con el script: *wget www.blablabla.com/script.sql*
 - 
 
 
@@ -141,11 +142,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTExNzU1NiwtMzMxOTI0NjQ2LDQwMD
-U1ODYxNSw5NTYyMzM2MzcsLTIwMzA2NzM0OTAsLTE5NDQ4MzIz
-MzMsLTE3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC
-00NTQwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0OCwtMjA4MTU1
-NjAxNywtMTcwNzM0MjM0LDg0Mzg1Mjc2OSwyMDM0OTQzMzk2LC
-0xOTkzMzkwNTc3LC0xNjEzNTI5MTMyLC0xMDMxNjg4MDQ5LC0x
-MTE3OTk4NzQ1XX0=
+eyJoaXN0b3J5IjpbNzYzOTM3NTcwLDEzMzUxMTc1NTYsLTMzMT
+kyNDY0Niw0MDA1NTg2MTUsOTU2MjMzNjM3LC0yMDMwNjczNDkw
+LC0xOTQ0ODMyMzMzLC0xNzMxMjAzMDQzLC0xNTU0MTQ3MTY0LD
+UzOTE1MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNTksNDA4NjU1
+NDgsLTIwODE1NTYwMTcsLTE3MDczNDIzNCw4NDM4NTI3NjksMj
+AzNDk0MzM5NiwtMTk5MzM5MDU3NywtMTYxMzUyOTEzMiwtMTAz
+MTY4ODA0OV19
 -->
