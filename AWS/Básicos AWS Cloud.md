@@ -108,13 +108,20 @@ WSGIPath: application.py
 
 - Al igual que S3 permite hacer almacenamiento de tipo histórico. 
 - Es más económico, pero más lento.
-- 
+
+# RDS Aurora
+
+Optimiza el funcionamiento de un motor de base de datos.
+
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQ4MzIzMzMsLTE3MzEyMDMwNDMsLT
-E1NTQxNDcxNjQsNTM5MTUxMzE1LC00NTQwNDU3ODcsMTU2OTQ3
-NDA1OSw0MDg2NTU0OCwtMjA4MTU1NjAxNywtMTcwNzM0MjM0LD
-g0Mzg1Mjc2OSwyMDM0OTQzMzk2LC0xOTkzMzkwNTc3LC0xNjEz
-NTI5MTMyLC0xMDMxNjg4MDQ5LC0xMTE3OTk4NzQ1LDE3MTUwMD
-k2NDUsMTQ5NjcyODA4MV19
+eyJoaXN0b3J5IjpbLTIwMzA2NzM0OTAsLTE5NDQ4MzIzMzMsLT
+E3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC00NTQw
+NDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0OCwtMjA4MTU1NjAxNy
+wtMTcwNzM0MjM0LDg0Mzg1Mjc2OSwyMDM0OTQzMzk2LC0xOTkz
+MzkwNTc3LC0xNjEzNTI5MTMyLC0xMDMxNjg4MDQ5LC0xMTE3OT
+k4NzQ1LDE3MTUwMDk2NDUsMTQ5NjcyODA4MV19
 -->
