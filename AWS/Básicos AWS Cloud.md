@@ -115,13 +115,28 @@ Optimiza el funcionamiento de un motor de base de datos.
 Tiene varias opciones de bases de datos: 
 Mysql, PostgresQL, Oracle, SQL Server
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2MjMzNjM3LC0yMDMwNjczNDkwLC0xOT
-Q0ODMyMzMzLC0xNzMxMjAzMDQzLC0xNTU0MTQ3MTY0LDUzOTE1
-MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNTksNDA4NjU1NDgsLT
-IwODE1NTYwMTcsLTE3MDczNDIzNCw4NDM4NTI3NjksMjAzNDk0
-MzM5NiwtMTk5MzM5MDU3NywtMTYxMzUyOTEzMiwtMTAzMTY4OD
-A0OSwtMTExNzk5ODc0NSwxNzE1MDA5NjQ1LDE0OTY3MjgwODFd
-fQ==
+eyJoaXN0b3J5IjpbNDAwNTU4NjE1LDk1NjIzMzYzNywtMjAzMD
+Y3MzQ5MCwtMTk0NDgzMjMzMywtMTczMTIwMzA0MywtMTU1NDE0
+NzE2NCw1MzkxNTEzMTUsLTQ1NDA0NTc4NywxNTY5NDc0MDU5LD
+QwODY1NTQ4LC0yMDgxNTU2MDE3LC0xNzA3MzQyMzQsODQzODUy
+NzY5LDIwMzQ5NDMzOTYsLTE5OTMzOTA1NzcsLTE2MTM1MjkxMz
+IsLTEwMzE2ODgwNDksLTExMTc5OTg3NDUsMTcxNTAwOTY0NSwx
+NDk2NzI4MDgxXX0=
 -->
