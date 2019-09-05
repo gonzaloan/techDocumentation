@@ -136,13 +136,16 @@ En nuestra máquina amzn, por ssh, debemos tener:
 - Permite tener un DNS con el que podrás hacer subdominios asignados a instancias y verlos reflejados en segundos.
 
 
-# IAM
+# Herramientas de administración.
 
-Herramienta de administración.
-
+## IAM 
 - Administrar permisos de accesos de usuarios a máquinas, usuarios sobre usuarios y máquinas sobre máquinas.
 - 
 
+## CloudWatch
+
+- Mostrará diversos eventos relacionados con infraestructura o servidores, para tener un lugar centralizado de logs e información.
+- 
 
 
 
@@ -155,11 +158,11 @@ Herramienta de administración.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3ODc1NTk3LC00MzM4OTA2MDAsNTExMz
-Q2OTA4LC0yMTA1OTcyNzEsMjA2Njc0NzUyNCwxMzM1MTE3NTU2
-LC0zMzE5MjQ2NDYsNDAwNTU4NjE1LDk1NjIzMzYzNywtMjAzMD
-Y3MzQ5MCwtMTk0NDgzMjMzMywtMTczMTIwMzA0MywtMTU1NDE0
-NzE2NCw1MzkxNTEzMTUsLTQ1NDA0NTc4NywxNTY5NDc0MDU5LD
-QwODY1NTQ4LC0yMDgxNTU2MDE3LC0xNzA3MzQyMzQsODQzODUy
-NzY5XX0=
+eyJoaXN0b3J5IjpbMjYzNDc4NDU5LDczNzg3NTU5NywtNDMzOD
+kwNjAwLDUxMTM0NjkwOCwtMjEwNTk3MjcxLDIwNjY3NDc1MjQs
+MTMzNTExNzU1NiwtMzMxOTI0NjQ2LDQwMDU1ODYxNSw5NTYyMz
+M2MzcsLTIwMzA2NzM0OTAsLTE5NDQ4MzIzMzMsLTE3MzEyMDMw
+NDMsLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC00NTQwNDU3ODcsMT
+U2OTQ3NDA1OSw0MDg2NTU0OCwtMjA4MTU1NjAxNywtMTcwNzM0
+MjM0XX0=
 -->
