@@ -150,7 +150,9 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 - Información de qué o quién hizo actividad dentro de cuenta de AWS
 
+# Certificate Manager
 
+- Una vez que se tienen dominio comprado en AWS, permite crear certificados 
 
 
 
@@ -163,11 +165,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTQzNDA1NSwtMTkwMDA4NTg2NywyNj
-M0Nzg0NTksNzM3ODc1NTk3LC00MzM4OTA2MDAsNTExMzQ2OTA4
-LC0yMTA1OTcyNzEsMjA2Njc0NzUyNCwxMzM1MTE3NTU2LC0zMz
-E5MjQ2NDYsNDAwNTU4NjE1LDk1NjIzMzYzNywtMjAzMDY3MzQ5
-MCwtMTk0NDgzMjMzMywtMTczMTIwMzA0MywtMTU1NDE0NzE2NC
-w1MzkxNTEzMTUsLTQ1NDA0NTc4NywxNTY5NDc0MDU5LDQwODY1
-NTQ4XX0=
+eyJoaXN0b3J5IjpbLTI5NTI1MjQ1NywxODkxNDM0MDU1LC0xOT
+AwMDg1ODY3LDI2MzQ3ODQ1OSw3Mzc4NzU1OTcsLTQzMzg5MDYw
+MCw1MTEzNDY5MDgsLTIxMDU5NzI3MSwyMDY2NzQ3NTI0LDEzMz
+UxMTc1NTYsLTMzMTkyNDY0Niw0MDA1NTg2MTUsOTU2MjMzNjM3
+LC0yMDMwNjczNDkwLC0xOTQ0ODMyMzMzLC0xNzMxMjAzMDQzLC
+0xNTU0MTQ3MTY0LDUzOTE1MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0
+NzQwNTldfQ==
 -->
