@@ -154,6 +154,7 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 - Una vez que se tienen dominio comprado en AWS, permite crear certificados 
 - Hay un menú de Certificate Manager, donde se indica el dominio. 
+- Una vez se tiene un certificado asociado a un dominio, podríamos agregarlos a un servicio para que adminta https
 
 
 
@@ -166,11 +167,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODY3ODUwNCwtMjk1MjUyNDU3LDE4OT
-E0MzQwNTUsLTE5MDAwODU4NjcsMjYzNDc4NDU5LDczNzg3NTU5
-NywtNDMzODkwNjAwLDUxMTM0NjkwOCwtMjEwNTk3MjcxLDIwNj
-Y3NDc1MjQsMTMzNTExNzU1NiwtMzMxOTI0NjQ2LDQwMDU1ODYx
-NSw5NTYyMzM2MzcsLTIwMzA2NzM0OTAsLTE5NDQ4MzIzMzMsLT
-E3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC00NTQw
-NDU3ODddfQ==
+eyJoaXN0b3J5IjpbMTc1MjM3MTMyNiwtOTc4Njc4NTA0LC0yOT
+UyNTI0NTcsMTg5MTQzNDA1NSwtMTkwMDA4NTg2NywyNjM0Nzg0
+NTksNzM3ODc1NTk3LC00MzM4OTA2MDAsNTExMzQ2OTA4LC0yMT
+A1OTcyNzEsMjA2Njc0NzUyNCwxMzM1MTE3NTU2LC0zMzE5MjQ2
+NDYsNDAwNTU4NjE1LDk1NjIzMzYzNywtMjAzMDY3MzQ5MCwtMT
+k0NDgzMjMzMywtMTczMTIwMzA0MywtMTU1NDE0NzE2NCw1Mzkx
+NTEzMTVdfQ==
 -->
