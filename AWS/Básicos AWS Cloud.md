@@ -134,8 +134,13 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 - Funcionalidad de Redes. 
 - Permite tener un DNS con el que podrás hacer subdominios asignados a instancias y verlos reflejados en segundos.
-- Puedes comprar 
 
+
+# IAM
+
+Herramienta de administración.
+
+- Administrar permisos de accesos a usuario
 
 
 
@@ -149,11 +154,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzEzMjQxNjMsLTQzMzg5MDYwMCw1MT
-EzNDY5MDgsLTIxMDU5NzI3MSwyMDY2NzQ3NTI0LDEzMzUxMTc1
-NTYsLTMzMTkyNDY0Niw0MDA1NTg2MTUsOTU2MjMzNjM3LC0yMD
-MwNjczNDkwLC0xOTQ0ODMyMzMzLC0xNzMxMjAzMDQzLC0xNTU0
-MTQ3MTY0LDUzOTE1MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNT
-ksNDA4NjU1NDgsLTIwODE1NTYwMTcsLTE3MDczNDIzNCw4NDM4
-NTI3NjldfQ==
+eyJoaXN0b3J5IjpbMTM2NDkwNTYyNiwtNDMzODkwNjAwLDUxMT
+M0NjkwOCwtMjEwNTk3MjcxLDIwNjY3NDc1MjQsMTMzNTExNzU1
+NiwtMzMxOTI0NjQ2LDQwMDU1ODYxNSw5NTYyMzM2MzcsLTIwMz
+A2NzM0OTAsLTE5NDQ4MzIzMzMsLTE3MzEyMDMwNDMsLTE1NTQx
+NDcxNjQsNTM5MTUxMzE1LC00NTQwNDU3ODcsMTU2OTQ3NDA1OS
+w0MDg2NTU0OCwtMjA4MTU1NjAxNywtMTcwNzM0MjM0LDg0Mzg1
+Mjc2OV19
 -->
