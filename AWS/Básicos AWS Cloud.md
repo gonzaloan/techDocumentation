@@ -141,7 +141,6 @@ En nuestra máquina amzn, por ssh, debemos tener:
 ## IAM 
 - Administrar permisos de accesos de usuarios a máquinas, usuarios sobre usuarios y máquinas sobre máquinas.
 - 
-
 ## CloudWatch
 
 - Mostrará diversos eventos relacionados con infraestructura o servidores, para tener un lugar centralizado de logs e información.
@@ -158,11 +157,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzNDc4NDU5LDczNzg3NTU5NywtNDMzOD
-kwNjAwLDUxMTM0NjkwOCwtMjEwNTk3MjcxLDIwNjY3NDc1MjQs
-MTMzNTExNzU1NiwtMzMxOTI0NjQ2LDQwMDU1ODYxNSw5NTYyMz
-M2MzcsLTIwMzA2NzM0OTAsLTE5NDQ4MzIzMzMsLTE3MzEyMDMw
-NDMsLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC00NTQwNDU3ODcsMT
-U2OTQ3NDA1OSw0MDg2NTU0OCwtMjA4MTU1NjAxNywtMTcwNzM0
-MjM0XX0=
+eyJoaXN0b3J5IjpbLTE1NTY5OTA4MDcsMjYzNDc4NDU5LDczNz
+g3NTU5NywtNDMzODkwNjAwLDUxMTM0NjkwOCwtMjEwNTk3Mjcx
+LDIwNjY3NDc1MjQsMTMzNTExNzU1NiwtMzMxOTI0NjQ2LDQwMD
+U1ODYxNSw5NTYyMzM2MzcsLTIwMzA2NzM0OTAsLTE5NDQ4MzIz
+MzMsLTE3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC
+00NTQwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0OCwtMjA4MTU1
+NjAxN119
 -->
