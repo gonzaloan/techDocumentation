@@ -153,6 +153,7 @@ En nuestra máquina amzn, por ssh, debemos tener:
 # Certificate Manager
 
 - Una vez que se tienen dominio comprado en AWS, permite crear certificados 
+- Hay un menú de Certificate Manager, donde se indica el dominio. 
 
 
 
@@ -165,11 +166,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTI1MjQ1NywxODkxNDM0MDU1LC0xOT
-AwMDg1ODY3LDI2MzQ3ODQ1OSw3Mzc4NzU1OTcsLTQzMzg5MDYw
-MCw1MTEzNDY5MDgsLTIxMDU5NzI3MSwyMDY2NzQ3NTI0LDEzMz
-UxMTc1NTYsLTMzMTkyNDY0Niw0MDA1NTg2MTUsOTU2MjMzNjM3
-LC0yMDMwNjczNDkwLC0xOTQ0ODMyMzMzLC0xNzMxMjAzMDQzLC
-0xNTU0MTQ3MTY0LDUzOTE1MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0
-NzQwNTldfQ==
+eyJoaXN0b3J5IjpbLTk3ODY3ODUwNCwtMjk1MjUyNDU3LDE4OT
+E0MzQwNTUsLTE5MDAwODU4NjcsMjYzNDc4NDU5LDczNzg3NTU5
+NywtNDMzODkwNjAwLDUxMTM0NjkwOCwtMjEwNTk3MjcxLDIwNj
+Y3NDc1MjQsMTMzNTExNzU1NiwtMzMxOTI0NjQ2LDQwMDU1ODYx
+NSw5NTYyMzM2MzcsLTIwMzA2NzM0OTAsLTE5NDQ4MzIzMzMsLT
+E3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC00NTQw
+NDU3ODddfQ==
 -->
