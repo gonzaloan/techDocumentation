@@ -134,7 +134,7 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 - Funcionalidad de Redes. 
 - Permite tener un DNS con el que podrás hacer subdominios asignados a instancias y verlos reflejados en segundos.
-
+- Puedes comprar 
 
 
 
@@ -149,11 +149,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzg5MDYwMCw1MTEzNDY5MDgsLTIxMD
-U5NzI3MSwyMDY2NzQ3NTI0LDEzMzUxMTc1NTYsLTMzMTkyNDY0
-Niw0MDA1NTg2MTUsOTU2MjMzNjM3LC0yMDMwNjczNDkwLC0xOT
-Q0ODMyMzMzLC0xNzMxMjAzMDQzLC0xNTU0MTQ3MTY0LDUzOTE1
-MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNTksNDA4NjU1NDgsLT
-IwODE1NTYwMTcsLTE3MDczNDIzNCw4NDM4NTI3NjksMjAzNDk0
-MzM5Nl19
+eyJoaXN0b3J5IjpbLTE0NzEzMjQxNjMsLTQzMzg5MDYwMCw1MT
+EzNDY5MDgsLTIxMDU5NzI3MSwyMDY2NzQ3NTI0LDEzMzUxMTc1
+NTYsLTMzMTkyNDY0Niw0MDA1NTg2MTUsOTU2MjMzNjM3LC0yMD
+MwNjczNDkwLC0xOTQ0ODMyMzMzLC0xNzMxMjAzMDQzLC0xNTU0
+MTQ3MTY0LDUzOTE1MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNT
+ksNDA4NjU1NDgsLTIwODE1NTYwMTcsLTE3MDczNDIzNCw4NDM4
+NTI3NjldfQ==
 -->
