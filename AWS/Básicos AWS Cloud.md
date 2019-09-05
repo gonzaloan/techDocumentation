@@ -130,6 +130,10 @@ En nuestra máquina amzn, por ssh, debemos tener:
 - **psql -h [hostdelabasededatos]  -U [nombreUsuario] [NombreBD]**
 - Host de la base de datos se obtiene de la consola de AWS: database-1.cogypn2qn15r.us-east-1.rds.amazonaws.com
 
+# Route 53
+
+- Funcionalidad de Redes. 
+- Permite tener un DNS con el que podrás hacer subdominios asignados a instancias y verlos reflejados en segundos.
 
 
 
@@ -145,11 +149,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA3NDkzNjgsNTExMzQ2OTA4LC0yMT
-A1OTcyNzEsMjA2Njc0NzUyNCwxMzM1MTE3NTU2LC0zMzE5MjQ2
-NDYsNDAwNTU4NjE1LDk1NjIzMzYzNywtMjAzMDY3MzQ5MCwtMT
-k0NDgzMjMzMywtMTczMTIwMzA0MywtMTU1NDE0NzE2NCw1Mzkx
-NTEzMTUsLTQ1NDA0NTc4NywxNTY5NDc0MDU5LDQwODY1NTQ4LC
-0yMDgxNTU2MDE3LC0xNzA3MzQyMzQsODQzODUyNzY5LDIwMzQ5
-NDMzOTZdfQ==
+eyJoaXN0b3J5IjpbLTQzMzg5MDYwMCw1MTEzNDY5MDgsLTIxMD
+U5NzI3MSwyMDY2NzQ3NTI0LDEzMzUxMTc1NTYsLTMzMTkyNDY0
+Niw0MDA1NTg2MTUsOTU2MjMzNjM3LC0yMDMwNjczNDkwLC0xOT
+Q0ODMyMzMzLC0xNzMxMjAzMDQzLC0xNTU0MTQ3MTY0LDUzOTE1
+MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNTksNDA4NjU1NDgsLT
+IwODE1NTYwMTcsLTE3MDczNDIzNCw4NDM4NTI3NjksMjAzNDk0
+MzM5Nl19
 -->
