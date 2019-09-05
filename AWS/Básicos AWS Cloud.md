@@ -77,7 +77,7 @@ Estas variables de ambiente se pueden definir en AWS. En el mismo menú de creac
 # Elastic Beanstalk
 
 - Administrador de otros recursos, permite obtener balanceador de cargas y tantas instancias EC2 como se indiquen.
-
+- Al crear un un Elastic Beanstalk permite crear una instancia bajo ambientes Python, DOcker, etc.
 
 - Ambiente escala de manera dinámica de acuerdo a varios factores como memoria, latencia, etc.
 
@@ -145,11 +145,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTgxMzkyNiw1MTEzNDY5MDgsLTIxMD
-U5NzI3MSwyMDY2NzQ3NTI0LDEzMzUxMTc1NTYsLTMzMTkyNDY0
-Niw0MDA1NTg2MTUsOTU2MjMzNjM3LC0yMDMwNjczNDkwLC0xOT
-Q0ODMyMzMzLC0xNzMxMjAzMDQzLC0xNTU0MTQ3MTY0LDUzOTE1
-MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNTksNDA4NjU1NDgsLT
-IwODE1NTYwMTcsLTE3MDczNDIzNCw4NDM4NTI3NjksMjAzNDk0
-MzM5Nl19
+eyJoaXN0b3J5IjpbLTE2MDA3NDkzNjgsNTExMzQ2OTA4LC0yMT
+A1OTcyNzEsMjA2Njc0NzUyNCwxMzM1MTE3NTU2LC0zMzE5MjQ2
+NDYsNDAwNTU4NjE1LDk1NjIzMzYzNywtMjAzMDY3MzQ5MCwtMT
+k0NDgzMjMzMywtMTczMTIwMzA0MywtMTU1NDE0NzE2NCw1Mzkx
+NTEzMTUsLTQ1NDA0NTc4NywxNTY5NDc0MDU5LDQwODY1NTQ4LC
+0yMDgxNTU2MDE3LC0xNzA3MzQyMzQsODQzODUyNzY5LDIwMzQ5
+NDMzOTZdfQ==
 -->
