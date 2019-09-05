@@ -141,7 +141,7 @@ En nuestra máquina amzn, por ssh, debemos tener:
 ## IAM 
 - Administrar permisos de accesos de usuarios a máquinas, usuarios sobre usuarios y máquinas sobre máquinas.
 - Puedes hacer usuarios, grupos de usuario y darles acceso a servicios como S3, etc.
-- 
+
 ## CloudWatch
 
 - Mostrará diversos eventos relacionados con infraestructura o servidores, para tener un lugar centralizado de logs e información.
@@ -158,11 +158,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDAwODU4NjcsMjYzNDc4NDU5LDczNz
-g3NTU5NywtNDMzODkwNjAwLDUxMTM0NjkwOCwtMjEwNTk3Mjcx
-LDIwNjY3NDc1MjQsMTMzNTExNzU1NiwtMzMxOTI0NjQ2LDQwMD
-U1ODYxNSw5NTYyMzM2MzcsLTIwMzA2NzM0OTAsLTE5NDQ4MzIz
-MzMsLTE3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNTM5MTUxMzE1LC
-00NTQwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0OCwtMjA4MTU1
-NjAxN119
+eyJoaXN0b3J5IjpbLTU5NTExOTk5OCwtMTkwMDA4NTg2NywyNj
+M0Nzg0NTksNzM3ODc1NTk3LC00MzM4OTA2MDAsNTExMzQ2OTA4
+LC0yMTA1OTcyNzEsMjA2Njc0NzUyNCwxMzM1MTE3NTU2LC0zMz
+E5MjQ2NDYsNDAwNTU4NjE1LDk1NjIzMzYzNywtMjAzMDY3MzQ5
+MCwtMTk0NDgzMjMzMywtMTczMTIwMzA0MywtMTU1NDE0NzE2NC
+w1MzkxNTEzMTUsLTQ1NDA0NTc4NywxNTY5NDc0MDU5LDQwODY1
+NTQ4XX0=
 -->
