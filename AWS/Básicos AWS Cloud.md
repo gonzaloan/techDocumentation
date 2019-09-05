@@ -150,13 +150,14 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 - Información de qué o quién hizo actividad dentro de cuenta de AWS
 
-# Certificate Manager
+# Seguridad
+## Certificate Manager
 
 - Una vez que se tienen dominio comprado en AWS, permite crear certificados 
 - Hay un menú de Certificate Manager, donde se indica el dominio. 
 - Una vez se tiene un certificado asociado a un dominio, podríamos agregarlos a un servicio para que adminta https
 
-
+## GuardDuty
 
 
 
@@ -167,11 +168,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjM3MTMyNiwtOTc4Njc4NTA0LC0yOT
-UyNTI0NTcsMTg5MTQzNDA1NSwtMTkwMDA4NTg2NywyNjM0Nzg0
-NTksNzM3ODc1NTk3LC00MzM4OTA2MDAsNTExMzQ2OTA4LC0yMT
-A1OTcyNzEsMjA2Njc0NzUyNCwxMzM1MTE3NTU2LC0zMzE5MjQ2
-NDYsNDAwNTU4NjE1LDk1NjIzMzYzNywtMjAzMDY3MzQ5MCwtMT
-k0NDgzMjMzMywtMTczMTIwMzA0MywtMTU1NDE0NzE2NCw1Mzkx
-NTEzMTVdfQ==
+eyJoaXN0b3J5IjpbLTEzODYyMzExNjcsLTk3ODY3ODUwNCwtMj
+k1MjUyNDU3LDE4OTE0MzQwNTUsLTE5MDAwODU4NjcsMjYzNDc4
+NDU5LDczNzg3NTU5NywtNDMzODkwNjAwLDUxMTM0NjkwOCwtMj
+EwNTk3MjcxLDIwNjY3NDc1MjQsMTMzNTExNzU1NiwtMzMxOTI0
+NjQ2LDQwMDU1ODYxNSw5NTYyMzM2MzcsLTIwMzA2NzM0OTAsLT
+E5NDQ4MzIzMzMsLTE3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNTM5
+MTUxMzE1XX0=
 -->
