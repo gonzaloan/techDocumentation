@@ -129,10 +129,6 @@ En nuestra máquina amzn, por ssh, debemos tener:
 - **psql -h [hostdelabasededatos]  -U [nombreUsuario] [NombreBD]**
 - Host de la base de datos se obtiene de la consola de AWS: database-1.cogypn2qn15r.us-east-1.rds.amazonaws.com
 
-#### Buenas prácticas de Bases de Datos y RDS
-
-- Hacer respaldos diarios.
-- Replicar la Base de
 
 
 
@@ -148,11 +144,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTcxNjk0OSw1MTEzNDY5MDgsLTIxMD
-U5NzI3MSwyMDY2NzQ3NTI0LDEzMzUxMTc1NTYsLTMzMTkyNDY0
-Niw0MDA1NTg2MTUsOTU2MjMzNjM3LC0yMDMwNjczNDkwLC0xOT
-Q0ODMyMzMzLC0xNzMxMjAzMDQzLC0xNTU0MTQ3MTY0LDUzOTE1
-MTMxNSwtNDU0MDQ1Nzg3LDE1Njk0NzQwNTksNDA4NjU1NDgsLT
-IwODE1NTYwMTcsLTE3MDczNDIzNCw4NDM4NTI3NjksMjAzNDk0
-MzM5Nl19
+eyJoaXN0b3J5IjpbNTExMzQ2OTA4LDUxMTM0NjkwOCwtMjEwNT
+k3MjcxLDIwNjY3NDc1MjQsMTMzNTExNzU1NiwtMzMxOTI0NjQ2
+LDQwMDU1ODYxNSw5NTYyMzM2MzcsLTIwMzA2NzM0OTAsLTE5ND
+Q4MzIzMzMsLTE3MzEyMDMwNDMsLTE1NTQxNDcxNjQsNTM5MTUx
+MzE1LC00NTQwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2NTU0OCwtMj
+A4MTU1NjAxNywtMTcwNzM0MjM0LDg0Mzg1Mjc2OSwyMDM0OTQz
+Mzk2XX0=
 -->
