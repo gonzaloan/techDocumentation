@@ -145,7 +145,10 @@ En nuestra máquina amzn, por ssh, debemos tener:
 ## CloudWatch
 
 - Mostrará diversos eventos relacionados con infraestructura o servidores, para tener un lugar centralizado de logs e información.
-- 
+
+## CloudTrail
+
+- Saber q
 
 
 
@@ -158,11 +161,11 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTExOTk5OCwtMTkwMDA4NTg2NywyNj
-M0Nzg0NTksNzM3ODc1NTk3LC00MzM4OTA2MDAsNTExMzQ2OTA4
-LC0yMTA1OTcyNzEsMjA2Njc0NzUyNCwxMzM1MTE3NTU2LC0zMz
-E5MjQ2NDYsNDAwNTU4NjE1LDk1NjIzMzYzNywtMjAzMDY3MzQ5
-MCwtMTk0NDgzMjMzMywtMTczMTIwMzA0MywtMTU1NDE0NzE2NC
-w1MzkxNTEzMTUsLTQ1NDA0NTc4NywxNTY5NDc0MDU5LDQwODY1
-NTQ4XX0=
+eyJoaXN0b3J5IjpbLTIxNDM3MzM2MDcsLTE5MDAwODU4NjcsMj
+YzNDc4NDU5LDczNzg3NTU5NywtNDMzODkwNjAwLDUxMTM0Njkw
+OCwtMjEwNTk3MjcxLDIwNjY3NDc1MjQsMTMzNTExNzU1NiwtMz
+MxOTI0NjQ2LDQwMDU1ODYxNSw5NTYyMzM2MzcsLTIwMzA2NzM0
+OTAsLTE5NDQ4MzIzMzMsLTE3MzEyMDMwNDMsLTE1NTQxNDcxNj
+QsNTM5MTUxMzE1LC00NTQwNDU3ODcsMTU2OTQ3NDA1OSw0MDg2
+NTU0OF19
 -->
