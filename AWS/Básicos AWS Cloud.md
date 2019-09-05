@@ -140,7 +140,8 @@ En nuestra máquina amzn, por ssh, debemos tener:
 
 Herramienta de administración.
 
-- Administrar permisos de accesos a usuario
+- Administrar permisos de accesos de usuarios a máquinas, usuarios sobre usuarios y máquinas sobre máquinas.
+- 
 
 
 
@@ -154,11 +155,11 @@ Herramienta de administración.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDkwNTYyNiwtNDMzODkwNjAwLDUxMT
-M0NjkwOCwtMjEwNTk3MjcxLDIwNjY3NDc1MjQsMTMzNTExNzU1
-NiwtMzMxOTI0NjQ2LDQwMDU1ODYxNSw5NTYyMzM2MzcsLTIwMz
-A2NzM0OTAsLTE5NDQ4MzIzMzMsLTE3MzEyMDMwNDMsLTE1NTQx
-NDcxNjQsNTM5MTUxMzE1LC00NTQwNDU3ODcsMTU2OTQ3NDA1OS
-w0MDg2NTU0OCwtMjA4MTU1NjAxNywtMTcwNzM0MjM0LDg0Mzg1
-Mjc2OV19
+eyJoaXN0b3J5IjpbNzM3ODc1NTk3LC00MzM4OTA2MDAsNTExMz
+Q2OTA4LC0yMTA1OTcyNzEsMjA2Njc0NzUyNCwxMzM1MTE3NTU2
+LC0zMzE5MjQ2NDYsNDAwNTU4NjE1LDk1NjIzMzYzNywtMjAzMD
+Y3MzQ5MCwtMTk0NDgzMjMzMywtMTczMTIwMzA0MywtMTU1NDE0
+NzE2NCw1MzkxNTEzMTUsLTQ1NDA0NTc4NywxNTY5NDc0MDU5LD
+QwODY1NTQ4LC0yMDgxNTU2MDE3LC0xNzA3MzQyMzQsODQzODUy
+NzY5XX0=
 -->
