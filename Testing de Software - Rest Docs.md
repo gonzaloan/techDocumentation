@@ -5,7 +5,7 @@
 - **Reducir el número de bugs**
 - **Mejora la calidad del código, al identificar cada defecto que pueda surgir al modificar o refactorizar el código.**
 - **Encontrar bugs temprano en el desarrollo.**
-- **Facilita la integración y cambios. **
+- **Facilita la integración y cambios.**
 - **Entrega documentación**
 - **Simplifica el proceso de debuggeo**
 
@@ -505,5 +505,5 @@ Aquí se define todos los snippets creados en la carpeta target y los inyectamos
 > Written with *Gonzalo Muñoz*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDE4NzUwNjldfQ==
+eyJoaXN0b3J5IjpbLTk1NTcwOTIyMywtMTg0MTg3NTA2OV19
 -->
