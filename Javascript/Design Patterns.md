@@ -84,11 +84,14 @@ Cada vez que el textbox se modifica, el Label se actualiza automáticamente.
 
 ### Decorator
 
+- Añade nuevas responsabilidades a un objeto de forma dinámica.
+- Nos permiten extender funcionalidad sin tener que usar subclases.
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzYxMDM2OCwtMTIzODY2ODM0NiwtOT
-I3NTM0MTM1LC00NDI5OTMyNTcsLTU2OTI5NDc1NCwtMTUyMDA2
-OTU3NSwxOTYxMTc0NTkyXX0=
+eyJoaXN0b3J5IjpbMTI5MTI2NjU0NCwtNDkzNjEwMzY4LC0xMj
+M4NjY4MzQ2LC05Mjc1MzQxMzUsLTQ0Mjk5MzI1NywtNTY5Mjk0
+NzU0LC0xNTIwMDY5NTc1LDE5NjExNzQ1OTJdfQ==
 -->
