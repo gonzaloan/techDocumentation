@@ -47,8 +47,12 @@ class BitcoinPrice implements Subject{
 		const index = this.observers.findIndex(obs => {
 		return obs === observer 
 		});
-		//S
+		//Sacamos de la lista observers
 		this.observers.splice(index, 1);
+	}
+	//Cuando hay algún cambio notificamos
+	notify(){
+		this.observers.forEach(observer => 	observer.update(data));
 	}
 }
 ```
@@ -58,5 +62,5 @@ class BitcoinPrice implements Subject{
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODE5ODM2LDE5NjExNzQ1OTJdfQ==
+eyJoaXN0b3J5IjpbLTE1MjAwNjk1NzUsMTk2MTE3NDU5Ml19
 -->
