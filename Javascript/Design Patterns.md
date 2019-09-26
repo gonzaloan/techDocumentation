@@ -67,7 +67,7 @@ class PriceDisplay implements Observer {
 	private el: HTMLElement;
 	
 	constructor(){
-		this.el = document.querySelector("price");
+		this.el = document.querySelector("#price");
 	}
 	//Actualizamos
 	update(data: any) {
@@ -85,7 +85,7 @@ value.subscribe(display);
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwNzgwMDIwLC05Mjc1MzQxMzUsLTQ0Mj
+eyJoaXN0b3J5IjpbNjQ0MjEwODMzLC05Mjc1MzQxMzUsLTQ0Mj
 k5MzI1NywtNTY5Mjk0NzU0LC0xNTIwMDY5NTc1LDE5NjExNzQ1
 OTJdfQ==
 -->
