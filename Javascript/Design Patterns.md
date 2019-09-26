@@ -79,13 +79,14 @@ const value = new BitcoinPrice();
 const display = new PriceDisplay();
 value.subscribe(display);
 ```
-
+Este ejemplo está pensado usando un Label y un Textbox.
+Cada vez que el textbox se m
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0MjEwODMzLC05Mjc1MzQxMzUsLTQ0Mj
-k5MzI1NywtNTY5Mjk0NzU0LC0xNTIwMDY5NTc1LDE5NjExNzQ1
-OTJdfQ==
+eyJoaXN0b3J5IjpbMTQ0MTIwODMzMywtOTI3NTM0MTM1LC00ND
+I5OTMyNTcsLTU2OTI5NDc1NCwtMTUyMDA2OTU3NSwxOTYxMTc0
+NTkyXX0=
 -->
