@@ -41,7 +41,9 @@ interface Subject{
 class BitcoinPrice implements Subject{
 	observers: Observer[] = [];
 	constructor(){
-		
+		//Si hay un cambio en este elemento, debería notificar a todos.
+		const el = document.querySelector("#value");	
+		el.addEventListener
 	}
 	subscribe(observer: Observer){
 		this.observers.push(observer);
@@ -65,6 +67,6 @@ class BitcoinPrice implements Subject{
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTI5NDc1NCwtMTUyMDA2OTU3NSwxOT
-YxMTc0NTkyXX0=
+eyJoaXN0b3J5IjpbLTQ0Mjk5MzI1NywtNTY5Mjk0NzU0LC0xNT
+IwMDY5NTc1LDE5NjExNzQ1OTJdfQ==
 -->
