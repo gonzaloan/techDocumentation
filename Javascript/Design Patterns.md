@@ -80,13 +80,13 @@ const display = new PriceDisplay();
 value.subscribe(display);
 ```
 Este ejemplo está pensado usando un Label y un Textbox.
-Cada vez que el textbox se m
+Cada vez que el textbox se modifica, el Label se actualiza automáticamente.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTIwODMzMywtOTI3NTM0MTM1LC00ND
-I5OTMyNTcsLTU2OTI5NDc1NCwtMTUyMDA2OTU3NSwxOTYxMTc0
-NTkyXX0=
+eyJoaXN0b3J5IjpbLTEyMzg2NjgzNDYsLTkyNzUzNDEzNSwtND
+QyOTkzMjU3LC01NjkyOTQ3NTQsLTE1MjAwNjk1NzUsMTk2MTE3
+NDU5Ml19
 -->
