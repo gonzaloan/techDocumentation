@@ -82,11 +82,13 @@ value.subscribe(display);
 Este ejemplo está pensado usando un Label y un Textbox.
 Cada vez que el textbox se modifica, el Label se actualiza automáticamente.
 
+### Decorator
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzg2NjgzNDYsLTkyNzUzNDEzNSwtND
-QyOTkzMjU3LC01NjkyOTQ3NTQsLTE1MjAwNjk1NzUsMTk2MTE3
-NDU5Ml19
+eyJoaXN0b3J5IjpbLTQ5MzYxMDM2OCwtMTIzODY2ODM0NiwtOT
+I3NTM0MTM1LC00NDI5OTMyNTcsLTU2OTI5NDc1NCwtMTUyMDA2
+OTU3NSwxOTYxMTc0NTkyXX0=
 -->
