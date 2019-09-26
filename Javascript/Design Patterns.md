@@ -64,11 +64,20 @@ class BitcoinPrice implements Subject{
 }
 
 class PriceDisplay implements Observer {
+	private el: HTMLElement;
+	
 	constructor(){
-
+		this.el = document.querySelector("price");
 	}
-	update(data: any) {}
+	//Actualizamos
+	update(data: any) {
+		this.el.innerText = data;
+	}
 }
+
+const value = new BitcoinPrice();
+const display = new PriceDisplay();
+value.subscribe(display);
 ```
 
 
@@ -76,7 +85,7 @@ class PriceDisplay implements Observer {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjA5Njk0OTAsLTkyNzUzNDEzNSwtND
-QyOTkzMjU3LC01NjkyOTQ3NTQsLTE1MjAwNjk1NzUsMTk2MTE3
-NDU5Ml19
+eyJoaXN0b3J5IjpbNDAwNzgwMDIwLC05Mjc1MzQxMzUsLTQ0Mj
+k5MzI1NywtNTY5Mjk0NzU0LC0xNTIwMDY5NTc1LDE5NjExNzQ1
+OTJdfQ==
 -->
