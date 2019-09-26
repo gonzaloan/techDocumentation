@@ -40,6 +40,9 @@ interface Subject{
 //Avisará a sus suscriptores 
 class BitcoinPrice implements Subject{
 	observers: Observer[] = [];
+	constructor(){
+		
+	}
 	subscribe(observer: Observer){
 		this.observers.push(observer);
 	}
@@ -62,5 +65,6 @@ class BitcoinPrice implements Subject{
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjAwNjk1NzUsMTk2MTE3NDU5Ml19
+eyJoaXN0b3J5IjpbLTU2OTI5NDc1NCwtMTUyMDA2OTU3NSwxOT
+YxMTc0NTkyXX0=
 -->
