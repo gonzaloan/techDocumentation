@@ -21,8 +21,8 @@ Esto guardará un log de todas las acciones que se realizaron en el s3.
 
 ### Transfer Acceleration
 
-Se debe activar en el bucket que necesitamos. AWS
+Se debe activar en el bucket que necesitamos. AWS identificará el CDN que tenga mejor tiempo de respuesta y aprovechando el caché, será más rápido. 
 > Written by [Gonzalo Muñoz]().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzUzMjUxOSwxMDI4NDg2MTJdfQ==
+eyJoaXN0b3J5IjpbLTM5MjcyMjM3NywxMDI4NDg2MTJdfQ==
 -->
