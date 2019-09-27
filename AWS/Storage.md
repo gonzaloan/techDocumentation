@@ -35,10 +35,12 @@ Se debe activar en el bucket que necesitamos. AWS identificará el CDN que tenga
 - La replicación es asíncrona entre los buckets.
 - Casos de uso comunes: Auditoría, Compliance y Data Recovery. 
 - En el bucket, en el apartado **Management**, está la opción de replicación. Se debe seleccionar el Bucket Destino. 
-- 
+
+
+
 > Written by [Gonzalo Muñoz]().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjU4MTk1MywtMjExNDQzMzU4NCwtMT
-EyMDA2NjM4MSwxODQ4NDU5MTEzLC0zOTI3MjIzNzcsMTAyODQ4
-NjEyXX0=
+eyJoaXN0b3J5IjpbMTQ5NzIyNjA2NiwxMzUyNTgxOTUzLC0yMT
+E0NDMzNTg0LC0xMTIwMDY2MzgxLDE4NDg0NTkxMTMsLTM5Mjcy
+MjM3NywxMDI4NDg2MTJdfQ==
 -->
