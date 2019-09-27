@@ -26,10 +26,11 @@ Se debe activar en el bucket que necesitamos. AWS identificará el CDN que tenga
 ### Eventos en S3
 
 - Se debe activar la sección Events. Ahí se pueden agregar todos los eventos que se quieran sean notificados. 
-- Se puede crear notificacion
+- Se puede crear notificaciones para ciertas acciones y en qué carpetas o archivos que queremos tener dichas notificaciones.
+- Estas notificaciones pueden enviarse a un lambda, 
 
 > Written by [Gonzalo Muñoz]().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU4MzkzMDgsMTg0ODQ1OTExMywtMz
-kyNzIyMzc3LDEwMjg0ODYxMl19
+eyJoaXN0b3J5IjpbMTUyODUzNDk3NiwxODQ4NDU5MTEzLC0zOT
+I3MjIzNzcsMTAyODQ4NjEyXX0=
 -->
