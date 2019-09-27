@@ -31,11 +31,11 @@ Se debe activar en el bucket que necesitamos. AWS identificará el CDN que tenga
 
 ### Replicación
 
-- La característica de replicar información se realiza entre regiones. 
+- La característica de replicar información se realiza entre regiones, para tenerlo en regiones distintas. 
 - La replicación es asíncrona entre los buckets.
-- 
+- Casos de uso comunes: Auditoría, Compliance y Data Recovery. 
 > Written by [Gonzalo Muñoz]().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzM1MjIzMCwtMTEyMDA2NjM4MSwxOD
+eyJoaXN0b3J5IjpbLTExMTY2NTYwMSwtMTEyMDA2NjM4MSwxOD
 Q4NDU5MTEzLC0zOTI3MjIzNzcsMTAyODQ4NjEyXX0=
 -->
