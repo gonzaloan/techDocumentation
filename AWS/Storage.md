@@ -17,7 +17,9 @@ Permite llevar registro de todas las acciones que se realicen en este.
 - Es una opción del Bucket de S3
 - Conecta a servicio CloudTrail. Por lo que debe primero crearse un Trail en AWS CloudTrail, esto es básicamente una cola o registro en donde se almacenarán las llamadas de nuestro Bucket.
 - Se crea un Trail y se puede crear el Bucket que almacenará los Logs
+
+
 > Written by [Gonzalo Muñoz]().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODQ4NjEyXX0=
+eyJoaXN0b3J5IjpbLTE5NDg1MzA1NTIsMTAyODQ4NjEyXX0=
 -->
