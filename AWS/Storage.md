@@ -29,8 +29,13 @@ Se debe activar en el bucket que necesitamos. AWS identificará el CDN que tenga
 - Se puede crear notificaciones para ciertas acciones y en qué carpetas o archivos que queremos tener dichas notificaciones.
 - Estas notificaciones pueden enviarse a un lambda, SQS (Cola), SNS. Este último por ejemplo, si tenemos un evento de eliminar archivos, el SNS haría que llegara un correo electrónico a todos los observadores cuando se vaya a eliminar un objeto. 
 
+### Replicación
+
+- La característica de replicar información se realiza entre regiones. 
+- La replicación es asíncrona entre los buckets.
+- 
 > Written by [Gonzalo Muñoz]().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAwNjYzODEsMTg0ODQ1OTExMywtMz
-kyNzIyMzc3LDEwMjg0ODYxMl19
+eyJoaXN0b3J5IjpbMTUzMzM1MjIzMCwtMTEyMDA2NjM4MSwxOD
+Q4NDU5MTEzLC0zOTI3MjIzNzcsMTAyODQ4NjEyXX0=
 -->
