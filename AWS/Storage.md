@@ -27,10 +27,10 @@ Se debe activar en el bucket que necesitamos. AWS identificará el CDN que tenga
 
 - Se debe activar la sección Events. Ahí se pueden agregar todos los eventos que se quieran sean notificados. 
 - Se puede crear notificaciones para ciertas acciones y en qué carpetas o archivos que queremos tener dichas notificaciones.
-- Estas notificaciones pueden enviarse a un lambda, SQS, SNS. Este último por ejemplo, si tenemos un evento de eliminar archivos, el SNS haría que llegara un correo electrónico a todos los observadores cuando se vaya a eliminar un objeto. 
+- Estas notificaciones pueden enviarse a un lambda, SQS (Cola), SNS. Este último por ejemplo, si tenemos un evento de eliminar archivos, el SNS haría que llegara un correo electrónico a todos los observadores cuando se vaya a eliminar un objeto. 
 
 > Written by [Gonzalo Muñoz]().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODQ2OTY4NSwxODQ4NDU5MTEzLC0zOT
-I3MjIzNzcsMTAyODQ4NjEyXX0=
+eyJoaXN0b3J5IjpbLTExMjAwNjYzODEsMTg0ODQ1OTExMywtMz
+kyNzIyMzc3LDEwMjg0ODYxMl19
 -->
