@@ -23,9 +23,13 @@ Esto guardará un log de todas las acciones que se realizaron en el s3.
 
 Se debe activar en el bucket que necesitamos. AWS identificará el CDN que tenga mejor tiempo de respuesta y aprovechando el caché, será más rápido. 
 
-### Ev
+### Eventos en S3
+
+- Se debe activar la sección Events. 
+- 
+
 > Written by [Gonzalo Muñoz]().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjY5ODQ3LC0zOTI3MjIzNzcsMTAyOD
-Q4NjEyXX0=
+eyJoaXN0b3J5IjpbMTg0ODQ1OTExMywtMzkyNzIyMzc3LDEwMj
+g0ODYxMl19
 -->
