@@ -141,7 +141,7 @@ Es importante remover valores de la sesión cuando ya no son necesitados. Hay do
 
 Los formularios web clásicos, tienen datos, tipos de moneda y cantidades. Los valores en los formularios necesitan estar respaldados en los objetos del backend. La customización de cómo ocurre el binding se puede modificar con la anotación **@InitBinder**
 
-La customización puede acerse en un controlador específico o en un set de controladores usando Handler Advice. Este ejemplo muestra como configurar el formato por defecto de una fech apara usar un binding de formulario
+La customización puede acerse en un controlador específico o en un set de controladores usando Handler Advice. Este ejemplo muestra como configurar el formato por defecto de una fecha para usar un binding de formulario
 
 ```java
     @InitBinder 
@@ -292,5 +292,5 @@ Podemos crear un manejo global para CustomException.class:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTk5NjM5XX0=
+eyJoaXN0b3J5IjpbMTQ5NTA5ODI1MSwtOTE5OTk2MzldfQ==
 -->
