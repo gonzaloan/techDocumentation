@@ -325,8 +325,6 @@ public void setUp() {
 }
 ```
 
-
-
 Esto hará que los snippets generados con las pruebas se almacenen en la carpeta **target/generated-snippets** estructurados según se indique en cada test que se desee documente un endpoint.
 
 Una prueba de un controlador común y corriente tiene el siguiente formato:
@@ -505,5 +503,6 @@ Aquí se define todos los snippets creados en la carpeta target y los inyectamos
 > Written with *Gonzalo Muñoz*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTcwOTIyMywtMTg0MTg3NTA2OV19
+eyJoaXN0b3J5IjpbLTM5ODM2MTczMSwtOTU1NzA5MjIzLC0xOD
+QxODc1MDY5XX0=
 -->
