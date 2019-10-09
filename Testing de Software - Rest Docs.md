@@ -31,7 +31,7 @@ Testear la aplicación corriendo.
 
 ## Dependencias
 
-- **Sprint Boot Starter Test**: repositorio: *spring-boot-starter-test*, trae Junit, Mockito, AssertJ y spring test.
+- **Sprint Boot Starter Test**: repositorio: *spring-boot-starter-test*
 - **Mockito**:  Librería para crear Mocks. Un mock es un objeto de prueba que imita el comportamiento de objetos reales de forma controlada. 
 - **AssertJ**: Librería que permite comparar resultados de manera entendible.
 
@@ -503,6 +503,6 @@ Aquí se define todos los snippets creados en la carpeta target y los inyectamos
 > Written with *Gonzalo Muñoz*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODM2MTczMSwtOTU1NzA5MjIzLC0xOD
-QxODc1MDY5XX0=
+eyJoaXN0b3J5IjpbMzE4NjU3MjE5LC0zOTgzNjE3MzEsLTk1NT
+cwOTIyMywtMTg0MTg3NTA2OV19
 -->
