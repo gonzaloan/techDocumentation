@@ -15,7 +15,7 @@ public CustomerDTO getCustomer(@PathVariable UUID customerId) {
 
 ```java
 @PostMapping  
-public ResponseEntity handlerPost(BeerDTO beerDTO) {  
+public ResponseEntity handlerPost(@RequestBody BeerDTO beerDTO) {  
   BeerDTO savedDto = beerService.saveNewBeer(beerDTO);  
   HttpHeaders headers = new HttpHeaders();  
   //Estándar de REST TODO: add hostname to URL  
@@ -47,5 +47,5 @@ public void deleteBeer(@PathVariable("beerId") UUID beerId) {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTY0NzgwXX0=
+eyJoaXN0b3J5IjpbMTMzMzUxNDk1NSwxMDc1NjQ3ODBdfQ==
 -->
