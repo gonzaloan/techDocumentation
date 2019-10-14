@@ -45,7 +45,11 @@ public void deleteBeer(@PathVariable("beerId") UUID beerId) {
   beerService.deleteById(beerId);  
 }
 ```
+
+
+### API Vers
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzUxNDk1NSwxMDc1NjQ3ODBdfQ==
+eyJoaXN0b3J5IjpbLTExNDc1NzU4MDYsMTMzMzUxNDk1NSwxMD
+c1NjQ3ODBdfQ==
 -->
