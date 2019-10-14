@@ -53,10 +53,12 @@ public void deleteBeer(@PathVariable("beerId") UUID beerId) {
 - Ejemplo ```/api/v1/beer```
 - Permite evolucionar la API sin romper a los consumidores actuales.
 
+### Instalar Junit 5
 
+Para hace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODU5MzU5NCwxMzMzNTE0OTU1LDEwNz
-U2NDc4MF19
+eyJoaXN0b3J5IjpbNzkxMTU4NjM3LC01Njg1OTM1OTQsMTMzMz
+UxNDk1NSwxMDc1NjQ3ODBdfQ==
 -->
