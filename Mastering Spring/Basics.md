@@ -55,10 +55,24 @@ public void deleteBeer(@PathVariable("beerId") UUID beerId) {
 
 ### Instalar Junit 5
 
-Para hace
+Para hacer esto, se debe primero excluir JUNIT 4 de la librería de spring boot starter test.
+
+```xml
+<dependency>  
+ <groupId>org.springframework.boot</groupId>  
+ <artifactId>spring-boot-starter-test</artifactId>  
+ <scope>test</scope>  
+ <exclusions>  
+ <exclusion>  
+ <groupId>junit</groupId>  
+ <artifactId>junit</artifactId>  
+ </exclusion>  
+ </exclusions>  
+</dependency>
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxMTU4NjM3LC01Njg1OTM1OTQsMTMzMz
+eyJoaXN0b3J5IjpbODM1NTcxMDQwLC01Njg1OTM1OTQsMTMzMz
 UxNDk1NSwxMDc1NjQ3ODBdfQ==
 -->
