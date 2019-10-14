@@ -47,9 +47,16 @@ public void deleteBeer(@PathVariable("beerId") UUID beerId) {
 ```
 
 
-### API Vers
+### API Versioning
+
+- Versionar es considerado una buena práctica
+- Ejemplo ```/api/v1/beer```
+- Permite evolucionar la API sin romper a los consumidores actuales.
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDc1NzU4MDYsMTMzMzUxNDk1NSwxMD
-c1NjQ3ODBdfQ==
+eyJoaXN0b3J5IjpbLTU2ODU5MzU5NCwxMzMzNTE0OTU1LDEwNz
+U2NDc4MF19
 -->
