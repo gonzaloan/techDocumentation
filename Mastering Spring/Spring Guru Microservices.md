@@ -10,6 +10,7 @@ logging.level.org.apache.http=debug
 
 Nos permite hacer validaciones, por ejemplo en un DTO:
 
+
 ```java
 
 ```
@@ -17,6 +18,6 @@ Nos permite hacer validaciones, por ejemplo en un DTO:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTUzNjIwOSwxODgxMjYyMTg4LC01Nz
-EyNDc0OTMsNzgzNTg3MjEzXX0=
+eyJoaXN0b3J5IjpbMTQ3NDczNzQ3MSwxODc5NTM2MjA5LDE4OD
+EyNjIxODgsLTU3MTI0NzQ5Myw3ODM1ODcyMTNdfQ==
 -->
