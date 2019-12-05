@@ -60,11 +60,21 @@ public ResponseEntity handleUpdate(@PathVariable UUID beerId, @Valid @RequestBod
 ```
 ### Java Bean Validation: Error Handling
 
-
+```java
+@ExceptionHandler(ConstraintViolationException.class)  
+public ResponseEntity<List> validationErrorHandler(ConstraintViolationException e) {  
+  
+  List<String> errors = new ArrayList<>(e.getConstraintViolations().size());  
+  e.getConstraintViolations().forEach(constraintViolation -> {  
+  errors.add(constraintViolation.getPropertyPath() + " : " + constraintViolation.getMessage());  
+  });  
+ return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);  
+}
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODU3ODkwMjcsLTExMjQ3NzEyNTIsLT
-E4NDA2OTU3NTgsMTg3OTUzNjIwOSwxODgxMjYyMTg4LC01NzEy
-NDc0OTMsNzgzNTg3MjEzXX0=
+eyJoaXN0b3J5IjpbMTIwNzMyNDc2MSwtMTE4NTc4OTAyNywtMT
+EyNDc3MTI1MiwtMTg0MDY5NTc1OCwxODc5NTM2MjA5LDE4ODEy
+NjIxODgsLTU3MTI0NzQ5Myw3ODM1ODcyMTNdfQ==
 -->
