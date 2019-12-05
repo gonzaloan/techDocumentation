@@ -10,6 +10,27 @@ logging.level.org.apache.http=debug
 
 Nos permite hacer validaciones, por ejemplo en un DTO:
 
+Hay muchas
+- @Null
+- @NotBlank
+- @NotNull
+- @Max
+- @Currency
+- @Email
+- @Length
+- @SafeHtml
+- @UniqueElements
+- @Url
+- @Digits
+- @AssertTrue/@AssertFalse
+- @DecimalMax
+- @Negative
+- @Positive
+- @Past
+- @PastOrPresent
+- @Pattern
+- @Size
+Entre muchas otras
 
 ```java
 
@@ -18,6 +39,6 @@ Nos permite hacer validaciones, por ejemplo en un DTO:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDczNzQ3MSwxODc5NTM2MjA5LDE4OD
+eyJoaXN0b3J5IjpbMTczODQ2OTQ3MSwxODc5NTM2MjA5LDE4OD
 EyNjIxODgsLTU3MTI0NzQ5Myw3ODM1ODcyMTNdfQ==
 -->
