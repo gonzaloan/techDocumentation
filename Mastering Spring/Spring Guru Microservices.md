@@ -58,11 +58,13 @@ public ResponseEntity handleUpdate(@PathVariable UUID beerId, @Valid @RequestBod
  return new ResponseEntity(HttpStatus.NO_CONTENT);  
 }
 ```
+### Java Bean Validation: Error Handling
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQ3NzEyNTIsLTE4NDA2OTU3NTgsMT
-g3OTUzNjIwOSwxODgxMjYyMTg4LC01NzEyNDc0OTMsNzgzNTg3
-MjEzXX0=
+eyJoaXN0b3J5IjpbLTExODU3ODkwMjcsLTExMjQ3NzEyNTIsLT
+E4NDA2OTU3NTgsMTg3OTUzNjIwOSwxODgxMjYyMTg4LC01NzEy
+NDc0OTMsNzgzNTg3MjEzXX0=
 -->
