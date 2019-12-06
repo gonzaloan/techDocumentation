@@ -74,12 +74,26 @@ public ResponseEntity<List> validationErrorHandler(ConstraintViolationException 
 
 ### Controller Advice
 
-````
+```java
+@ControllerAdvice  
+public class MvcExceptionHandler {  
+  
+  
+  @ExceptionHandler(ConstraintViolationException.class)  
+  public ResponseEntity<List<String>> validationErrorHandler(ConstraintViolationException e) {  
+  
+  List<String> errors = new ArrayList<>(e.getConstraintViolations().size());  
+  e.getConstraintViolations().forEach(constraintViolation -> {  
+  errors.add(constraintViolation.getPropertyPath() + " : " + constraintViolation.getMessage());  
+  });  
+ return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);  
+  }
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjE2ODY4OCwtMTk0ODMyODAsMTIwNz
-MyNDc2MSwtMTE4NTc4OTAyNywtMTEyNDc3MTI1MiwtMTg0MDY5
-NTc1OCwxODc5NTM2MjA5LDE4ODEyNjIxODgsLTU3MTI0NzQ5My
-w3ODM1ODcyMTNdfQ==
+eyJoaXN0b3J5IjpbMTUzMTM0ODI2LC0xOTQ4MzI4MCwxMjA3Mz
+I0NzYxLC0xMTg1Nzg5MDI3LC0xMTI0NzcxMjUyLC0xODQwNjk1
+NzU4LDE4Nzk1MzYyMDksMTg4MTI2MjE4OCwtNTcxMjQ3NDkzLD
+c4MzU4NzIxM119
 -->
