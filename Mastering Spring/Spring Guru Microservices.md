@@ -92,12 +92,18 @@ public class MvcExceptionHandler {
 
 ## Lombok
 
+Cosas útiles:
 
+**@RequiredArgsContructor**: Implementa el constructor automáticamente. 
+
+
+
+ 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzgwODU5OCwxNjI3MzEzODE2LC0xOT
-Q4MzI4MCwxMjA3MzI0NzYxLC0xMTg1Nzg5MDI3LC0xMTI0Nzcx
-MjUyLC0xODQwNjk1NzU4LDE4Nzk1MzYyMDksMTg4MTI2MjE4OC
-wtNTcxMjQ3NDkzLDc4MzU4NzIxM119
+eyJoaXN0b3J5IjpbLTEzNDA0NTQxNTEsLTM0MzgwODU5OCwxNj
+I3MzEzODE2LC0xOTQ4MzI4MCwxMjA3MzI0NzYxLC0xMTg1Nzg5
+MDI3LC0xMTI0NzcxMjUyLC0xODQwNjk1NzU4LDE4Nzk1MzYyMD
+ksMTg4MTI2MjE4OCwtNTcxMjQ3NDkzLDc4MzU4NzIxM119
 -->
