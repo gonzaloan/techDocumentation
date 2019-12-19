@@ -238,10 +238,25 @@ Una vez se tiene los adocs listos, sólo se debe hacer un **mvn clean package**,
 
 ## Validar Constraints 
 
-Se debe crear un archivo llamado : **request-fields.snippet** en la ruta **resources/
+Se debe crear un archivo llamado : **request-fields.snippet** en la ruta **resources/org/springframework/restdocs/templates/request-fields.snippets**
+
+y debe tener esto:
+
+```
+|===
+	|Path|Type|Description|Constraints
+
+{{#fields}}
+	|{{path}}
+	|{{type}}
+	|{{description}}
+	|{{constraints}}
+{{/fields}}
+	|===
+```
 
 > Written by [Gonzalo Muñoz](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTczNTIwNzAsLTEzNTU5MTY5ODIsLT
-IxMDM4NTc3MjVdfQ==
+eyJoaXN0b3J5IjpbMTA0MTY1ODgzMiwtMTM1NTkxNjk4MiwtMj
+EwMzg1NzcyNV19
 -->
