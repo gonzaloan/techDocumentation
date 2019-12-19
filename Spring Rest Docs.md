@@ -261,11 +261,19 @@ Para poder validar las pruebas, abrimos una prueba conRest Docs y creamos esta c
 public static class ConstrainedFields{
 	private final ConstraintDescriptions constraintDescriptions;
 
-	ConstrainedField
+	ConstrainedFields(Class<?> input){
+		this.contraintDescriptions = new ConstraintDescriptions(input);
+	}
+	
+	private FieldDescriptor withPath(String path){
+		return FieldDescriptor withPath(String path) {
+			return fieldWithPath(path).attributes(key("constraints").value(StringUtils.collectionToDelimitedString(this.constraintDescriptions.descriptionsForProperty(path), ". ")));
+		}
+	}
 }
 ```
 > Written by [Gonzalo Muñoz](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzcwNzk1MCwtMTM1NTkxNjk4MiwtMj
+eyJoaXN0b3J5IjpbMTk4MTA3NjExMywtMTM1NTkxNjk4MiwtMj
 EwMzg1NzcyNV19
 -->
