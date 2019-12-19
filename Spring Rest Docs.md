@@ -281,7 +281,7 @@ void saveNewBeer() throws Exception{
 	BeerDto beerDto = getValidBeerDto();
 	String beerToJson = objectMapper.writeAsValueString(beerDto);
 
-	ConstraintsDescriptions fields = new ConstraintDescriptions(BeerDto.class);
+	ConstrainedFields fields = new ConstrainedFields(BeerDto.class);
 
 
 	mockMvc.perform(post("/api/v1/beer/")
@@ -290,12 +290,13 @@ void saveNewBeer() throws Exception{
 		.andExpect(status().isCreated())
 		.andDo(document("v1/beer",
 			requestFields(
-				fieldWithPath("id").ignored(),
-				field
+				fields.withPath("id").ignored(),
+				
 }
 ```
 > Written by [Gonzalo Muñoz](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDc1OTI3MywxMTg2MDI2Njg3LDE5OD
-EwNzYxMTMsLTEzNTU5MTY5ODIsLTIxMDM4NTc3MjVdfQ==
+eyJoaXN0b3J5IjpbLTQ5NTE3MDQ4OSwxMDgwNzU5MjczLDExOD
+YwMjY2ODcsMTk4MTA3NjExMywtMTM1NTkxNjk4MiwtMjEwMzg1
+NzcyNV19
 -->
