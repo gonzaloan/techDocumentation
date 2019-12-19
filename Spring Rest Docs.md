@@ -272,8 +272,24 @@ public static class ConstrainedFields{
 	}
 }
 ```
+
+Ahora, hay que setear esto en nuestras pruebas:
+
+```java
+@Test
+void saveNewBeer() throws Exception{
+	BeerDto beerDto = getValidBeerDto();
+	String beerToJson = objectMapper.writeAsValueString(beerDto);
+
+	Constraints
+
+	mockMvc.perform(post("/api/v1/beer/")
+		.contentType(MediaType.APPLICATION_JSON)
+		.content(beerToJson
+}
+```
 > Written by [Gonzalo Muñoz](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTA3NjExMywtMTM1NTkxNjk4MiwtMj
-EwMzg1NzcyNV19
+eyJoaXN0b3J5IjpbMTUxNTAyMjIwMSwxOTgxMDc2MTEzLC0xMz
+U1OTE2OTgyLC0yMTAzODU3NzI1XX0=
 -->
