@@ -285,11 +285,16 @@ void saveNewBeer() throws Exception{
 
 	mockMvc.perform(post("/api/v1/beer/")
 		.contentType(MediaType.APPLICATION_JSON)
-		.content(beerToJson
+		.content(beerToJson))
+		.andExpect(status().isCreated())
+		.andDo(document("v1/beer",
+			requestFields(
+				fieldWithPath("id").ignored(),
+				field
 }
 ```
 > Written by [Gonzalo Muñoz](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTAyMjIwMSwxOTgxMDc2MTEzLC0xMz
+eyJoaXN0b3J5IjpbMTE4NjAyNjY4NywxOTgxMDc2MTEzLC0xMz
 U1OTE2OTgyLC0yMTAzODU3NzI1XX0=
 -->
