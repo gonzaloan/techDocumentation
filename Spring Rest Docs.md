@@ -238,10 +238,10 @@ Una vez se tiene los adocs listos, sólo se debe hacer un **mvn clean package**,
 
 ## Validar Constraints 
 
-
+Se debe crear un archivo llamado : **request-fields.snippet** en la ruta **resources/
 
 > Written by [Gonzalo Muñoz](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU5MTY5ODIsLTIxMDM4NTc3MjVdfQ
-==
+eyJoaXN0b3J5IjpbLTExMTczNTIwNzAsLTEzNTU5MTY5ODIsLT
+IxMDM4NTc3MjVdfQ==
 -->
