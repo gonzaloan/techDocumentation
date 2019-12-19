@@ -236,7 +236,12 @@ Aquí se define todos los snippets creados en la carpeta target y los inyectamos
 Una vez se tiene los adocs listos, sólo se debe hacer un **mvn clean package**, esto creará un archivo html con nuestra documentación, dentro de la carpeta **src/docs/asciidocs** que definimos en el pom.
 
 
+## Validar Constraints 
+
+
+
 > Written by [Gonzalo Muñoz](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDM4NTc3MjVdfQ==
+eyJoaXN0b3J5IjpbLTEzNTU5MTY5ODIsLTIxMDM4NTc3MjVdfQ
+==
 -->
