@@ -281,7 +281,8 @@ void saveNewBeer() throws Exception{
 	BeerDto beerDto = getValidBeerDto();
 	String beerToJson = objectMapper.writeAsValueString(beerDto);
 
-	Constraints
+	ConstraintsDescriptions fields = new ConstraintDescriptions(BeerDto.class);
+
 
 	mockMvc.perform(post("/api/v1/beer/")
 		.contentType(MediaType.APPLICATION_JSON)
@@ -295,6 +296,6 @@ void saveNewBeer() throws Exception{
 ```
 > Written by [Gonzalo Muñoz](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjAyNjY4NywxOTgxMDc2MTEzLC0xMz
-U1OTE2OTgyLC0yMTAzODU3NzI1XX0=
+eyJoaXN0b3J5IjpbMTA4MDc1OTI3MywxMTg2MDI2Njg3LDE5OD
+EwNzYxMTMsLTEzNTU5MTY5ODIsLTIxMDM4NTc3MjVdfQ==
 -->
