@@ -89,7 +89,7 @@ public class MvcExceptionHandler {
  return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);  
   }
 ```
-## Rest Docs
+
 
 
 
@@ -98,9 +98,9 @@ public class MvcExceptionHandler {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTE0NDE3NSw3MTAwNTYwOTEsLTEzND
-A0NTQxNTEsLTM0MzgwODU5OCwxNjI3MzEzODE2LC0xOTQ4MzI4
-MCwxMjA3MzI0NzYxLC0xMTg1Nzg5MDI3LC0xMTI0NzcxMjUyLC
-0xODQwNjk1NzU4LDE4Nzk1MzYyMDksMTg4MTI2MjE4OCwtNTcx
-MjQ3NDkzLDc4MzU4NzIxM119
+eyJoaXN0b3J5IjpbLTE5NTQxMTgyNjIsNzEwMDU2MDkxLC0xMz
+QwNDU0MTUxLC0zNDM4MDg1OTgsMTYyNzMxMzgxNiwtMTk0ODMy
+ODAsMTIwNzMyNDc2MSwtMTE4NTc4OTAyNywtMTEyNDc3MTI1Mi
+wtMTg0MDY5NTc1OCwxODc5NTM2MjA5LDE4ODEyNjIxODgsLTU3
+MTI0NzQ5Myw3ODM1ODcyMTNdfQ==
 -->
