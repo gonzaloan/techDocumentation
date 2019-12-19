@@ -255,9 +255,17 @@ y debe tener esto:
 	|===
 ```
 
-Si ahora se corren los pruebas
+Para poder validar las pruebas, abrimos una prueba conRest Docs y creamos esta clase estática:
+
+```java
+public static class ConstrainedFields{
+	private final ConstraintDescriptions constraintDescriptions;
+
+	ConstrainedField
+}
+```
 > Written by [Gonzalo Muñoz](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE0NjMxMDgsLTEzNTU5MTY5ODIsLT
-IxMDM4NTc3MjVdfQ==
+eyJoaXN0b3J5IjpbLTMyNzcwNzk1MCwtMTM1NTkxNjk4MiwtMj
+EwMzg1NzcyNV19
 -->
