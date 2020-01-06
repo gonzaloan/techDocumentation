@@ -87,16 +87,19 @@ public class BeerDTO{
 	@Positive
 	private Long upc;
 
-	@JsonFormat(/
+	@JsonFormat(shape = JsonFormat.Shape.STRING)
 	private BigDecimal price;
+	@JsonFormat(pattern = "yyyy-MM-dd'HH:mm:ssZ", shape = JsonFormat.Shape:STRING)
 	private OffsetDateTime createdDate;
 	private OffsetDateTime lastUpdatedDate;
 	
 }
 ```
+- price: En el caso de price, lo que se hace es formatear como un String el campo precio. 
+- createdDate:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Njc2ODg5LC04NTg2MDQxNTEsLTE0NT
-YyOTY0MzldfQ==
+eyJoaXN0b3J5IjpbLTQ4MjU1NDA0MywtODU4NjA0MTUxLC0xND
+U2Mjk2NDM5XX0=
 -->
