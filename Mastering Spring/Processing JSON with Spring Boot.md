@@ -67,6 +67,7 @@ Spring configurará automáticamente cualquiera de estas 3 librerías.
 
 ### Ejemplos de Uso
 
+El Json Generado ya no tendrá el campo 'id', sino que 'beerId':
 ```java
 @Data
 @NoArgsConstructor
@@ -95,5 +96,5 @@ public class BeerDTO{
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTYyOTY0MzldfQ==
+eyJoaXN0b3J5IjpbLTg1ODYwNDE1MSwtMTQ1NjI5NjQzOV19
 -->
