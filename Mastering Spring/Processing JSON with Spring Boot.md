@@ -87,6 +87,7 @@ public class BeerDTO{
 	@Positive
 	private Long upc;
 
+	@JsonFormat(/
 	private BigDecimal price;
 	private OffsetDateTime createdDate;
 	private OffsetDateTime lastUpdatedDate;
@@ -96,5 +97,6 @@ public class BeerDTO{
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODYwNDE1MSwtMTQ1NjI5NjQzOV19
+eyJoaXN0b3J5IjpbLTQ5Njc2ODg5LC04NTg2MDQxNTEsLTE0NT
+YyOTY0MzldfQ==
 -->
