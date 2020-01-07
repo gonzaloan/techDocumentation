@@ -92,6 +92,7 @@ public class BeerDTO{
 	@JsonFormat(pattern = "yyyy-MM-dd", shape = JsonFormat.Shape:STRING)
 	private OffsetDateTime createdDate;
 	private OffsetDateTime lastUpdatedDate;
+
 	
 }
 ```
@@ -100,6 +101,6 @@ public class BeerDTO{
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjgxNjk4OCwtODU4NjA0MTUxLC0xND
+eyJoaXN0b3J5IjpbMTU1MDc0ODQwNiwtODU4NjA0MTUxLC0xND
 U2Mjk2NDM5XX0=
 -->
