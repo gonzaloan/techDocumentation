@@ -99,8 +99,17 @@ public class BeerDTO{
 - price: En el caso de price, lo que se hace es formatear como un String el campo precio. 
 - createdDate: En el caso de la fecha, se está cambiando la forma de mostrar la fecha según el pattern, y como un String.
 
+
+#### Custom Serializer
+
+También podemos crear serializadores personalizados. Para ello creamos una clase así:
+
+```java
+
+
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDc0ODQwNiwtODU4NjA0MTUxLC0xND
-U2Mjk2NDM5XX0=
+eyJoaXN0b3J5IjpbNjk2MDIyMDE3LDE1NTA3NDg0MDYsLTg1OD
+YwNDE1MSwtMTQ1NjI5NjQzOV19
 -->
