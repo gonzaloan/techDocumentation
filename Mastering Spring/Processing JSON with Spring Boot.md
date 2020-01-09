@@ -138,12 +138,18 @@ Para ello creamos una clase deserializadora:
 ```java
 public class LocalDateDeserializer extends StdDeserializer<LocalDate> {
 
+public LocalDateDeserializer() {
+	super(LocalDate.class);
+}
 @Override
-public LocalDate deserialize(JsonParser p, De
+public LocalDate deserialize(JsonParser p, DeserializationContext ctx) throws IOException, JsonProcessingException {
+		return LocalDate.parse(p.readValueAs(String.class), DateTimeFormatter.BASIC_ISO_DATE);
+	}
 }
 ```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjY4NTU5MjYsLTEyNzA4MjUyMzUsMT
-U1MDc0ODQwNiwtODU4NjA0MTUxLC0xNDU2Mjk2NDM5XX0=
+eyJoaXN0b3J5IjpbOTY5MjA1ODE2LC0xMjcwODI1MjM1LDE1NT
+A3NDg0MDYsLTg1ODYwNDE1MSwtMTQ1NjI5NjQzOV19
 -->
