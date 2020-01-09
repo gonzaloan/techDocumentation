@@ -113,12 +113,15 @@ public class LocalDateSerializer extends JsonSerializer<LocalDate> {
 	@Override
 	public void serialize(LocalDate value, JsonGenerator gen, SerializerProvider serializers) throws IOEXception{
 		gen.writeObject(value.format(DateTimeFormatter.BASIC_ISO_DATE));
+		
 	}
 }
 
 ```
+
+Esto lo que hace, es tomar el **value**, y luego el JsonGenerator y escribir ese objeto. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5NTE4MTEsMTU1MDc0ODQwNiwtODU4Nj
-A0MTUxLC0xNDU2Mjk2NDM5XX0=
+eyJoaXN0b3J5IjpbMTk1OTY3OTgyNSwxNTUwNzQ4NDA2LC04NT
+g2MDQxNTEsLTE0NTYyOTY0MzldfQ==
 -->
