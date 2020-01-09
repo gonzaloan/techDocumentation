@@ -148,8 +148,18 @@ public LocalDate deserialize(JsonParser p, DeserializationContext ctx) throws IO
 }
 ```
 
+Finalmente debemos agregar en nuestro POJO
+
+```java
+public class BeerDto {
+
+	@JsonSerialize(using = LocalDateSerializer.class)
+	@JsonDeserialize(using = LocalDateDeserializer.class)
+	private LocalDate myLocalDate;
+}
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5MjA1ODE2LC0xMjcwODI1MjM1LDE1NT
-A3NDg0MDYsLTg1ODYwNDE1MSwtMTQ1NjI5NjQzOV19
+eyJoaXN0b3J5IjpbLTY0OTM2MTg5OCwtMTI3MDgyNTIzNSwxNT
+UwNzQ4NDA2LC04NTg2MDQxNTEsLTE0NTYyOTY0MzldfQ==
 -->
