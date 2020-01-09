@@ -120,8 +120,21 @@ public class LocalDateSerializer extends JsonSerializer<LocalDate> {
 ```
 
 Esto lo que hace, es tomar el **value**, y luego el JsonGenerator y escribir ese objeto. 
+
+Luego, para utilizarlo sólo debemos agregar la anotación:
+
+```java
+public class BeerDto {
+
+	@JsonSerialize(using = LocalDateSerializer.class)
+	private LocalDate myLocalDate;
+}
+
+```
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTY3OTgyNSwxNTUwNzQ4NDA2LC04NT
-g2MDQxNTEsLTE0NTYyOTY0MzldfQ==
+eyJoaXN0b3J5IjpbLTEyNzA4MjUyMzUsMTU1MDc0ODQwNiwtOD
+U4NjA0MTUxLC0xNDU2Mjk2NDM5XX0=
 -->
