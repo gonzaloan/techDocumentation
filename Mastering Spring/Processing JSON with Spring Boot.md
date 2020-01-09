@@ -131,10 +131,19 @@ public class BeerDto {
 }
 
 ```
+#### Custom Deserializer
 
+Para ello creamos una clase deserializadora:
 
+```java
+public class LocalDateDeserializer extends StdDeserializer<LocalDate> {
+
+@Override
+public LocalDate deserialize(JsonParser p, De
+}
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzA4MjUyMzUsMTU1MDc0ODQwNiwtOD
-U4NjA0MTUxLC0xNDU2Mjk2NDM5XX0=
+eyJoaXN0b3J5IjpbLTEwMjY4NTU5MjYsLTEyNzA4MjUyMzUsMT
+U1MDc0ODQwNiwtODU4NjA0MTUxLC0xNDU2Mjk2NDM5XX0=
 -->
