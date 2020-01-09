@@ -104,12 +104,21 @@ public class BeerDTO{
 
 También podemos crear serializadores personalizados. Para ello creamos una clase así:
 
-```java
+Supongamos que queremos serializar un LocalDate: 
 
+
+```java
+public class LocalDateSerializer extends JsonSerializer<LocalDate> {
+	
+	@Override
+	public void serialize(LocalDate value, JsonGenerator gen, SerializerProvider serializers) throws IOEXception{
+		gen.writeObject(value.format(DateTimeFormatter.BASIC_ISO_DATE));
+	}
+}
 
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2MDIyMDE3LDE1NTA3NDg0MDYsLTg1OD
-YwNDE1MSwtMTQ1NjI5NjQzOV19
+eyJoaXN0b3J5IjpbMzI5NTE4MTEsMTU1MDc0ODQwNiwtODU4Nj
+A0MTUxLC0xNDU2Mjk2NDM5XX0=
 -->
