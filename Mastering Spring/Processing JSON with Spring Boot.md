@@ -157,9 +157,10 @@ public class BeerDto {
 	@JsonDeserialize(using = LocalDateDeserializer.class)
 	private LocalDate myLocalDate;
 }
-
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTM2MTg5OCwtMTI3MDgyNTIzNSwxNT
-UwNzQ4NDA2LC04NTg2MDQxNTEsLTE0NTYyOTY0MzldfQ==
+eyJoaXN0b3J5IjpbMTAxNTczMTk5MCwtNjQ5MzYxODk4LC0xMj
+cwODI1MjM1LDE1NTA3NDg0MDYsLTg1ODYwNDE1MSwtMTQ1NjI5
+NjQzOV19
 -->
