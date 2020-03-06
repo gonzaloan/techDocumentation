@@ -27,15 +27,21 @@ Empiezan con /**
 
 # Classes vs Files
 
-## Test.java
+## Clases no públicas
 
-Archivo: 
+Archivo:  Test.java
 ```java
 class Animal {
 	String name;
 }
 ```
+**Resultado: Funciona**
+
+## Más de una clase en el mismo archivo.
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjY5ODcxNywxOTA2NDgwODAwXX0=
+eyJoaXN0b3J5IjpbLTE4MjU5MTk4OTYsMTQ1MjY5ODcxNywxOT
+A2NDgwODAwXX0=
 -->
