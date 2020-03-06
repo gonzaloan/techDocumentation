@@ -29,12 +29,13 @@ Empiezan con /**
 
 ## Test.java
 
+Archivo: 
 ```java
 class Animal {
-	String name
+	String name;
 }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyMDc1NDYsMTkwNjQ4MDgwMF19
+eyJoaXN0b3J5IjpbMTQ1MjY5ODcxNywxOTA2NDgwODAwXX0=
 -->
