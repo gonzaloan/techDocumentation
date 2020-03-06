@@ -15,7 +15,7 @@ Empiezan por /* y terminan con */ . Los asteriscos en cada línea son opcionales
 */ 
 ```
 
-### Javadoc Comment
+## Javadoc Comment
 
 Empiezan con /** 
 ```java
@@ -24,7 +24,11 @@ Empiezan con /**
 * @author Gonzalo Muñoz
 */
 ```
+
+# Classes vs Files
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjQ4MDgwMF19
+eyJoaXN0b3J5IjpbLTE2NzE5OTEwNzYsMTkwNjQ4MDgwMF19
 -->
