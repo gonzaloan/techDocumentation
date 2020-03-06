@@ -27,8 +27,14 @@ Empiezan con /**
 
 # Classes vs Files
 
+## Test.java
 
+```java
+class Animal {
+	String name
+}
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE5OTEwNzYsMTkwNjQ4MDgwMF19
+eyJoaXN0b3J5IjpbNDUyMDc1NDYsMTkwNjQ4MDgwMF19
 -->
