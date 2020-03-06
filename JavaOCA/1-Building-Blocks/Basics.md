@@ -39,9 +39,11 @@ class Animal {
 
 ## Más de una clase en el mismo archivo.
 
+- Al hacer esto, **a lo más una clase debe** ser pública. 
 
+- 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU5MTk4OTYsMTQ1MjY5ODcxNywxOT
-A2NDgwODAwXX0=
+eyJoaXN0b3J5IjpbMTIwNzI5OTQyNywxNDUyNjk4NzE3LDE5MD
+Y0ODA4MDBdfQ==
 -->
