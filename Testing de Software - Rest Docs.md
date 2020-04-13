@@ -500,13 +500,12 @@ include::{snippets}/banner-change-smartbanner-to-viewed/http-response.adoc[]
 Aquí se define todos los snippets creados en la carpeta target y los inyectamos en el documento. 
 
 
-123456
-ççççñññl¿ ><<[
+                                        
 Hola que tal soy Gonzalo, Este es mi teclado, ba
 
 > Written with *Gonzalo Muñoz*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjczMjM0MiwzMTg2NTcyMTksLTM5OD
-M2MTczMSwtOTU1NzA5MjIzLC0xODQxODc1MDY5XX0=
+eyJoaXN0b3J5IjpbLTE5NDczNDY5NjgsMzE4NjU3MjE5LC0zOT
+gzNjE3MzEsLTk1NTcwOTIyMywtMTg0MTg3NTA2OV19
 -->
