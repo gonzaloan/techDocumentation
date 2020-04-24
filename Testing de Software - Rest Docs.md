@@ -91,14 +91,17 @@ public class CardTransactionControllerUnitTest {
   
     @Mock  
   private CardTransactionService cardTransactionService;  
-  
-  @InjectMocks  
+   
   private CardTransactionController cardTransactionController;  
   
+  private MockMvc mockMvc; 
   
   @Before  
   public void setUp() throws Exception {  
         MockitoAnnotations.initMocks(this);  
+        cardTransactionController = new CardTransactionController(cardTransactionService);  
+		mockMvc = MockMvcBuilders.standaloneSetup(cardTransactionController).build();  
+		objectMapper = new ObjectMapper();
   }  
   
     @Test  
@@ -232,7 +235,7 @@ Analicemos los puntos importantes de las pruebas:
 > Written by *Gonzalo Muñoz*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDk0MzcxLDMyMzQyMjE3Nyw1NDA0ND
+eyJoaXN0b3J5IjpbNzM5MzY1OTgwLDMyMzQyMjE3Nyw1NDA0ND
 AxNjcsLTE5NDczNDY5NjgsMzE4NjU3MjE5LC0zOTgzNjE3MzEs
 LTk1NTcwOTIyMywtMTg0MTg3NTA2OV19
 -->
