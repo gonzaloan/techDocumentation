@@ -255,6 +255,8 @@ Analicemos los puntos importantes de las pruebas:
 ## Spring Rest Docs
 
 
+965997496
+
 ### Requisitos
 Para utilizar Spring Rest Docs, primero debemos actualizar las dependencias en el POM, se utilizará la versión 2.0.0
 ```xml
@@ -505,7 +507,7 @@ Aquí se define todos los snippets creados en la carpeta target y los inyectamos
 > Written with *Gonzalo Muñoz*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNDQwMTY3LC0xOTQ3MzQ2OTY4LDMxOD
-Y1NzIxOSwtMzk4MzYxNzMxLC05NTU3MDkyMjMsLTE4NDE4NzUw
-NjldfQ==
+eyJoaXN0b3J5IjpbMzIzNDIyMTc3LDU0MDQ0MDE2NywtMTk0Nz
+M0Njk2OCwzMTg2NTcyMTksLTM5ODM2MTczMSwtOTU1NzA5MjIz
+LC0xODQxODc1MDY5XX0=
 -->
