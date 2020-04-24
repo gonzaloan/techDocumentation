@@ -48,27 +48,6 @@ Las demás anotaciones serán explicadas a medida que vayan siendo mostradas en 
 
 ## Estructura de las pruebas
 
-Es importante hacer una separación de lo que son las pruebas. Vamos a tener pruebas unitarias y de integración.
-
-
-> Importante notar que habrá una carpeta **integration** dentro del paquete **test**. Esto es relevante porque las pruebas de integración ocupan datos reales, por lo tanto, no servirán en ambiente de QA y PRD.
-
-- Se debe tener la misma estructura de packages en **test** que la que existe en **main**. Por ejemplo:
-Si estamos haciendo tests de la clase **User.java** ubicada en esta ruta:
-```
-cl/sodexobeneficios/card_transactions/controller/CardTransactionController.java
-```
-Las pruebas **unitarias** de dicho elemento deberían estar en una ruta como esta:
-```
-test/java/cl/sodexobeneficios/card_transactions/controller/CardTransactionControllerUnitTest.java
-```
-Las pruebas de **integración** (si son endpoints) tendrían que estar en esta ruta:
-
-`test/java/integration/CardTransactionControllerIntegrationTest.java`
-
-
-- Todas las **Pruebas Unitarias** deben tener el sufijo **UnitTest**.
-- Todas las **Pruebas de Integración** deben tener el sufijo **IntegrationTest**
 - Buscar siempre tener el mayor porcentaje de cobertura posible de las pruebas, en el mejor de los casos 70% u 80% está perfecto. Para esto, se puede utilizar el plugin **EclEmma** desde marketplace de Spring Tool Suite, que mostrará en una pestaña del IDE la cantidad de cobertura. También es posible crear un reporte que se puede subir a JIRA como prueba de la cobertura que están entregando, esto se hace con JaCoCo.  ([Instalación JaCoCo](https://www.codeproject.com/Articles/832744/Getting-Started-with-Code-Coverage-by-Jacoco))
 - Para usuarios de **IntelliJ**, el IDE trae la opción de ejecutar las pruebas con covertura automáticamente.
 
@@ -504,7 +483,7 @@ Aquí se define todos los snippets creados en la carpeta target y los inyectamos
 > Written with *Gonzalo Muñoz*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU2NDQ0NTQsMzIzNDIyMTc3LDU0MD
-Q0MDE2NywtMTk0NzM0Njk2OCwzMTg2NTcyMTksLTM5ODM2MTcz
-MSwtOTU1NzA5MjIzLC0xODQxODc1MDY5XX0=
+eyJoaXN0b3J5IjpbMTE3MjUyMTcxOCwzMjM0MjIxNzcsNTQwND
+QwMTY3LC0xOTQ3MzQ2OTY4LDMxODY1NzIxOSwtMzk4MzYxNzMx
+LC05NTU3MDkyMjMsLTE4NDE4NzUwNjldfQ==
 -->
