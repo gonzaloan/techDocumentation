@@ -76,10 +76,10 @@ public ResponseEntity<Long> findBeneficiaryCardBalance(@PathVariable(value = "pa
 }
 ```
 
-> La ruta es: cl.sodexobeneficios.card_transactions.controller.CardTransactionController.java
+> La ruta es: cl.testproject.card_transactions.controller.CardTransactionController.java
 
 - El primer paso es crear el archivo de prueba unitaria para esta prueba. Para ello creamos un archivo en el package de test: 
-**test/java/cl/sodexobeneficios.card_transactions/CardTransactionControllerUnitTest.java**
+**test/java/cl/testproject.card_transactions/CardTransactionControllertTest.java**
 
 - Una vez creada la clase, es necesario definir los mock. Un mock es un objeto falso, que crearemos para evitar que se llame a base de datos, repositorios, feigns, etc. Simulamos todo lo que vaya a buscar datos a otro lugar que no sea ese controller. En este caso, hay una llamada a **cardTransactionsService.findBeneficiarioCardBalance**, por lo que debemos crear un Mock de ese Service para simular una llamada a dicho servicio.
 
@@ -232,7 +232,7 @@ Analicemos los puntos importantes de las pruebas:
 > Written by *Gonzalo Muñoz*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjU3MjAzMDMsMzIzNDIyMTc3LDU0MD
-Q0MDE2NywtMTk0NzM0Njk2OCwzMTg2NTcyMTksLTM5ODM2MTcz
-MSwtOTU1NzA5MjIzLC0xODQxODc1MDY5XX0=
+eyJoaXN0b3J5IjpbMjAwMDk0MzcxLDMyMzQyMjE3Nyw1NDA0ND
+AxNjcsLTE5NDczNDY5NjgsMzE4NjU3MjE5LC0zOTgzNjE3MzEs
+LTk1NTcwOTIyMywtMTg0MTg3NTA2OV19
 -->
