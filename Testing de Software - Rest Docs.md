@@ -46,12 +46,9 @@ Hay diversas anotaciones que ayudarán al proceso de hacer pruebas.
 
 Las demás anotaciones serán explicadas a medida que vayan siendo mostradas en los ejemplos.
 
-## Estructura de las pruebas para los proyectos de Sodexo
-
-La nomenclatura a usar, tiene las siguientes consideraciones, esto es importante que se sigan para funcionar correctamente con Jenkins.
+## Estructura de las pruebas
 
 Es importante hacer una separación de lo que son las pruebas. Vamos a tener pruebas unitarias y de integración.
-
 
 
 > Importante notar que habrá una carpeta **integration** dentro del paquete **test**. Esto es relevante porque las pruebas de integración ocupan datos reales, por lo tanto, no servirán en ambiente de QA y PRD.
@@ -507,7 +504,7 @@ Aquí se define todos los snippets creados en la carpeta target y los inyectamos
 > Written with *Gonzalo Muñoz*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzNDIyMTc3LDU0MDQ0MDE2NywtMTk0Nz
-M0Njk2OCwzMTg2NTcyMTksLTM5ODM2MTczMSwtOTU1NzA5MjIz
-LC0xODQxODc1MDY5XX0=
+eyJoaXN0b3J5IjpbLTE3NDU2NDQ0NTQsMzIzNDIyMTc3LDU0MD
+Q0MDE2NywtMTk0NzM0Njk2OCwzMTg2NTcyMTksLTM5ODM2MTcz
+MSwtOTU1NzA5MjIzLC0xODQxODc1MDY5XX0=
 -->
